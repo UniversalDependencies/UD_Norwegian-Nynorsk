@@ -140,7 +140,7 @@ UD 1.2 --> UD 1.3
 
 Documentation status: partial
 Data source: automatic
-Data available since: UD v1.2
+Data available since: UD v2.0
 License: CC BY-NC-SA
 Genre: news blog nonfiction
 Contributors: Øvrelid, Lilja; Jørgensen, Fredrik
