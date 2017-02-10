@@ -596,7 +596,7 @@
 11	med	med	ADP	_	_	15	case	_	_
 12	ca.	ca.	ADV	_	Abbr=Yes	13	advmod	_	_
 13	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	times	time	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	15	det	_	_
+14	times	time	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	_
 15	mellomrom	mellomrom	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
 16	,	$,	PUNCT	_	_	10	punct	_	_
 17	så	så	CCONJ	_	_	19	cc	_	_
@@ -5358,7 +5358,7 @@
 2	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	roman	roman	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 4	om	om	ADP	_	_	6	case	_	_
-5	Israels	Israel	PROPN	_	Case=Gen	6	det	_	_
+5	Israels	Israel	PROPN	_	Case=Gen	6	nmod	_	_
 6	framtid	framtid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	_
 
 # sent_id =  014487
@@ -5733,7 +5733,7 @@
 4	djupast	djup	ADJ	_	Definite=Ind|Degree=Sup	5	advmod	_	_
 5	sett	sjå	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	2	advmod	_	_
 6	om	om	ADP	_	_	8	case	_	_
-7	Israels	Israel	PROPN	_	Case=Gen	8	det	_	_
+7	Israels	Israel	PROPN	_	Case=Gen	8	nmod	_	_
 8	framtid	framtid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 9	,	$,	PUNCT	_	_	2	punct	_	_
 10	og	og	CCONJ	_	_	12	cc	_	_
@@ -5811,7 +5811,7 @@
 26	av	av	ADP	_	_	30	case	_	_
 27	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	29	nmod	_	_
 28	eige	eigen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	29	det	_	_
-29	lands	land	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	30	det	_	_
+29	lands	land	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	30	nmod	_	_
 30	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
 31	.	$.	PUNCT	_	_	2	punct	_	_
 
@@ -8431,7 +8431,7 @@
 2	1898	1898	NUM	_	Number=Plur|NumType=Card	3	obl	_	_
 3	skipa	skipe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-5	Noregs	Noreg	PROPN	_	Case=Gen	8	det	_	_
+5	Noregs	Noreg	PROPN	_	Case=Gen	8	nmod	_	_
 6	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
 7	lokale	lokal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
 8	ledd	ledd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_
@@ -8609,7 +8609,7 @@
 12	framleis	framleis	ADV	_	_	9	advmod	_	SpaceAfter=No
 13	,	$,	PUNCT	_	_	9	punct	_	_
 14	medan	medan	SCONJ	_	_	19	mark	_	_
-15	Nansens	Nansen	NOUN	_	Case=Gen|Gender=Masc	16	det	_	_
+15	Nansens	Nansen	NOUN	_	Case=Gen|Gender=Masc	16	nmod	_	_
 16	ferd	ferd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	nsubj	_	_
 17	i	i	ADP	_	_	18	case	_	_
 18	isen	is	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	_
@@ -8857,7 +8857,7 @@
 1	Strør	strø	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	sand	sand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	_
 3	på	på	ADP	_	_	5	case	_	_
-4	EUs	EU	NOUN	_	Abbr=Yes|Case=Gen	5	det	_	_
+4	EUs	EU	NOUN	_	Abbr=Yes|Case=Gen	5	nmod	_	_
 5	lover	lov	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	1	obl	_	_
 
 # sent_id =  014641
@@ -10793,7 +10793,7 @@
 12	ta	ta	VERB	_	VerbForm=Inf	5	advcl	_	_
 13	vare	vare	NOUN	_	_	12	obj	_	_
 14	på	på	ADP	_	_	16	case	_	_
-15	Noregs	Noreg	PROPN	_	Case=Gen	16	det	_	_
+15	Noregs	Noreg	PROPN	_	Case=Gen	16	nmod	_	_
 16	interesser	interesse	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	13	nmod	_	_
 17	om	om	SCONJ	_	_	21	mark	_	_
 18	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj:pass	_	_
@@ -11891,7 +11891,7 @@
 1	Burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
 2	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	følgje	følgje	VERB	_	VerbForm=Inf	0	root	_	_
-4	Epiktets	Epiktet	PROPN	_	Case=Gen	5	det	_	_
+4	Epiktets	Epiktet	PROPN	_	Case=Gen	5	nmod	_	_
 5	råd	råd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_
 6	her	her	ADV	_	_	3	advmod	_	SpaceAfter=No
 7	?	$?	PUNCT	_	_	3	punct	_	_
@@ -14673,7 +14673,7 @@
 16	5.	5.	ADJ	_	Number=Plur	17	amod	_	_
 17	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	_
 18	i	i	ADP	_	_	20	case	_	_
-19	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	det	_	_
+19	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	_
 20	NM-stafett	NM-stafett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	_
 21	over	over	ADP	_	_	23	case	_	_
 22	3x10	3x10	NUM	_	Number=Plur|NumType=Card	23	nummod	_	_
@@ -14959,7 +14959,7 @@
 4	frå	frå	ADP	_	_	5	case	_	_
 5	Borbet	Borbet	PROPN	_	_	3	nmod	_	SpaceAfter=No
 6	,	$,	PUNCT	_	_	5	punct	_	_
-7	Europas	Europa	PROPN	_	Case=Gen	9	det	_	_
+7	Europas	Europa	PROPN	_	Case=Gen	9	nmod	_	_
 8	største	stor	ADJ	_	Definite=Def|Degree=Sup	9	amod	_	_
 9	felgprodusent	felgprodusent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
 10	,	$,	PUNCT	_	_	3	punct	_	_
@@ -15665,7 +15665,7 @@
 3	langar	lange	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ut	ut	ADP	_	_	3	compound:prt	_	_
 5	mot	mot	ADP	_	_	7	case	_	_
-6	fylkets	fylke	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	det	_	_
+6	fylkets	fylke	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	_
 7	frontfigurar	frontfigur	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	_
 
 # sent_id =  015026
@@ -15815,7 +15815,7 @@
 4	i	i	ADP	_	_	5	case	_	_
 5	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	_
 6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
-7	verdas	verd	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	det	_	_
+7	verdas	verd	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	_
 8	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	9	advmod	_	_
 9	kule	kul	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	_
 10	ting	ting	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	_
@@ -15826,7 +15826,7 @@
 15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
 16	vore	vere	AUX	_	VerbForm=Part	19	cop	_	_
 17	desse	desse	DET	_	Number=Plur|PronType=Dem	18	det	_	_
-18	tingas	ting	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	19	det	_	_
+18	tingas	ting	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	19	nmod	_	_
 19	talsmenn	talsmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	acl:relcl	_	_
 20	gjennom	gjennom	ADP	_	_	21	case	_	_
 21	tidene	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
@@ -16082,7 +16082,7 @@
 1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	at	at	SCONJ	_	_	8	mark	_	_
-4	fylkets	fylke	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	det	_	_
+4	fylkets	fylke	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	_
 5	aviser	avis	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	nsubj	_	_
 6	heller	heller	ADV	_	_	7	advmod	_	_
 7	ikkje	ikkje	ADV	_	Polarity=Neg	8	advmod	_	_
@@ -16239,7 +16239,7 @@
 7	Fjordanes	Fjordane	PROPN	_	Case=Gen	5	flat:name	_	_
 8	bunadsbidrag	bunadsbidrag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	_
 9	til	til	ADP	_	_	11	case	_	_
-10	kongens	konge	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	det	_	_
+10	kongens	konge	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_
 11	bursdag	bursdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_
 12	i	i	ADP	_	_	13	case	_	_
 13	2007	2007	NUM	_	Number=Plur|NumType=Card	11	nmod	_	SpaceAfter=No
@@ -16538,7 +16538,7 @@
 11	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
 12	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
 13	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	_
-14	heilaftans	heilaftan	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	15	det	_	_
+14	heilaftans	heilaftan	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	_
 15	konserten	konsert	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	xcomp	_	_
 16	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
 17	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
@@ -17117,7 +17117,7 @@
 
 # sent_id =  015108
 # text = Etnestads inntrykk blir stadfesta av tal som søndag vart presenterte i Bergens Tidende.
-1	Etnestads	Etnestad	PROPN	_	Case=Gen	2	det	_	_
+1	Etnestads	Etnestad	PROPN	_	Case=Gen	2	nmod	_	_
 2	inntrykk	inntrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
 3	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	stadfesta	stadfeste	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	_
@@ -18363,7 +18363,7 @@
 6	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	kallar	kalle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 8	«	$"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-9	realismens	realisme	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	det	_	_
+9	realismens	realisme	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_
 10	retorikk	retorikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
 11	»	$"	PUNCT	_	_	10	punct	_	_
 
@@ -18439,7 +18439,7 @@
 9	som	som	PRON	_	PronType=Rel	10	nsubj	_	_
 10	ligg	liggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 11	i	i	ADP	_	_	14	case	_	_
-12	vitskapsfolks	vitskapsfolk	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	14	det	_	_
+12	vitskapsfolks	vitskapsfolk	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	14	nmod	_	_
 13	eiga	eigen	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Prs	14	det	_	_
 14	tru	tru	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	_
 15	på	på	ADP	_	_	18	mark	_	_
@@ -18569,7 +18569,7 @@
 13	ikkje-rasjonell	ikkje-rasjonell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	_
 14	appell	appell	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	_
 15	til	til	ADP	_	_	17	case	_	_
-16	fornufts	fornuft	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	17	det	_	_
+16	fornufts	fornuft	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	_
 17	autoritet	autoritet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 18	»	$"	PUNCT	_	_	10	punct	_	_
 
@@ -19765,7 +19765,7 @@
 12	bryte	bryte	VERB	_	VerbForm=Inf	10	csubj	_	_
 13	sjølvinnhentingsprinsippet	sjølvinnhentingsprinsipp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obj	_	_
 14	i	i	ADP	_	_	16	case	_	_
-15	Apels	Apel	PROPN	_	Case=Gen	16	det	_	_
+15	Apels	Apel	PROPN	_	Case=Gen	16	nmod	_	_
 16	tyding	tyding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 17	.	$.	PUNCT	_	_	3	punct	_	_
 
@@ -20440,7 +20440,7 @@
 2	Espen	Espen	NOUN	_	Gender=Masc	4	nsubj	_	_
 3	Stueland	Stueland	PROPN	_	_	2	flat:name	_	_
 4	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	Eminems	Eminem	PROPN	_	Case=Gen	6	det	_	_
+5	Eminems	Eminem	PROPN	_	Case=Gen	6	nmod	_	_
 6	aggresjon	aggresjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	_
 7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	unevrotisk	unevrotisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	ccomp	_	_
@@ -20578,7 +20578,7 @@
 25	og	og	CCONJ	_	_	26	cc	_	_
 26	omsorgsmangel	omsorgsmangel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	conj	_	_
 27	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	cop	_	_
-28	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	det	_	_
+28	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	_
 29	orden	orden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	acl	_	SpaceAfter=No
 30	.	$.	PUNCT	_	_	4	punct	_	_
 
@@ -21405,7 +21405,7 @@
 5	Bataille	Bataille	PROPN	_	_	6	nsubj	_	_
 6	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	om	om	ADP	_	_	9	case	_	_
-8	Genets	Genet	PROPN	_	Case=Gen	9	det	_	_
+8	Genets	Genet	PROPN	_	Case=Gen	9	nmod	_	_
 9	romantisering	romantisering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	_
 10	av	av	ADP	_	_	11	case	_	_
 11	vondskapen	vondskap	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -21743,7 +21743,7 @@
 27	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
 28	uttrykk	uttrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	xcomp	_	_
 29	for	for	ADP	_	_	34	case	_	_
-30	Hollywoods	Hollywood	PROPN	_	Case=Gen	34	det	_	_
+30	Hollywoods	Hollywood	PROPN	_	Case=Gen	34	nmod	_	_
 31	marknadstilpassa	marknadstilpasse	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	34	amod	_	SpaceAfter=No
 32	,	$,	PUNCT	_	_	31	punct	_	_
 33	straumlinjeforma	straumlinjeforma	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	34	amod	_	_
@@ -22810,7 +22810,7 @@
 5	utenkjeleg	utenkjeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	_
 6	av	av	ADP	_	_	13	case	_	_
 7	at	at	SCONJ	_	_	13	mark	_	_
-8	NHOs	NHO	PROPN	_	Case=Gen	9	det	_	_
+8	NHOs	NHO	PROPN	_	Case=Gen	9	nmod	_	_
 9	interesser	interesse	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	13	nsubj	_	_
 10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
 11	vore	vere	AUX	_	VerbForm=Part	13	aux	_	_
@@ -22837,7 +22837,7 @@
 3	avviste	avvise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	i	i	ADP	_	_	5	case	_	_
 5	januar	januar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	_
-6	Klassekampens	Klassekampen	PROPN	_	Case=Gen	7	det	_	_
+6	Klassekampens	Klassekampen	PROPN	_	Case=Gen	7	nmod	_	_
 7	dokumentasjon	dokumentasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	_
 8	av	av	ADP	_	_	17	mark	_	_
 9	at	at	SCONJ	_	_	17	mark	_	_
@@ -23098,7 +23098,7 @@
 9	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	_
 10	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_
 11	av	av	ADP	_	_	13	case	_	_
-12	USAs	USA	NOUN	_	Abbr=Yes|Case=Gen	13	det	_	_
+12	USAs	USA	NOUN	_	Abbr=Yes|Case=Gen	13	nmod	_	_
 13	BNP	BNP	NOUN	_	Abbr=Yes|Definite=Def,Ind|Gender=Neut|Number=Plur,Sing	10	nmod	_	_
 14	frå	frå	ADP	_	_	15	case	_	_
 15	45	45	NUM	_	Number=Plur|NumType=Card	5	obl	_	_
@@ -24358,7 +24358,7 @@
 # text = Vi spør NHOs utgreiingsdirektør om kor mange av dei norske veljarane han trur har høyrt om Gats.
 1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	spør	spørje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	NHOs	NHO	PROPN	_	Case=Gen	4	det	_	_
+3	NHOs	NHO	PROPN	_	Case=Gen	4	nmod	_	_
 4	utgreiingsdirektør	utgreiingsdirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	_
 5	om	om	ADP	_	_	13	mark	_	_
 6	kor	kor	ADV	_	_	7	advmod	_	_
@@ -24988,7 +24988,7 @@
 2	rundt	rundt	ADP	_	_	3	compound:prt	_	_
 3	rekna	rekne	VERB	_	VerbForm=Part	4	advcl	_	_
 4	ti	ti	NUM	_	Number=Plur|NumType=Card	5	nummod	_	_
-5	års	år	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	6	det	_	_
+5	års	år	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	_
 6	mellomrom	mellomrom	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	_
 7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
 8	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
@@ -25224,7 +25224,7 @@
 28	og	og	CCONJ	_	_	32	cc	_	_
 29	inn	inn	ADP	_	_	32	case	_	_
 30	i	i	ADP	_	_	32	case	_	_
-31	Hollywoods	Hollywood	PROPN	_	Case=Gen	32	det	_	_
+31	Hollywoods	Hollywood	PROPN	_	Case=Gen	32	nmod	_	_
 32	stjernehimmel	stjernehimmel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 33	,	$,	PUNCT	_	_	32	punct	_	_
 34	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	35	det	_	_
@@ -25548,7 +25548,7 @@
 40	motiv	motiv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	conj	_	_
 41	også	også	ADV	_	_	44	advmod	_	_
 42	i	i	ADP	_	_	44	case	_	_
-43	Spielbergs	Spielberg	PROPN	_	Case=Gen	44	det	_	_
+43	Spielbergs	Spielberg	PROPN	_	Case=Gen	44	nmod	_	_
 44	film	film	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
 45	.	$.	PUNCT	_	_	14	punct	_	_
 
@@ -25834,7 +25834,7 @@
 16	i	i	ADP	_	_	17	case	_	_
 17	fiksjonen	fiksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	_
 18	av	av	ADP	_	_	22	case	_	_
-19	mainstreamfilmens	mainstreamfilm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	det	_	_
+19	mainstreamfilmens	mainstreamfilm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	_
 20	sløvande	sløve	ADJ	_	VerbForm=Part	22	amod	_	SpaceAfter=No
 21	,	$,	PUNCT	_	_	20	punct	_	_
 22	eventyr-dramaturgi	eventyr-dramaturgi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
@@ -26557,7 +26557,7 @@
 7	Språkrådet	Språkrådet	PROPN	_	_	5	nmod	_	_
 8	jamført	jamføre	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	3	advmod	_	_
 9	med	med	ADP	_	_	11	case	_	_
-10	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	det	_	_
+10	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_
 11	situasjon	situasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 12	.	$.	PUNCT	_	_	3	punct	_	_
 
@@ -26943,7 +26943,7 @@
 12	av	av	ADP	_	_	11	nmod	_	_
 13	om	om	SCONJ	_	_	23	mark	_	_
 14	også	også	ADV	_	_	20	advmod	_	_
-15	statens	stat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	det	_	_
+15	statens	stat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	_
 16	fagorgan	fagorgan	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	nmod	_	_
 17	i	i	ADP	_	_	18	case	_	_
 18	språkspørsmål	språkspørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
@@ -26978,7 +26978,7 @@
 5	i	i	ADP	_	_	6	case	_	_
 6	samanheng	samanheng	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	_
 7	med	med	ADP	_	_	10	case	_	_
-8	Språkrådets	Språkrådet	PROPN	_	Case=Gen	10	det	_	_
+8	Språkrådets	Språkrådet	PROPN	_	Case=Gen	10	nmod	_	_
 9	samla	samle	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	10	amod	_	_
 10	oppgåveportefølje	oppgåveportefølje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	_
 11	og	og	CCONJ	_	_	13	cc	_	_
@@ -28051,7 +28051,7 @@
 # sent_id =  015645
 # text = 3.5.3.5 Språkrådets generelle språkpolitiske ansvar i dag
 1	3.5.3.5	3.5.3.5	NUM	_	NumType=Card	5	nummod	_	_
-2	Språkrådets	Språkrådet	PROPN	_	Case=Gen	5	det	_	_
+2	Språkrådets	Språkrådet	PROPN	_	Case=Gen	5	nmod	_	_
 3	generelle	generell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
 4	språkpolitiske	språkpolitisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
 5	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
@@ -28222,7 +28222,7 @@
 6	at	at	SCONJ	_	_	15	mark	_	_
 7	Språkrådet	Språkrådet	PROPN	_	_	15	nsubj	_	_
 8	som	som	ADP	_	_	10	case	_	_
-9	statens	stat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	det	_	_
+9	statens	stat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_
 10	fagorgan	fagorgan	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	_
 11	i	i	ADP	_	_	12	case	_	_
 12	språkspørsmål	språkspørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nmod	_	_
@@ -29497,7 +29497,7 @@
 9	høg	høg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	_
 10	straumpris	straumpris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	_
 11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
-12	Framstegspartiets	Framstegspartiet	NOUN	_	Case=Gen|Gender=Neut	13	det	_	_
+12	Framstegspartiets	Framstegspartiet	NOUN	_	Case=Gen|Gender=Neut	13	nmod	_	_
 13	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	ccomp	_	SpaceAfter=No
 14	,	$,	PUNCT	_	_	4	punct	_	_
 15	for	for	CCONJ	_	_	17	cc	_	_
@@ -30112,7 +30112,7 @@
 12	tilfredsstiller	tilfredsstille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 13	behova	behov	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	12	obj	_	_
 14	til	til	ADP	_	_	16	case	_	_
-15	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	det	_	_
+15	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	_
 16	menneske	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nmod	_	_
 17	og	og	CCONJ	_	_	18	cc	_	_
 18	generasjonar	generasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	conj	_	_
@@ -31682,7 +31682,7 @@
 9	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 10	på	på	ADP	_	_	13	case	_	_
 11	to	to	NUM	_	Number=Plur|NumType=Card	12	nummod	_	_
-12	dagars	dag	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	13	det	_	_
+12	dagars	dag	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	_
 13	kurs	kurs	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
 14	,	$,	PUNCT	_	_	8	punct	_	_
 15	og	og	CCONJ	_	_	16	cc	_	_
@@ -33191,7 +33191,7 @@
 15	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 16	på	på	ADP	_	_	19	case	_	_
 17	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	månads	månad	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	19	det	_	_
+18	månads	månad	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	_
 19	kurs	kurs	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	_
 20	i	i	ADP	_	_	21	case	_	_
 21	Oslo	Oslo	PROPN	_	_	19	nmod	_	_
@@ -33889,7 +33889,7 @@
 8	presiserte	presisere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 9	innleiingsvis	innleiingsvis	ADV	_	_	8	advmod	_	_
 10	i	i	ADP	_	_	12	case	_	_
-11	torsdagens	torsdag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	det	_	_
+11	torsdagens	torsdag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	_
 12	møte	møte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	_
 13	at	at	SCONJ	_	_	19	mark	_	_
 14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
@@ -33984,7 +33984,7 @@
 16	til	til	ADP	_	_	18	mark	_	_
 17	å	å	PART	_	_	18	mark	_	_
 18	stø	stø	VERB	_	VerbForm=Inf	15	advcl	_	_
-19	rådmannens	rådmann	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	det	_	_
+19	rådmannens	rådmann	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	_
 20	tilråding	tilråding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	_
 21	frå	frå	ADP	_	_	23	case	_	_
 22	førre	førre	DET	_	Definite=Def|PronType=Dem	23	det	_	_
@@ -36154,7 +36154,7 @@
 6	blei	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 7	mållause	mållaus	ADJ	_	Degree=Pos|Number=Plur	6	xcomp	_	_
 8	då	då	SCONJ	_	_	15	mark	_	_
-9	Litauens	Litauen	PROPN	_	Case=Gen	11	det	_	_
+9	Litauens	Litauen	PROPN	_	Case=Gen	11	nmod	_	_
 10	honorære	honorær	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
 11	konsul	konsul	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	_
 12	Carl	Carl	NOUN	_	Gender=Masc	15	nsubj	_	_
