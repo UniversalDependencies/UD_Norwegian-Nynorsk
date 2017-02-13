@@ -11547,12 +11547,12 @@
 7	,	$,	PUNCT	_	_	3	punct	_	_
 8	men	men	CCONJ	_	_	9	cc	_	_
 9	frigitt	frigi	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	3	conj	_	SpaceAfter=No
-10	,	$,	PUNCT	_	_	9	orphan	_	_
+10	,	$,	PUNCT	_	_	9	punct	_	_
 11	truleg	truleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	_
 12	fordi	fordi	SCONJ	_	_	15	mark	_	_
 13	slitet	slit	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	_
 14	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
-15	gjort	gjere	VERB	_	VerbForm=Part	9	advcl	_	_
+15	gjort	gjere	VERB	_	VerbForm=Part	9	orphan	_	_
 16	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
 17	til	til	ADP	_	_	18	mark	_	_
 18	krøpling	krøpling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
