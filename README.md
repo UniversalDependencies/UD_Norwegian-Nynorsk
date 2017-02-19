@@ -9,7 +9,7 @@ scheme by Lilja Øvrelid at the University of Oslo.
 
 NDT contains around 300,000 tokens taken from a variety of genres.
 The treebank texts have been manually annotated for morphosyntactic
-information. The morphological annotation mainly follows 
+information. The morphological annotation mainly follows
 the [Oslo-Bergen Tagger](http://tekstlab.uio.no/obt-ny/).  The syntactic
 annotation follows, to a large extent, the Norwegian Reference
 Grammar, as well as a dependency annotation scheme formulated at the
@@ -108,4 +108,4 @@ Data available since: UD v2.0
 License: CC BY-NC-SA
 Genre: news blog nonfiction
 Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter
-Contact:
+Contact: liljao@ifi.uio.no
