@@ -105,7 +105,7 @@ Proceedings of LREC 2014, Reykjavik
 Documentation status: partial
 Data source: automatic
 Data available since: UD v2.0
-License: CC BY-NC-SA
+License: CC BY-SA
 Genre: news blog nonfiction
 Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter
 Contact: liljao@ifi.uio.no
