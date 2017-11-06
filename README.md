@@ -1,4 +1,4 @@
-# UD_Norwegian-Nynorsk
+# Summary
 
 The Norwegian UD treebank is based on the Nynorsk section of the Norwegian
 Dependency Treebank (NDT), which is a syntactic treebank of Norwegian.
@@ -6,6 +6,8 @@ NDT was developed 2011-2014 at the National Library of Norway in collaboration
 with the Text Laboratory and the Department of Informatics at the
 University of Oslo. NDT has been automatically converted to the UD
 scheme by Lilja Øvrelid at the University of Oslo.
+
+# Introduction
 
 NDT contains around 300,000 tokens taken from a variety of genres.
 The treebank texts have been manually annotated for morphosyntactic
@@ -99,13 +101,25 @@ Per Erik Solberg, Arne Skjærholt, Lilja Øvrelid, Kristin Hagen and
 Janne Bondi Johannessen. 2014."The Norwegian Dependency Treebank",
 Proceedings of LREC 2014, Reykjavik
 
+# Acknowledgements
+
+NDT has been automatically converted to the UD scheme by Lilja Øvrelid at the University of Oslo. Petter Hohle created the data splits and Fredrik Jørgensen aligned the treebank to the original texts.
+We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn and Per Erik Solberg.
+
 
 ### CHANGELOG
 
-Documentation status: partial
-Data source: automatic
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.0
 License: CC BY-SA
+Includes text: yes
 Genre: news blog nonfiction
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: not available
+Features: converted from manual
+Relations: converted from manual
 Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter
+Contributing: elsewhere
 Contact: liljao@ifi.uio.no
+===============================================================================
