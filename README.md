@@ -101,6 +101,8 @@ Per Erik Solberg, Arne Skjærholt, Lilja Øvrelid, Kristin Hagen and
 Janne Bondi Johannessen. 2014."The Norwegian Dependency Treebank",
 Proceedings of LREC 2014, Reykjavik
 
+Velldal, Erik; Øvrelid, Lilja & Hohle, Petter (2017). Joint UD Parsing of Norwegian Bokmål and Nynorsk , In Jörg Tiedemann (ed.),  Proceedings of the 21st Nordic Conference on Computational Linguistics (NoDaLiDa).  Linköping University Electronic Press.  ISBN 978-91-7685-601-7.  Article no. 001.  s 1 - 10 
+
 # Acknowledgements
 
 NDT has been automatically converted to the UD scheme by Lilja Øvrelid at the University of Oslo. Petter Hohle created the data splits and Fredrik Jørgensen aligned the treebank to the original texts.
