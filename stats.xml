@@ -5,116 +5,116 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>16064</sentences><tokens>276580</tokens><words>276580</words><fused>0</fused></total>
+    <total><sentences>17575</sentences><tokens>301353</tokens><words>301353</words><fused>0</fused></total>
   </size>
-  <lemmas unique="21494" /><!-- $., $,, i, vere, og, det, ein, som, til, ha, på, å, for, at, av -->
-  <forms unique="29236" /><!-- ., ,, i, og, det, er, som, til, på, å, for, at, av, ein, har -->
+  <lemmas unique="22797" /><!-- $., $,, i, vere, og, det, ein, som, til, ha, på, å, for, at, av -->
+  <forms unique="31058" /><!-- ., ,, i, og, det, er, som, til, på, å, for, at, av, ein, har -->
   <fusions unique="0" /><!--  -->
-  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">26658</tag><!-- mykje, mange, stor, god, ny, heil, norsk, liten, lang, viktig -->
-    <tag name="ADP">38757</tag><!-- i, til, på, for, av, med, om, frå, som, etter -->
-    <tag name="ADV">10739</tag><!-- ikkje, så, også, no, her, berre, slik, då, nok, òg -->
-    <tag name="AUX">14787</tag><!-- vere, ha, kunne, skulle, vilje, måtte, bli, få, burde, tore -->
-    <tag name="CCONJ">10200</tag><!-- og, men, eller, både, så, for, anten, korkje, verken, & -->
-    <tag name="DET">15147</tag><!-- ein, den, dei, det, sin, annan, all, denne, nokon, eigen -->
-    <tag name="INTJ">232</tag><!-- ja, nei, hm, jau, jo, ha, hei, he, tja, jaja -->
-    <tag name="NOUN">54902</tag><!-- år, dag, land, tid, folk, språk, del, kommune, gong, prosent -->
-    <tag name="NUM">3649</tag><!-- to, tre, fire, ti, fem, 20, 2006, einaste, 2005, seks -->
-    <tag name="PART">3839</tag><!-- å -->
-    <tag name="PRON">19624</tag><!-- det, som, eg, dei, han, vi, seg, ein, dette, ho -->
-    <tag name="PROPN">13153</tag><!-- Noreg, Førde, Språkrådet, Sogn, Høgre, Kviteseid, Oslo, Fjordane, Helse, Tyskland -->
-    <tag name="PUNCT">30822</tag><!-- $., $,, $-, $", $:, $?, $(, $), $!, $; -->
-    <tag name="SCONJ">5921</tag><!-- at, om, når, der, då, dersom, medan, før, fordi, sidan -->
-    <tag name="SYM">82</tag><!-- $/, © -->
-    <tag name="VERB">26992</tag><!-- ha, seie, få, verte, vere, kome, gå, gjere, ta, sjå -->
-    <tag name="X">1076</tag><!-- of, og, det, en, the, for, i, som, til, er -->
+    <tag name="ADJ">29101</tag><!-- mykje, mange, stor, god, ny, heil, norsk, liten, viktig, lang -->
+    <tag name="ADP">42340</tag><!-- i, til, på, for, av, med, om, frå, som, etter -->
+    <tag name="ADV">11624</tag><!-- ikkje, så, også, no, her, berre, slik, då, nok, òg -->
+    <tag name="AUX">16066</tag><!-- vere, ha, kunne, skulle, vilje, måtte, bli, få, burde, tore -->
+    <tag name="CCONJ">11088</tag><!-- og, men, eller, både, så, for, anten, korkje, verken, & -->
+    <tag name="DET">16556</tag><!-- ein, den, dei, det, sin, annan, all, denne, nokon, eigen -->
+    <tag name="INTJ">234</tag><!-- ja, nei, hm, jau, jo, ha, hei, he, tja, jaja -->
+    <tag name="NOUN">60030</tag><!-- år, dag, land, tid, folk, språk, del, kommune, gong, sak -->
+    <tag name="NUM">4032</tag><!-- to, tre, fire, ti, fem, 20, 1, seks, 2005, 2006 -->
+    <tag name="PART">4169</tag><!-- å -->
+    <tag name="PRON">21241</tag><!-- det, som, dei, han, eg, vi, seg, ein, dette, ho -->
+    <tag name="PROPN">14303</tag><!-- Noreg, Førde, Språkrådet, Sogn, Høgre, Fjordane, Oslo, Kviteseid, Tyskland, Helse -->
+    <tag name="PUNCT">33455</tag><!-- $., $,, $-, $", $:, $?, $(, $), $!, $; -->
+    <tag name="SCONJ">6412</tag><!-- at, om, når, der, då, før, medan, dersom, fordi, sidan -->
+    <tag name="SYM">88</tag><!-- $/, ©, ½ -->
+    <tag name="VERB">29429</tag><!-- ha, seie, få, verte, vere, kome, gå, gjere, ta, sjå -->
+    <tag name="X">1185</tag><!-- of, og, det, en, i, the, for, som, til, den -->
   </tags>
-  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="44">
-    <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,PRON,PROPN,VERB">1139</feat><!-- USA, SV, kap., Ap, EU, Sp, OECD, jf., nr., s. -->
-    <feat name="Animacy" value="Hum" upos="PRON">6272</feat><!-- dei, eg, vi, ein, me, du, oss, meg, kven, de -->
-    <feat name="Case" value="Acc" upos="PRON">2108</feat><!-- seg, dei, oss, meg, han, henne, deg, ho, dykk, kån -->
-    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PROPN">872</feat><!-- dømes, dagens, Guds, språkets, årets, verdas, Noregs, Breiviks, Høgres, SVs -->
-    <feat name="Case" value="Nom" upos="PRON">6529</feat><!-- han, eg, vi, dei, ho, me, du, de, ha, ei -->
-    <feat name="Definite" value="Def" upos="ADJ,ADV,DET,NOUN,NUM">24119</feat><!-- heile, same, landet, regjeringa, nye, saka, verda, norske, siste, første -->
+    <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,PRON,PROPN,VERB">1206</feat><!-- USA, SV, kap., Ap, EU, Sp, jf., OECD, nr., s. -->
+    <feat name="Animacy" value="Hum" upos="PRON">6774</feat><!-- dei, eg, vi, ein, me, du, oss, meg, kven, de -->
+    <feat name="Case" value="Acc" upos="PRON">2252</feat><!-- seg, dei, oss, meg, han, henne, deg, ho, dykk, kån -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PROPN">958</feat><!-- dømes, dagens, årets, Guds, språkets, verdas, Noregs, års, liks, Breiviks -->
+    <feat name="Case" value="Nom" upos="PRON">7049</feat><!-- han, eg, dei, vi, ho, me, du, de, man, ha -->
+    <feat name="Definite" value="Def" upos="ADJ,ADV,DET,NOUN,NUM">26450</feat><!-- heile, same, landet, regjeringa, nye, saka, verda, norske, siste, departementet -->
     <feat name="Definite" value="Def,Ind" upos="NOUN">30</feat><!-- BNP, AS, IT, KS, PS, SS -->
-    <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,VERB">45443</feat><!-- år, dag, mykje, folk, norsk, anna, tid, godt, heilt, prosent -->
-    <feat name="Degree" value="Cmp" upos="ADJ">2354</feat><!-- meir, fleire, tidlegare, vidare, større, betre, mindre, lenger, nærare, seinare -->
-    <feat name="Degree" value="Pos" upos="ADJ">19216</feat><!-- mange, mykje, nye, store, heile, godt, norske, heilt, norsk, siste -->
-    <feat name="Degree" value="Sup" upos="ADJ">938</feat><!-- mest, minst, fleste, beste, største, viktigaste, fremst, best, flest, meste -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON">15703</feat><!-- ei, den, ho, tid, denne, kroner, si, regjeringa, saka, verda -->
-    <feat name="Gender" value="Fem,Masc" upos="PRON">150</feat><!-- den, denne, dén -->
-    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON">31507</feat><!-- ein, han, den, dag, sin, prosent, denne, del, millionar, gong -->
-    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON,VERB">33950</feat><!-- det, eit, dette, noko, år, folk, mykje, godt, heilt, språk -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">267</feat><!-- sjå, Les, la, del, legg, tenk, ha, ta, hugs, Slå -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">29716</feat><!-- er, har, var, kan, skal, vil, seier, må, blir, vart -->
-    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,NUM,PRON">28968</feat><!-- dei, vi, alle, mange, me, andre, to, folk, år, oss -->
+    <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,VERB">49597</feat><!-- år, dag, mykje, folk, norsk, anna, godt, tid, heilt, prosent -->
+    <feat name="Degree" value="Cmp" upos="ADJ">2568</feat><!-- meir, fleire, tidlegare, større, vidare, betre, mindre, lenger, nærare, seinare -->
+    <feat name="Degree" value="Pos" upos="ADJ">20956</feat><!-- mange, mykje, nye, store, heile, godt, heilt, norske, norsk, siste -->
+    <feat name="Degree" value="Sup" upos="ADJ">1012</feat><!-- mest, minst, fleste, beste, største, viktigaste, fremst, best, flest, meste -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON">17163</feat><!-- ei, den, ho, tid, denne, kroner, si, regjeringa, saka, verda -->
+    <feat name="Gender" value="Fem,Masc" upos="PRON">171</feat><!-- den, denne, dén -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON">34354</feat><!-- ein, han, den, dag, sin, prosent, denne, del, millionar, gong -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON,VERB">37062</feat><!-- det, eit, dette, år, noko, folk, mykje, godt, heilt, språk -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">342</feat><!-- sjå, Les, del, la, ta, legg, tenk, ha, hell, hugs -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">32357</feat><!-- er, har, var, kan, skal, vil, seier, må, blir, vart -->
+    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,NUM,PRON">31976</feat><!-- dei, vi, alle, mange, me, andre, to, år, folk, oss -->
     <feat name="Number" value="Plur,Sing" upos="NOUN">28</feat><!-- BNP, AS, KS, PS, SS -->
-    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,NUM,PRON,VERB">78271</feat><!-- det, ein, den, eit, han, eg, ei, seg, dette, ho -->
-    <feat name="NumType" value="Card" upos="NUM">3649</feat><!-- to, tre, fire, ti, fem, 20, 2006, einaste, 2005, seks -->
-    <feat name="Person" value="1" upos="PRON">3482</feat><!-- eg, vi, me, oss, meg, kån -->
-    <feat name="Person" value="2" upos="PRON">400</feat><!-- du, de, deg, dykk -->
-    <feat name="Person" value="3" upos="PRON">10332</feat><!-- det, dei, han, dette, ho, noko, alt, den, alle, nokon -->
-    <feat name="Polarity" value="Neg" upos="ADV,DET,PRON">2545</feat><!-- ikkje, ingen, ingenting, inga -->
-    <feat name="Poss" value="Yes" upos="DET">1429</feat><!-- sin, sine, sitt, si, hans, vår, våre, vårt, mitt, hennar -->
-    <feat name="PronType" value="Art" upos="DET">5401</feat><!-- ein, eit, ei, eitt, eir, en -->
-    <feat name="PronType" value="Art,Prs" upos="PRON">767</feat><!-- ein, ei -->
-    <feat name="PronType" value="Dem" upos="DET,NUM">6423</feat><!-- den, dei, det, andre, denne, anna, same, dette, desse, slike -->
-    <feat name="PronType" value="Ind" upos="DET">420</feat><!-- noko, nokre, nokon, noka, nokor -->
-    <feat name="PronType" value="Ind,Prs" upos="PRON">337</feat><!-- noko, nokon -->
-    <feat name="PronType" value="Int" upos="DET,PRON">419</feat><!-- kva, kven -->
-    <feat name="PronType" value="Neg" upos="DET,PRON">153</feat><!-- ingen, ingenting, inga -->
-    <feat name="PronType" value="Neg,Prs" upos="PRON">53</feat><!-- ingen -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">16692</feat><!-- det, dei, han, eg, vi, seg, dette, ho, me, du -->
-    <feat name="PronType" value="Prs,Tot" upos="PRON">137</feat><!-- alle, begge -->
-    <feat name="PronType" value="Rcp" upos="PRON">44</feat><!-- kvarandre -->
-    <feat name="PronType" value="Rel" upos="PRON">3156</feat><!-- som -->
-    <feat name="PronType" value="Tot" upos="DET">770</feat><!-- alle, kvar, kvart, all, alt, begge, einkvar -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">7524</feat><!-- var, vart, hadde, fekk, kom, skulle, kunne, ville, sa, gjekk -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">22192</feat><!-- er, har, kan, skal, vil, seier, må, blir, får, kjem -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">29983</feat><!-- er, har, var, kan, skal, vil, seier, må, blir, vart -->
-    <feat name="VerbForm" value="Inf" upos="ADV,AUX,VERB">8961</feat><!-- ha, få, vere, vera, bli, ta, gå, sjå, gjere, gje -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">6720</feat><!-- vore, fått, sett, gjort, hatt, blitt, lagt, gått, teke, sagt -->
+    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,NUM,PRON,VERB">85186</feat><!-- det, ein, den, eit, han, eg, ei, seg, dette, ho -->
+    <feat name="NumType" value="Card" upos="NUM">4032</feat><!-- to, tre, fire, ti, fem, 20, 1, seks, 2005, 2006 -->
+    <feat name="Person" value="1" upos="PRON">3748</feat><!-- eg, vi, me, oss, meg, kån -->
+    <feat name="Person" value="2" upos="PRON">429</feat><!-- du, de, deg, dykk -->
+    <feat name="Person" value="3" upos="PRON">11204</feat><!-- det, dei, han, dette, ho, noko, alt, den, alle, nokon -->
+    <feat name="Polarity" value="Neg" upos="ADV,DET,PRON">2755</feat><!-- ikkje, ingen, ingenting, inga -->
+    <feat name="Poss" value="Yes" upos="DET">1550</feat><!-- sin, sine, sitt, si, hans, vår, våre, hennar, vårt, deira -->
+    <feat name="PronType" value="Art" upos="DET">5926</feat><!-- ein, eit, ei, eitt, en, eir -->
+    <feat name="PronType" value="Art,Prs" upos="PRON">824</feat><!-- ein, ei -->
+    <feat name="PronType" value="Dem" upos="DET,NUM">7037</feat><!-- den, dei, det, andre, denne, anna, same, dette, desse, slike -->
+    <feat name="PronType" value="Ind" upos="DET">454</feat><!-- noko, nokre, nokon, noka, nokor -->
+    <feat name="PronType" value="Ind,Prs" upos="PRON">357</feat><!-- noko, nokon -->
+    <feat name="PronType" value="Int" upos="DET,PRON">462</feat><!-- kva, kven -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">166</feat><!-- ingen, ingenting, inga -->
+    <feat name="PronType" value="Neg,Prs" upos="PRON">62</feat><!-- ingen -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">18055</feat><!-- det, dei, han, eg, vi, seg, dette, ho, me, du -->
+    <feat name="PronType" value="Prs,Tot" upos="PRON">145</feat><!-- alle, begge -->
+    <feat name="PronType" value="Rcp" upos="PRON">46</feat><!-- kvarandre -->
+    <feat name="PronType" value="Rel" upos="PRON">3434</feat><!-- som -->
+    <feat name="PronType" value="Tot" upos="DET">830</feat><!-- alle, kvar, kvart, all, alt, begge, einkvar -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">8241</feat><!-- var, vart, hadde, fekk, kom, skulle, kunne, ville, gjekk, sa -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">24116</feat><!-- er, har, kan, skal, vil, seier, må, blir, får, kjem -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">32699</feat><!-- er, har, var, kan, skal, vil, seier, må, blir, vart -->
+    <feat name="VerbForm" value="Inf" upos="ADV,AUX,VERB">9690</feat><!-- ha, få, vere, vera, bli, ta, gå, sjå, gjere, gje -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">7388</feat><!-- vore, sett, fått, gjort, hatt, blitt, lagt, gått, teke, sagt -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="37">
-    <dep name="acl">1586</dep>
-    <dep name="acl:relcl">3484</dep>
-    <dep name="advcl">4467</dep>
-    <dep name="advmod">15894</dep>
-    <dep name="amod">13873</dep>
-    <dep name="appos">1082</dep>
-    <dep name="aux">7800</dep>
-    <dep name="aux:pass">1094</dep>
-    <dep name="case">30825</dep>
-    <dep name="cc">9990</dep>
-    <dep name="ccomp">1796</dep>
-    <dep name="compound">209</dep>
-    <dep name="compound:prt">2585</dep>
-    <dep name="conj">10655</dep>
-    <dep name="cop">6458</dep>
-    <dep name="csubj">925</dep>
+    <dep name="acl">1720</dep>
+    <dep name="acl:relcl">3782</dep>
+    <dep name="advcl">4840</dep>
+    <dep name="advmod">17228</dep>
+    <dep name="amod">15166</dep>
+    <dep name="appos">1178</dep>
+    <dep name="aux">8486</dep>
+    <dep name="aux:pass">1203</dep>
+    <dep name="case">33699</dep>
+    <dep name="cc">10858</dep>
+    <dep name="ccomp">1950</dep>
+    <dep name="compound">238</dep>
+    <dep name="compound:prt">2833</dep>
+    <dep name="conj">11607</dep>
+    <dep name="cop">7019</dep>
+    <dep name="csubj">1003</dep>
     <dep name="csubj:pass">3</dep>
-    <dep name="det">12948</dep>
-    <dep name="discourse">165</dep>
-    <dep name="dislocated">79</dep>
-    <dep name="expl">3197</dep>
-    <dep name="flat:foreign">716</dep>
-    <dep name="flat:name">5434</dep>
-    <dep name="goeswith">34</dep>
-    <dep name="iobj">617</dep>
-    <dep name="mark">13915</dep>
-    <dep name="nmod">17376</dep>
-    <dep name="nsubj">24985</dep>
-    <dep name="nsubj:pass">862</dep>
-    <dep name="nummod">2092</dep>
-    <dep name="obj">12135</dep>
-    <dep name="obl">17193</dep>
-    <dep name="orphan">207</dep>
-    <dep name="parataxis">1615</dep>
-    <dep name="punct">30822</dep>
-    <dep name="root">16064</dep>
-    <dep name="xcomp">3398</dep>
+    <dep name="det">14145</dep>
+    <dep name="discourse">167</dep>
+    <dep name="dislocated">84</dep>
+    <dep name="expl">3467</dep>
+    <dep name="flat:foreign">793</dep>
+    <dep name="flat:name">5948</dep>
+    <dep name="goeswith">35</dep>
+    <dep name="iobj">669</dep>
+    <dep name="mark">15070</dep>
+    <dep name="nmod">18969</dep>
+    <dep name="nsubj">27233</dep>
+    <dep name="nsubj:pass">952</dep>
+    <dep name="nummod">2330</dep>
+    <dep name="obj">13218</dep>
+    <dep name="obl">18795</dep>
+    <dep name="orphan">222</dep>
+    <dep name="parataxis">1729</dep>
+    <dep name="punct">33455</dep>
+    <dep name="root">17575</dep>
+    <dep name="xcomp">3684</dep>
   </deps>
 </treebank>
