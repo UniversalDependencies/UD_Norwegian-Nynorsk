@@ -1774,7 +1774,7 @@
 45	slaktarar	slaktar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	41	conj	_	_
 46	og	og	CCONJ	_	_	50	cc	_	_
 47	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-48	mengd	mengd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	50	conj	_	_
+48	mengd	mengd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	50	nmod	_	_
 49	andre	annan	DET	_	Number=Plur|PronType=Dem	50	det	_	_
 50	individ	individ	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	41	conj	_	_
 51	på	på	ADP	_	_	52	case	_	_
@@ -3388,7 +3388,7 @@
 27	og	og	CCONJ	_	_	31	cc	_	_
 28	sjølvsagt	sjølvsagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	31	advmod	_	_
 29	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	mengd	mengd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	31	conj	_	_
+30	mengd	mengd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	31	nmod	_	_
 31	drapstrugsmål	drapstrugsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	conj	_	SpaceAfter=No
 32	.	$.	PUNCT	_	_	12	punct	_	_
 
@@ -5399,7 +5399,7 @@
 6	om	om	SCONJ	_	_	9	mark	_	_
 7	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 8	ikkje	ikkje	ADV	_	Polarity=Neg	9	advmod	_	_
-9	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	appos	_	_
+9	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl	_	_
 10	at	at	SCONJ	_	_	20	mark	_	_
 11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 12	Stein	Stein	NOUN	_	Gender=Masc	14	nsubj	_	_
@@ -7743,7 +7743,7 @@
 14	-	$-	PUNCT	_	_	9	punct	_	_
 15	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	_
 16	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
-17	møta	møte	VERB	_	VerbForm=Inf	9	appos	_	_
+17	møta	møte	VERB	_	VerbForm=Inf	9	acl	_	_
 18	i	i	ADP	_	_	19	case	_	_
 19	Stortinget	Stortinget	NOUN	_	Gender=Neut	17	obl	_	SpaceAfter=No
 20	,	$,	PUNCT	_	_	17	punct	_	_
@@ -9333,7 +9333,7 @@
 7	at	at	SCONJ	_	_	10	mark	_	_
 8	sjåføren	sjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	_
 9	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
-10	hindre	hindre	VERB	_	VerbForm=Inf	6	appos	_	_
+10	hindre	hindre	VERB	_	VerbForm=Inf	6	acl	_	_
 11	ho	ho	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
 12	i	i	ADP	_	_	14	mark	_	_
 13	å	å	PART	_	_	14	mark	_	_
@@ -18246,7 +18246,7 @@
 4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 6	å	å	PART	_	_	7	mark	_	_
-7	identifisere	identifisere	VERB	_	VerbForm=Inf	5	appos	_	_
+7	identifisere	identifisere	VERB	_	VerbForm=Inf	5	acl	_	_
 8	politikkendringane	politikkendring	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	obj	_	_
 9	som	som	PRON	_	PronType=Rel	10	nsubj	_	_
 10	innebar	innebere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
@@ -18269,7 +18269,7 @@
 3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 5	å	å	PART	_	_	6	mark	_	_
-6	forstå	forstå	VERB	_	VerbForm=Inf	4	appos	_	_
+6	forstå	forstå	VERB	_	VerbForm=Inf	4	acl	_	_
 7	grunnane	grunn	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	obj	_	_
 8	og	og	CCONJ	_	_	11	cc	_	_
 9	å	å	PART	_	_	11	mark	_	_
@@ -18313,7 +18313,7 @@
 5	,	$,	PUNCT	_	_	4	punct	_	_
 6	at	at	SCONJ	_	_	8	mark	_	_
 7	marknadstenkinga	marknadstenking	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	_
-8	vann	vinne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	appos	_	_
+8	vann	vinne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl	_	_
 9	større	stor	ADJ	_	Degree=Cmp	10	amod	_	_
 10	innpass	innpass	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	_
 11	og	og	CCONJ	_	_	16	cc	_	_
@@ -18737,7 +18737,7 @@
 22	-	$-	PUNCT	_	_	19	punct	_	_
 23	at	at	SCONJ	_	_	25	mark	_	_
 24	styringsmaktene	styringsmakt	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	25	nsubj	_	_
-25	leverer	levere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	appos	_	_
+25	leverer	levere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl	_	_
 26	varene	vare	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	25	obj	_	_
 27	til	til	ADP	_	_	28	case	_	_
 28	veljarane	veljar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
@@ -21256,7 +21256,7 @@
 16	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
 17	ikkje	ikkje	ADV	_	Polarity=Neg	19	advmod	_	_
 18	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
-19	leva	leve	VERB	_	VerbForm=Inf	13	appos	_	_
+19	leva	leve	VERB	_	VerbForm=Inf	13	acl	_	_
 20	med	med	ADP	_	_	24	mark	_	_
 21	at	at	SCONJ	_	_	24	mark	_	_
 22	vår	vår	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	_
@@ -23372,7 +23372,7 @@
 38	måten	måte	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	33	obl	_	_
 39	at	at	SCONJ	_	_	41	mark	_	_
 40	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
-41	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	38	appos	_	_
+41	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	38	acl	_	_
 42	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	43	nmod	_	_
 43	basis	basis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	41	obj	_	_
 44	i	i	ADP	_	_	46	case	_	_
@@ -24427,7 +24427,7 @@
 25	at	at	SCONJ	_	_	41	mark	_	_
 26	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
 27	å	å	PART	_	_	28	mark	_	_
-28	peika	peike	VERB	_	VerbForm=Inf	26	appos	_	_
+28	peika	peike	VERB	_	VerbForm=Inf	26	acl	_	_
 29	på	på	ADP	_	_	31	case	_	_
 30	alt	all	DET	_	Gender=Neut|Number=Sing|PronType=Tot	31	det	_	_
 31	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obl	_	_
@@ -24440,7 +24440,7 @@
 38	i	i	ADP	_	_	39	case	_	_
 39	budsjettet	budsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	37	obl	_	SpaceAfter=No
 40	,	$,	PUNCT	_	_	26	punct	_	_
-41	vinn	vinne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	appos	_	_
+41	vinn	vinne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	acl	_	_
 42	alltid	alltid	ADV	_	_	41	advmod	_	_
 43	gjenklang	gjenklang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	41	obj	_	_
 44	hjå	hjå	ADP	_	_	45	case	_	_
@@ -29044,7 +29044,7 @@
 21	når	når	SCONJ	_	_	24	mark	_	_
 22	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	24	nsubj	_	_
 23	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	_
-24	fått	få	VERB	_	VerbForm=Part	20	appos	_	_
+24	fått	få	VERB	_	VerbForm=Part	20	acl	_	_
 25	opp	opp	ADP	_	_	24	compound:prt	_	_
 26	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 27	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	28	amod	_	_
