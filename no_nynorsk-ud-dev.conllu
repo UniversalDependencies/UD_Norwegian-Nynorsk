@@ -382,7 +382,7 @@
 4	lært	lære	VERB	_	VerbForm=Part	0	root	_	_
 5	av	av	ADP	_	_	6	case	_	_
 6	søstra	søster	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	_
-7	mi	min	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	SpaceAfter=No
+7	mi	min	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	SpaceAfter=No
 8	,	$,	PUNCT	_	_	4	punct	_	_
 9	og	og	CCONJ	_	_	13	cc	_	_
 10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
@@ -426,7 +426,7 @@
 # newpar
 # sent_id =  014206
 # text = Vårt daglege brød
-1	Vårt	vår	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
+1	Vårt	vår	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
 2	daglege	dagleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	brød	brød	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 
@@ -536,7 +536,7 @@
 21	,	$,	PUNCT	_	_	16	punct	_	_
 22	som	som	PRON	_	PronType=Rel	25	obj	_	_
 23	mor	mor	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	nsubj	_	_
-24	mi	min	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	_
+24	mi	min	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	_
 25	gjorde	gjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	SpaceAfter=No
 26	,	$,	PUNCT	_	_	16	punct	_	_
 27	så	så	ADV	_	_	28	advmod	_	_
@@ -569,7 +569,7 @@
 19	inn	inn	ADP	_	_	21	case	_	_
 20	i	i	ADP	_	_	21	case	_	_
 21	omnen	omn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obl	_	_
-22	min	min	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	nmod	_	_
+22	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	nmod	_	_
 23	side	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	_
 24	om	om	ADP	_	_	25	case	_	_
 25	side	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
@@ -719,7 +719,7 @@
 
 # sent_id =  014219
 # text = Mitt tips viss du bakar tre brød er å dele dei i to, og fryse ned fem halve brød.
-1	Mitt	min	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	_
+1	Mitt	min	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	_
 2	tips	tips	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	_
 3	viss	viss	SCONJ	_	_	5	mark	_	_
 4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
@@ -869,7 +869,7 @@
 # sent_id =  014226
 # text = Oppskrifta mi er basert på ei mengd med mjøl og ei mengd med væte per brød.
 1	Oppskrifta	oppskrift	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	_
-2	mi	min	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	_
+2	mi	min	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	_
 3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	basert	basere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	_
 5	på	på	ADP	_	_	7	case	_	_
@@ -1100,7 +1100,7 @@
 12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
 13	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
 14	lage	lage	VERB	_	VerbForm=Inf	2	conj	_	_
-15	di	din	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	_
+15	di	din	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	_
 16	eiga	eigen	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Prs	17	det	_	_
 17	blanding	blanding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	_
 18	som	som	PRON	_	PronType=Rel	20	iobj	_	_
@@ -1438,7 +1438,7 @@
 # text = Smør formene dine med matolje, og legg i eit og eit brød.
 1	Smør	smørje	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	formene	form	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	1	obj	_	_
-3	dine	din	DET	_	Number=Plur|Poss=Yes|PronType=Prs	2	nmod	_	_
+3	dine	din	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	2	nmod	_	_
 4	med	med	ADP	_	_	5	case	_	_
 5	matolje	matolje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 6	,	$,	PUNCT	_	_	1	punct	_	_
@@ -1672,7 +1672,7 @@
 20	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
 21	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
 22	i	i	ADP	_	_	24	case	_	_
-23	vår	vår	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	_
+23	vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	_
 24	familie	familie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	_
 25	kallar	kalle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
 26	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -2286,14 +2286,14 @@
 22	betala	betale	VERB	_	VerbForm=Inf	19	acl	_	_
 23	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	24	amod	_	_
 24	skulda	skuld	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	22	obj	_	_
-25	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	SpaceAfter=No
+25	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	SpaceAfter=No
 26	.	$.	PUNCT	_	_	5	punct	_	_
 
 # sent_id =  014311
 # text = Det er mi oppgåve.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
-3	mi	min	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	_
+3	mi	min	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	_
 4	oppgåve	oppgåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
 5	.	$.	PUNCT	_	_	1	punct	_	_
 
@@ -2620,7 +2620,7 @@
 1	Snart	snar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	skatten	skatt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	_
-4	vår	vår	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	0	root	_	_
+4	vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	0	root	_	_
 
 # sent_id =  014332
 # text = Men også dei som berre arbeider halve dagen, eller for den del heile tida, må betala skatt skal ein stat fungera.
@@ -2862,7 +2862,7 @@
 10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
 11	sidan	sidan	ADV	_	_	12	advmod	_	_
 12	gått	gå	VERB	_	VerbForm=Part	3	conj	_	_
-13	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	_
+13	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	_
 14	sigersgang	sigersgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	_
 15	over	over	ADP	_	_	16	case	_	_
 16	verda	verd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
@@ -3546,7 +3546,7 @@
 13	då	då	ADV	_	_	14	advmod	_	_
 14	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
 15	eigedomen	eigedom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	_
-16	din	din	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	_
+16	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	_
 17	att	att	ADP	_	_	14	compound:prt	_	_
 18	utan	utan	ADP	_	_	19	case	_	_
 19	elektrisitet	elektrisitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
@@ -4197,7 +4197,7 @@
 5	Elstat	Elstat	PROPN	_	_	0	root	_	SpaceAfter=No
 6	,	$,	PUNCT	_	_	5	punct	_	_
 7	men	men	CCONJ	_	_	9	cc	_	_
-8	hans	hans	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
+8	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
 9	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	5	conj	_	SpaceAfter=No
 10	.	$.	PUNCT	_	_	5	punct	_	_
 
@@ -4353,7 +4353,7 @@
 # text = 15.000 av våre best utdana og mest intelligente har drege frå Hellas i år.
 1	15.000	15.000	NUM	_	Number=Plur|NumType=Card	10	nsubj	_	_
 2	av	av	ADP	_	_	5	case	_	_
-3	våre	vår	DET	_	Number=Plur|Poss=Yes|PronType=Prs	5	nmod	_	_
+3	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	5	nmod	_	_
 4	best	god	ADJ	_	Definite=Ind|Degree=Sup	5	advmod	_	_
 5	utdana	utdane	ADJ	_	Number=Plur|VerbForm=Part	1	amod	_	_
 6	og	og	CCONJ	_	_	8	cc	_	_
@@ -5359,7 +5359,7 @@
 7	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 8	halvvert	halvvere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	7	xcomp	_	_
 9	statsgjelda	statsgjeld	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obj	_	_
-10	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	SpaceAfter=No
+10	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	SpaceAfter=No
 11	,	$,	PUNCT	_	_	7	punct	_	_
 12	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
 13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
@@ -5377,7 +5377,7 @@
 1	No	no	ADV	_	_	5	advmod	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
-4	deira	deira	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
+4	deira	deira	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
 5	tur	tur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 6	til	til	ADP	_	_	8	mark	_	_
 7	å	å	PART	_	_	8	mark	_	_
@@ -5389,7 +5389,7 @@
 1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	gjort	gjere	VERB	_	VerbForm=Part	0	root	_	_
-4	mitt	min	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	obj	_	SpaceAfter=No
+4	mitt	min	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	obj	_	SpaceAfter=No
 5	.	$.	PUNCT	_	_	3	punct	_	_
 
 # newpar
@@ -5479,7 +5479,7 @@
 15	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	advmod	_	_
 16	opp	opp	ADP	_	_	19	case	_	_
 17	til	til	ADP	_	_	19	case	_	_
-18	vår	vår	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	_
+18	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	_
 19	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
 20	.	$.	PUNCT	_	_	2	punct	_	_
 
@@ -5497,7 +5497,7 @@
 10	,	$,	PUNCT	_	_	8	punct	_	_
 11	og	og	CCONJ	_	_	23	cc	_	_
 12	mor	mor	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	_
-13	hans	hans	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
+13	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
 14	,	$,	PUNCT	_	_	12	punct	_	_
 15	Ora	Ora	PROPN	_	_	23	nsubj	_	SpaceAfter=No
 16	,	$,	PUNCT	_	_	15	punct	_	_
@@ -5632,7 +5632,7 @@
 26	dei	dei	DET	_	Number=Plur|PronType=Dem	28	det	_	_
 27	to	to	NUM	_	Number=Plur|NumType=Card	28	nummod	_	_
 28	sønene	son	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	24	nmod	_	_
-29	hans	hans	DET	_	Number=Plur|Poss=Yes|PronType=Prs	28	nmod	_	SpaceAfter=No
+29	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	28	nmod	_	SpaceAfter=No
 30	,	$,	PUNCT	_	_	24	punct	_	_
 31	Uri	Uri	PROPN	_	_	34	nsubj:pass	_	SpaceAfter=No
 32	,	$,	PUNCT	_	_	31	punct	_	_
@@ -5675,7 +5675,7 @@
 21	tapet	tap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nsubj	_	_
 22	av	av	ADP	_	_	23	case	_	_
 23	son	son	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	_
-24	din	din	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	_
+24	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	_
 25	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	obj	_	_
 26	med	med	ADP	_	_	27	case	_	_
 27	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
@@ -5851,7 +5851,7 @@
 24	sterkaste	sterk	ADJ	_	Definite=Def|Degree=Sup	25	amod	_	_
 25	kritikarane	kritikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	22	nmod	_	_
 26	av	av	ADP	_	_	30	case	_	_
-27	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	29	nmod	_	_
+27	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	29	nmod	_	_
 28	eige	eigen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	29	det	_	_
 29	lands	land	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	30	nmod	_	_
 30	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
@@ -6139,7 +6139,7 @@
 14	ekte	ekte	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 15	,	$,	PUNCT	_	_	14	punct	_	_
 16	frå	frå	ADP	_	_	19	case	_	_
-17	mine	min	DET	_	Number=Plur|Poss=Yes|PronType=Prs	19	nmod	_	_
+17	mine	min	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	19	nmod	_	_
 18	eigne	eigen	DET	_	Number=Plur|PronType=Prs	19	det	_	_
 19	notat	notat	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	conj	_	SpaceAfter=No
 20	.	$.	PUNCT	_	_	14	punct	_	_
@@ -6190,7 +6190,7 @@
 # text = - Boka di har alt møtt ovasjonar blant kritikarar, kva seier lesarane i Israel?
 1	-	$-	PUNCT	_	_	6	punct	_	_
 2	Boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	_
-3	di	din	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	_
+3	di	din	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	_
 4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	alt	alt	ADV	_	_	6	advmod	_	_
 6	møtt	møte	VERB	_	VerbForm=Part	0	root	_	_
@@ -6218,7 +6218,7 @@
 1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	respekterer	respektere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	lesarane	lesar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	obj	_	_
-4	mine	min	DET	_	Number=Plur|Poss=Yes|PronType=Prs	3	nmod	_	SpaceAfter=No
+4	mine	min	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	3	nmod	_	SpaceAfter=No
 5	,	$,	PUNCT	_	_	2	punct	_	_
 6	og	og	CCONJ	_	_	11	cc	_	_
 7	av	av	ADP	_	_	8	case	_	_
@@ -6393,7 +6393,7 @@
 18	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	20	det	_	_
 19	vesle	liten	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	_
 20	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	_
-21	mitt	min	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	_	SpaceAfter=No
+21	mitt	min	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	_	SpaceAfter=No
 22	,	$,	PUNCT	_	_	9	punct	_	_
 23	og	og	CCONJ	_	_	26	cc	_	_
 24	reaksjonane	reaksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	26	nsubj	_	_
@@ -6591,7 +6591,7 @@
 10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 11	ikkje	ikkje	ADV	_	Polarity=Neg	9	advmod	_	_
 12	leiarane	leiar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	obj	_	_
-13	våre	vår	DET	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
+13	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
 14	,	$,	PUNCT	_	_	12	punct	_	_
 15	som	som	PRON	_	PronType=Rel	17	nsubj	_	_
 16	berre	berre	ADV	_	_	17	advmod	_	_
@@ -6950,7 +6950,7 @@
 6	då	då	SCONJ	_	_	9	mark	_	_
 7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
 8	berre	berre	ADV	_	_	9	advmod	_	_
-9	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	appos	_	_
+9	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl	_	_
 10	éin	éin	NUM	_	Gender=Masc|Number=Sing|NumType=Card	12	nummod	_	_
 11	einskild	einskild	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	_
 12	diktator	diktator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -7270,7 +7270,7 @@
 6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
 7	kortklipte	kortklipt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
 8	hovudet	hovud	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	_
-9	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
+9	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
 10	skilde	skilje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	fotograf	fotograf	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	_
 12	Marie	Marie	NOUN	_	Gender=Fem	10	nsubj	_	_
@@ -7382,7 +7382,7 @@
 19	,	$,	PUNCT	_	_	15	punct	_	_
 20	som	som	PRON	_	PronType=Rel	21	nsubj	_	_
 21	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
-22	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	_
+22	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	_
 23	virke	virke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obj	_	_
 24	kring	kring	ADP	_	_	26	case	_	_
 25	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	26	obl	_	_
@@ -7523,7 +7523,7 @@
 2	Horten	Horten	PROPN	_	_	3	obl	_	_
 3	opna	opne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-5	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	_
+5	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	_
 6	eige	eigen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	7	det	_	_
 7	fotoatelier	fotoatelier	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_
 8	med	med	ADP	_	_	11	case	_	_
@@ -7979,7 +7979,7 @@
 15	seksualitet	seksualitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	_
 16	i	i	ADP	_	_	17	case	_	_
 17	virket	virke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	_
-18	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	SpaceAfter=No
+18	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	SpaceAfter=No
 19	.	$.	PUNCT	_	_	11	punct	_	_
 
 # sent_id =  014595
@@ -8156,7 +8156,7 @@
 1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	lét	la	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	engasjementet	engasjement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	iobj	_	_
-4	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
+4	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
 5	smitte	smitte	VERB	_	VerbForm=Inf	2	xcomp	_	_
 6	over	over	ADP	_	_	8	case	_	_
 7	på	på	ADP	_	_	8	case	_	_
@@ -8367,7 +8367,7 @@
 14	i	i	ADP	_	_	15	case	_	_
 15	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	obl	_	_
 16	i	i	ADP	_	_	18	case	_	_
-17	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	_
+17	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	_
 18	slag	slag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
 19	.	$.	PUNCT	_	_	2	punct	_	_
 
@@ -8557,7 +8557,7 @@
 6	heim	heim	ADP	_	_	8	case	_	_
 7	frå	frå	ADP	_	_	8	case	_	_
 8	polferda	polferd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	_
-9	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
+9	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
 10	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id =  014623
@@ -8895,7 +8895,7 @@
 21	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	obl	_	_
 22	lange	lang	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	23	amod	_	_
 23	sambuarskapet	sambuarskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	_
-24	deira	deira	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	SpaceAfter=No
+24	deira	deira	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	SpaceAfter=No
 25	.	$.	PUNCT	_	_	9	punct	_	_
 
 # newpar
@@ -9773,7 +9773,7 @@
 5	gehør	gehør	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_
 6	i	i	ADP	_	_	7	case	_	_
 7	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	_
-8	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	SpaceAfter=No
+8	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	SpaceAfter=No
 9	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id =  014688
@@ -10906,7 +10906,7 @@
 19	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	23	nsubj	_	_
 20	av	av	ADP	_	_	21	case	_	_
 21	herrane	herre	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	19	nmod	_	_
-22	hans	hans	DET	_	Number=Plur|Poss=Yes|PronType=Prs	21	nmod	_	_
+22	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	21	nmod	_	_
 23	forstod	forstå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
 24	at	at	SCONJ	_	_	27	mark	_	_
 25	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
@@ -11005,7 +11005,7 @@
 12	sjølvtilstrekkeleg	sjølvtilstrekkeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	xcomp	_	_
 13	-	$-	PUNCT	_	_	11	punct	_	_
 14	å	å	PART	_	_	15	mark	_	_
-15	trene	trene	VERB	_	VerbForm=Inf	11	appos	_	_
+15	trene	trene	VERB	_	VerbForm=Inf	11	acl	_	_
 16	opp	opp	ADP	_	_	15	compound:prt	_	_
 17	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
 18	indre	indre	ADJ	_	Degree=Cmp	19	amod	_	_
@@ -11051,7 +11051,7 @@
 13	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	forståast	forstå	VERB	_	VerbForm=Inf	0	root	_	_
 15	i	i	ADP	_	_	18	case	_	_
-16	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	_
+16	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	_
 17	kulturelle	kulturell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	_
 18	kontekst	kontekst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
 19	.	$.	PUNCT	_	_	14	punct	_	_
@@ -11232,7 +11232,7 @@
 4	sunne	sunn	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	_
 5	ideal	ideal	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_
 6	i	i	ADP	_	_	8	case	_	_
-7	vår	vår	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
+7	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
 8	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 9	,	$,	PUNCT	_	_	8	punct	_	_
 10	der	der	SCONJ	_	_	12	mark	_	_
@@ -11428,10 +11428,10 @@
 2	Kysser	kysse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 4	barnet	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obj	_	_
-5	ditt	din	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	_
+5	ditt	din	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	_
 6	eller	eller	CCONJ	_	_	7	cc	_	_
 7	kona	kone	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	conj	_	_
-8	di	din	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	SpaceAfter=No
+8	di	din	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	SpaceAfter=No
 9	,	$,	PUNCT	_	_	2	punct	_	_
 10	så	så	ADV	_	_	11	advmod	_	_
 11	hugs	hugse	VERB	_	Mood=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
@@ -11454,7 +11454,7 @@
 3	,	$,	PUNCT	_	_	1	punct	_	_
 4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
 5	sjela	sjel	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	_
-6	di	din	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
+6	di	din	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
 7	like	like	ADV	_	_	8	advmod	_	_
 8	roleg	roleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
 9	.	$.	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -11485,7 +11485,7 @@
 9	av	av	ADP	_	_	10	case	_	_
 10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
 11	å	å	PART	_	_	12	mark	_	_
-12	bli	bli	VERB	_	VerbForm=Inf	10	appos	_	_
+12	bli	bli	VERB	_	VerbForm=Inf	10	acl	_	_
 13	autark	autark	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No
 14	.	$.	PUNCT	_	_	6	punct	_	_
 
@@ -11960,7 +11960,7 @@
 10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
 11	utbreidd	utbreidd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	acl:relcl	_	_
 12	i	i	ADP	_	_	15	case	_	_
-13	vår	vår	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	_
+13	vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	_
 14	seinmoderne	seinmoderne	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	_
 15	kultur	kultur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
 16	:	$:	PUNCT	_	_	8	punct	_	_
@@ -11968,7 +11968,7 @@
 18	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 19	i	i	ADP	_	_	20	case	_	_
 20	prinsippet	prinsipp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	obl	_	_
-21	ligg	liggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	appos	_	_
+21	ligg	liggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl	_	_
 22	innanfor	innanfor	ADP	_	_	24	case	_	_
 23	menneskeleg	menneskeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	24	amod	_	_
 24	makt	makt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
@@ -12324,12 +12324,12 @@
 1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	2	iobj	_	_
-4	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	6	nmod	_	_
+4	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	6	nmod	_	_
 5	eigne	eigen	DET	_	Number=Plur|PronType=Prs	6	det	_	_
 6	blindsoner	blindsone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
 7	,	$,	PUNCT	_	_	6	punct	_	_
 8	eller	eller	CCONJ	_	_	11	cc	_	_
-9	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
+9	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
 10	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	11	det	_	_
 11	mangel	mangel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	_
 12	på	på	ADP	_	_	13	case	_	_
@@ -12388,7 +12388,7 @@
 22	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_
 23	storforlangande	storforlangande	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	24	amod	_	_
 24	kjærasten	kjærast	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	_
-25	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	SpaceAfter=No
+25	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	SpaceAfter=No
 26	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id =  014826
@@ -12417,7 +12417,7 @@
 22	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	_
 23	mist	miste	VERB	_	VerbForm=Part	8	advcl	_	_
 24	son	son	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	_
-25	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	_
+25	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	_
 26	i	i	ADP	_	_	27	case	_	_
 27	krybbedød	krybbedød	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
 28	.	$.	PUNCT	_	_	8	punct	_	_
@@ -12515,7 +12515,7 @@
 # sent_id =  014831
 # text = Nettopp deira eigen prøvande eller mangelfulle refleksjon over livet fann eg svært fascinerande, og eg las desse novellene to gonger av rein lyst til å sjå om det kanskje stod meir der enn eg hadde sett fyrste gongen.
 1	Nettopp	nettopp	ADV	_	_	7	advmod	_	_
-2	deira	deira	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	_
+2	deira	deira	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	_
 3	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	7	det	_	_
 4	prøvande	prøve	ADJ	_	VerbForm=Part	7	amod	_	_
 5	eller	eller	CCONJ	_	_	6	cc	_	_
@@ -12597,7 +12597,7 @@
 9	at	at	SCONJ	_	_	12	mark	_	_
 10	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
 11	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
-12	vise	vise	VERB	_	VerbForm=Inf	8	appos	_	_
+12	vise	vise	VERB	_	VerbForm=Inf	8	acl	_	_
 13	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
 14	politikarar	politikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	_
 15	som	som	PRON	_	PronType=Rel	17	nsubj	_	_
@@ -12670,7 +12670,7 @@
 19	til	til	ADP	_	_	21	mark	_	_
 20	å	å	PART	_	_	21	mark	_	_
 21	fremje	fremje	VERB	_	VerbForm=Inf	13	advcl	_	_
-22	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	_
+22	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	_
 23	kandidat	kandidat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
 24	.	$.	PUNCT	_	_	5	punct	_	_
 
@@ -12802,7 +12802,7 @@
 20	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 21	at	at	SCONJ	_	_	24	mark	_	_
 22	tungene	tunge	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	24	nsubj	_	_
-23	deira	deira	DET	_	Number=Plur|Poss=Yes|PronType=Prs	22	nmod	_	_
+23	deira	deira	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	22	nmod	_	_
 24	hovnar	hovne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
 25	opp	opp	ADP	_	_	24	compound:prt	_	_
 26	og	og	CCONJ	_	_	27	cc	_	_
@@ -12827,7 +12827,7 @@
 11	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 12	til	til	ADP	_	_	13	case	_	_
 13	son	son	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	_
-14	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	SpaceAfter=No
+14	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	SpaceAfter=No
 15	:	$:	PUNCT	_	_	3	punct	_	_
 
 # sent_id =  014844
@@ -12841,7 +12841,7 @@
 7	grunnverdiane	grunnverdi	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	obj	_	_
 8	i	i	ADP	_	_	9	case	_	_
 9	samfunnet	samfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	_
-10	vårt	vår	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	SpaceAfter=No
+10	vårt	vår	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	SpaceAfter=No
 11	,	$,	PUNCT	_	_	6	punct	_	_
 12	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
 13	de	de	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=2|PronType=Prs	14	nsubj	_	_
@@ -13147,7 +13147,7 @@
 7	himmelen	himmel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 8	,	$,	PUNCT	_	_	4	punct	_	_
 9	natta	natt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	obl	_	_
-10	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
+10	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
 11	mold	mold	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	nsubj	_	_
 12	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	_
 13	på	på	ADP	_	_	14	case	_	_
@@ -13330,7 +13330,7 @@
 5	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	6	advmod	_	_
 6	25	25	NUM	_	Number=Plur|NumType=Card	3	obj	_	_
 7	av	av	ADP	_	_	9	case	_	_
-8	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	9	nmod	_	_
+8	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	9	nmod	_	_
 9	næraste	nær	ADJ	_	Definite=Def|Degree=Sup	6	amod	_	_
 10	i	i	ADP	_	_	11	mark	_	_
 11	salen	sal	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	xcomp	_	_
@@ -13705,7 +13705,7 @@
 # sent_id =  014890
 # text = Plata hennar « Bliss » selde til gull, og ho er den tredje mest søkte personen på nettet.
 1	Plata	plate	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	_
-2	hennar	hennar	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	_
+2	hennar	hennar	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	_
 3	«	$"	PUNCT	_	_	4	punct	_	_
 4	Bliss	Bliss	PROPN	_	_	6	nsubj	_	_
 5	»	$"	PUNCT	_	_	4	punct	_	_
@@ -14036,7 +14036,7 @@
 12	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	conj	_	_
 13	av	av	ADP	_	_	20	case	_	_
 14	Norge	Norge	PROPN	_	_	15	obl	_	_
-15	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	20	nmod	_	_
+15	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	20	nmod	_	_
 16	mest	mykje	ADJ	_	Definite=Ind|Degree=Sup	17	advmod	_	_
 17	populære	populær	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	_
 18	og	og	CCONJ	_	_	19	cc	_	_
@@ -14163,7 +14163,7 @@
 17	få	få	AUX	_	VerbForm=Inf	18	aux	_	_
 18	spelt	spele	VERB	_	VerbForm=Part	14	acl	_	_
 19	låta	låt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obj	_	_
-20	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	_
+20	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	_
 21	for	for	ADP	_	_	22	case	_	_
 22	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
 23	.	$.	PUNCT	_	_	2	punct	_	_
@@ -14373,7 +14373,7 @@
 13	stoppa	stoppe	ADJ	_	Number=Plur|VerbForm=Part	0	root	_	_
 14	av	av	ADP	_	_	17	case	_	_
 15	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	_
-16	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	17	nmod	_	_
+16	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	17	nmod	_	_
 17	patruljar	patrulje	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	_
 18	seinare	sein	ADJ	_	Degree=Cmp	20	advmod	_	_
 19	på	på	ADP	_	_	20	case	_	_
@@ -15171,7 +15171,7 @@
 3	unnfanga	unnfange	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	_
 4	då	då	SCONJ	_	_	9	mark	_	_
 5	mor	mor	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	_
-6	hans	hans	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
+6	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
 7	sjølv	sjølv	DET	_	PronType=Prs	5	det	_	_
 8	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	_
 9	kalv	kalv	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	advcl	_	_
@@ -15241,7 +15241,7 @@
 8	dei	dei	DET	_	Number=Plur|PronType=Dem	10	det	_	_
 9	stolte	stolt	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	_
 10	eigarane	eigar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	_
-11	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	SpaceAfter=No
+11	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	SpaceAfter=No
 12	,	$,	PUNCT	_	_	10	punct	_	_
 13	Steinar	Steinar	NOUN	_	Gender=Masc	6	nmod	_	_
 14	og	og	CCONJ	_	_	15	cc	_	_
@@ -15520,7 +15520,7 @@
 3	for	for	ADP	_	_	9	mark	_	_
 4	at	at	SCONJ	_	_	9	mark	_	_
 5	helsa	helse	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	_
-6	hennar	hennar	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
+6	hennar	hennar	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
 7	ikkje	ikkje	ADV	_	Polarity=Neg	9	advmod	_	_
 8	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	tole	tole	VERB	_	VerbForm=Inf	2	acl	_	_
@@ -15941,7 +15941,7 @@
 12	og	og	CCONJ	_	_	14	cc	_	_
 13	å	å	PART	_	_	14	mark	_	_
 14	endre	endre	VERB	_	VerbForm=Inf	8	conj	_	_
-15	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	_
+15	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	_
 16	image	image	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
 17	.	$.	PUNCT	_	_	3	punct	_	_
 
@@ -16059,7 +16059,7 @@
 4	sit	sitje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	med	med	ADP	_	_	6	case	_	_
 6	pappskallen	pappskalle	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	_
-7	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	_
+7	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	_
 8	under	under	ADP	_	_	9	mark	_	_
 9	vatn	vatn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	xcomp	_	_
 10	i	i	ADP	_	_	11	case	_	_
@@ -16311,7 +16311,7 @@
 # text = Etter reaksjonane hennar på Sogn og Fjordanes bunadsbidrag til kongens bursdag i 2007, fekk Viken mykje mediemerksemd.
 1	Etter	etter	ADP	_	_	2	case	_	_
 2	reaksjonane	reaksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	15	obl	_	_
-3	hennar	hennar	DET	_	Number=Plur|Poss=Yes|PronType=Prs	2	nmod	_	_
+3	hennar	hennar	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	2	nmod	_	_
 4	på	på	ADP	_	_	8	case	_	_
 5	Sogn	Sogn	PROPN	_	_	8	nmod	_	_
 6	og	og	CCONJ	_	_	5	flat:name	_	_
@@ -17130,7 +17130,7 @@
 5	og	og	CCONJ	_	_	6	cc	_	_
 6	fremst	fremre	ADJ	_	Definite=Ind|Degree=Sup	4	conj	_	_
 7	setje	setje	VERB	_	VerbForm=Inf	0	root	_	_
-8	vår	vår	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
+8	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
 9	lit	lit	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	_
 10	til	til	ADP	_	_	22	mark	_	_
 11	at	at	SCONJ	_	_	22	mark	_	_
@@ -18278,7 +18278,7 @@
 12	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	_
 13	atoma	atom	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	appos	_	_
 14	-	$-	PUNCT	_	_	13	punct	_	_
-15	eksisterer	eksistere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	appos	_	_
+15	eksisterer	eksistere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl	_	_
 16	uavhengig	uavhengig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	_
 17	av	av	ADP	_	_	20	mark	_	_
 18	kva	kva	PRON	_	PronType=Int	20	obj	_	_
@@ -18300,7 +18300,7 @@
 10	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 11	tape	tape	VERB	_	VerbForm=Inf	0	root	_	_
 12	motivasjonen	motivasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obj	_	_
-13	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
+13	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
 14	.	$.	PUNCT	_	_	11	punct	_	_
 
 # sent_id =  015173
@@ -18367,7 +18367,7 @@
 4	derimot	derimot	ADV	_	_	3	advmod	_	_
 5	i	i	ADP	_	_	6	case	_	_
 6	synet	syn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	_
-7	hans	hans	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	_
+7	hans	hans	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	_
 8	på	på	ADP	_	_	14	case	_	_
 9	kva	kva	DET	_	PronType=Int	11	det	_	_
 10	erkjennelsesfilosofiske	erkjennelsesfilosofisk	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	_
@@ -18502,12 +18502,12 @@
 34	påviser	påvise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
 35	»	$"	PUNCT	_	_	34	punct	_	_
 36	,	$,	PUNCT	_	_	27	punct	_	_
-37	om	om	ADP	_	_	42	case	_	_
+37	om	om	ADP	_	_	42	mark	_	_
 38	for	for	ADP	_	_	39	case	_	_
 39	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	42	obl	_	_
 40	at	at	SCONJ	_	_	42	mark	_	_
 41	DNA-molekylet	DNA-molekyl	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	42	nsubj	_	_
-42	inneheld	innehalde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	appos	_	_
+42	inneheld	innehalde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	acl	_	_
 43	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 44	genetisk	genetisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	45	amod	_	_
 45	kode	kode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	42	obj	_	_
@@ -18567,7 +18567,7 @@
 16	«	$"	PUNCT	_	_	17	punct	_	_
 17	resultata	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	obl	_	_
 18	»	$"	PUNCT	_	_	17	punct	_	_
-19	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	17	nmod	_	SpaceAfter=No
+19	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	17	nmod	_	SpaceAfter=No
 20	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id =  015184
@@ -18631,7 +18631,7 @@
 10	framstillinga	framstilling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obl	_	_
 11	av	av	ADP	_	_	12	case	_	_
 12	posisjonen	posisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_
-13	hans	hans	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
+13	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
 14	,	$,	PUNCT	_	_	3	punct	_	_
 15	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
@@ -18702,7 +18702,7 @@
 28	som	som	PRON	_	PronType=Rel	29	nsubj	_	_
 29	hentar	hente	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
 30	overtalingskrafta	overtalingskraft	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	29	obj	_	_
-31	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	nmod	_	_
+31	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	nmod	_	_
 32	frå	frå	ADP	_	_	35	case	_	_
 33	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_
 34	tilsynelatande	tilsynelatande	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	35	amod	_	_
@@ -18836,7 +18836,7 @@
 9	,	$,	PUNCT	_	_	1	punct	_	_
 10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
 11	i	i	ADP	_	_	13	case	_	_
-12	hans	hans	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	_
+12	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	_
 13	framstilling	framstilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	_
 14	berre	berre	ADV	_	_	15	advmod	_	_
 15	resultat	resultat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
@@ -19004,7 +19004,7 @@
 4	opplagt	opplagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 5	at	at	SCONJ	_	_	8	mark	_	_
 6	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	_
-7	hans	hans	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	_
+7	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	_
 8	lir	li	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	csubj	_	_
 9	av	av	ADP	_	_	11	case	_	_
 10	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -19063,7 +19063,7 @@
 6	at	at	SCONJ	_	_	19	mark	_	_
 7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 8	å	å	PART	_	_	9	mark	_	_
-9	påstå	påstå	VERB	_	VerbForm=Inf	7	appos	_	_
+9	påstå	påstå	VERB	_	VerbForm=Inf	7	acl	_	_
 10	at	at	SCONJ	_	_	15	mark	_	_
 11	all	all	DET	_	Gender=Masc|Number=Sing|PronType=Tot	12	det	_	_
 12	argumentasjon	argumentasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	_
@@ -19114,7 +19114,7 @@
 8	påstår	påstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 9	om	om	ADP	_	_	10	case	_	_
 10	studieobjekta	studieobjekt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	obl	_	_
-11	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	_
+11	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	_
 12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	slå	slå	VERB	_	VerbForm=Inf	3	ccomp	_	_
 14	tilbake	tilbake	ADP	_	_	18	case	_	_
@@ -19167,7 +19167,7 @@
 4	for	for	ADP	_	_	5	case	_	_
 5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
 6	å	å	PART	_	_	7	mark	_	_
-7	gløyme	gløyme	VERB	_	VerbForm=Inf	5	appos	_	_
+7	gløyme	gløyme	VERB	_	VerbForm=Inf	5	acl	_	_
 8	refleksjonen	refleksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obj	_	_
 9	over	over	ADP	_	_	10	case	_	_
 10	forholdet	forhold	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	_
@@ -19190,7 +19190,7 @@
 9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	teoretikar	teoretikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nsubj	_	_
 11	i	i	ADP	_	_	14	case	_	_
-12	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	_
+12	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	_
 13	eiga	eigen	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Prs	14	det	_	_
 14	teoretisering	teoretisering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	_
 15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
@@ -19445,7 +19445,7 @@
 2	mest	mykje	ADJ	_	Definite=Ind|Degree=Sup	3	advmod	_	_
 3	dristige	dristig	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	_
 4	skriftene	skrift	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nsubj	_	_
-5	deira	deira	DET	_	Number=Plur|Poss=Yes|PronType=Prs	4	nmod	_	_
+5	deira	deira	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	4	nmod	_	_
 6	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 7	i	i	ADP	_	_	8	case	_	_
 8	løpet	løp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	_
@@ -19742,7 +19742,7 @@
 4	reduktive	reduktiv	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	_
 5	fysikalistane	fysikalist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	_
 6	avskaffa	avskaffe	VERB	_	VerbForm=Part	0	root	_	_
-7	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
+7	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
 8	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	9	det	_	_
 9	sjanse	sjanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	_
 10	til	til	ADP	_	_	12	mark	_	_
@@ -19752,7 +19752,7 @@
 14	rasjonelt	rasjonell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
 15	forsvar	forsvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	_
 16	for	for	ADP	_	_	19	case	_	_
-17	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	_
+17	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	_
 18	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	19	det	_	_
 19	posisjon	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 20	.	$.	PUNCT	_	_	6	punct	_	_
@@ -19963,7 +19963,7 @@
 # sent_id =  015245
 # text = Kritikken min ovanfor rettar seg ikkje mot nevrovitskap, berre mot den scientistiske måten å bruke den på.
 1	Kritikken	kritikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	min	min	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	_
+2	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	_
 3	ovanfor	ovanfor	ADP	_	_	1	nmod	_	_
 4	rettar	rette	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	4	obj	_	_
@@ -20023,7 +20023,7 @@
 1	Naturvitskaplege	naturvitskapleg	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	_
 2	forklaringar	forklaring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
+4	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
 5	styrke	styrke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	_
 6	blant	blant	ADP	_	_	7	case	_	_
 7	anna	annan	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	8	obl	_	_
@@ -20300,7 +20300,7 @@
 # text = I framstillinga hans er ikkje vitskap først og fremst etablert kunnskap ( « a body of knowledge » ) , men eit sosialt fenomen, ein pågåande aktivitet innanfor eit fellesskap av likestilte - « a community of investigators » .
 1	I	i	ADP	_	_	2	case	_	_
 2	framstillinga	framstilling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	obl	_	_
-3	hans	hans	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	_
+3	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	_
 4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
 5	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
 6	vitskap	vitskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -20351,7 +20351,7 @@
 7	eventuelt	eventuell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	_
 8	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 9	berekrafta	berekraft	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obj	_	_
-10	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
+10	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
 11	ved	ved	ADP	_	_	14	mark	_	_
 12	at	at	SCONJ	_	_	14	mark	_	_
 13	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
@@ -20571,7 +20571,7 @@
 # text = Klassekampen engasjerte vår eigen litteraturkritikar og forfattar Espen Stueland og den politisk radikale rapparen Elling Borgersrud frå Gatas Parlament til ein debatt om artisten som sel mest plater og skapar størst kontroversar.
 1	Klassekampen	Klassekampen	PROPN	_	_	2	nsubj	_	_
 2	engasjerte	engasjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	vår	vår	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
+3	vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
 4	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	5	det	_	_
 5	litteraturkritikar	litteraturkritikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_
 6	og	og	CCONJ	_	_	7	cc	_	_
@@ -20708,7 +20708,7 @@
 1	Inspirert	inspirere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	9	acl	_	_
 2	av	av	ADP	_	_	6	case	_	_
 3	rapparen	rappar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	_
-4	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	_
+4	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	_
 5	eiga	eigen	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Prs	6	det	_	_
 6	livshistorie	livshistorie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 7	,	$,	PUNCT	_	_	1	punct	_	_
@@ -20750,7 +20750,7 @@
 4	film	film	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	,	$,	PUNCT	_	_	4	punct	_	_
 6	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
-7	våre	vår	DET	_	Number=Plur|Poss=Yes|PronType=Prs	8	nmod	_	_
+7	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	8	nmod	_	_
 8	debattantar	debattant	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
 9	,	$,	PUNCT	_	_	4	punct	_	_
 10	men	men	CCONJ	_	_	12	cc	_	_
@@ -20761,7 +20761,7 @@
 15	på	på	ADP	_	_	16	case	_	_
 16	rapparen	rappar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	_
 17	frå	frå	ADP	_	_	20	case	_	_
-18	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	20	nmod	_	_
+18	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	20	nmod	_	_
 19	ulike	ulike	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	_
 20	ståstadar	ståstad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
 21	.	$.	PUNCT	_	_	4	punct	_	_
@@ -20861,7 +20861,7 @@
 6	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 7	galne	galen	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
 8	rasefetisjen	rasefetisj	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	_
-9	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
+9	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
 10	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id =  015289
@@ -20901,13 +20901,13 @@
 5	musikk	musikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	_
 6	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	kvar	kvar	DET	_	Gender=Fem|Number=Sing|PronType=Tot	9	det	_	_
-8	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
+8	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
 9	hitliste	hitliste	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 10	,	$,	PUNCT	_	_	9	punct	_	_
 11	basert	basere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	9	amod	_	_
 12	på	på	ADP	_	_	15	case	_	_
 13	musikarane	musikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	14	obl	_	_
-14	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	_
+14	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	_
 15	hudfarge	hudfarge	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
 16	.	$.	PUNCT	_	_	6	punct	_	_
 
@@ -20963,7 +20963,7 @@
 11	,	$,	PUNCT	_	_	6	punct	_	_
 12	som	som	PRON	_	PronType=Rel	14	nsubj	_	_
 13	sjølvsagt	sjølvsagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	_
-14	betyr	bety	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	appos	_	_
+14	betyr	bety	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl	_	_
 15	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	obj	_	_
 16	i	i	ADP	_	_	17	case	_	_
 17	USA	USA	NOUN	_	Abbr=Yes	14	obl	_	SpaceAfter=No
@@ -21098,7 +21098,7 @@
 2	,	$,	PUNCT	_	_	1	punct	_	_
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 4	å	å	PART	_	_	5	mark	_	_
-5	gå	gå	VERB	_	VerbForm=Inf	3	appos	_	_
+5	gå	gå	VERB	_	VerbForm=Inf	3	acl	_	_
 6	til	til	ADP	_	_	7	case	_	_
 7	åtak	åtak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	_
 8	på	på	ADP	_	_	9	case	_	_
@@ -21174,7 +21174,7 @@
 16	kunstnaren	kunstnar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	_
 17	Eminem	Eminem	PROPN	_	_	10	conj	_	_
 18	og	og	CCONJ	_	_	23	cc	_	_
-19	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	21	nmod	_	_
+19	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	21	nmod	_	_
 20	sinte	sint	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	_
 21	alter-ego	alter-ego	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
 22	,	$,	PUNCT	_	_	21	punct	_	_
@@ -21657,7 +21657,7 @@
 6	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	overraskar	overraske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl	_	_
 8	kjærasten	kjærast	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obj	_	_
-9	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
+9	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
 10	saman	saman	ADV	_	_	14	advmod	_	_
 11	med	med	ADP	_	_	14	case	_	_
 12	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -21695,7 +21695,7 @@
 14	på	på	ADP	_	_	18	mark	_	_
 15	at	at	SCONJ	_	_	18	mark	_	_
 16	kona	kone	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	_
-17	hans	hans	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	_
+17	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	_
 18	klina	kline	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
 19	med	med	ADP	_	_	22	case	_	_
 20	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -21756,7 +21756,7 @@
 6	av	av	ADP	_	_	1	case	_	_
 7	i	i	ADP	_	_	8	case	_	_
 8	tekstane	tekst	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	obl	_	_
-9	hans	hans	DET	_	Number=Plur|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
+9	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
 10	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id =  015337
@@ -21795,7 +21795,7 @@
 15	»	$"	PUNCT	_	_	13	punct	_	_
 16	,	$,	PUNCT	_	_	13	punct	_	_
 17	med	med	ADP	_	_	20	case	_	_
-18	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	_	_
+18	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	_	_
 19	halv-biografiske	halv-biografisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	_
 20	forankring	forankring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
 21	,	$,	PUNCT	_	_	20	punct	_	_
@@ -21821,7 +21821,7 @@
 5	slik	slik	ADV	_	_	3	advmod	_	_
 6	at	at	SCONJ	_	_	8	mark	_	_
 7	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-8	innser	innsjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	appos	_	_
+8	innser	innsjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl	_	_
 9	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 10	ikkje	ikkje	ADV	_	Polarity=Neg	12	advmod	_	_
 11	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -21832,7 +21832,7 @@
 16	førebilete	førebilete	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	xcomp	_	_
 17	for	for	ADP	_	_	18	case	_	_
 18	publikummet	publikum	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	_
-19	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	SpaceAfter=No
+19	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	SpaceAfter=No
 20	,	$,	PUNCT	_	_	3	punct	_	_
 21	eller	eller	CCONJ	_	_	24	cc	_	_
 22	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	24	nsubj	_	_
@@ -21865,7 +21865,7 @@
 8	om	om	SCONJ	_	_	10	mark	_	_
 9	marknadsposisjonen	marknadsposisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	_
 10	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
-11	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	_
+11	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	_
 12	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	13	det	_	_
 13	dynamikk	dynamikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	_
 14	som	som	PRON	_	PronType=Rel	16	nsubj	_	_
@@ -21934,7 +21934,7 @@
 5	kunsten	kunst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	_
 6	frå	frå	ADP	_	_	7	case	_	_
 7	Rimbaud	Rimbaud	PROPN	_	_	3	nmod	_	_
-8	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	_
+8	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	_
 9	til	til	ADP	_	_	10	case	_	_
 10	punken	punk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	_
 11	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -22234,7 +22234,7 @@
 22	av	av	ADP	_	_	20	compound:prt	_	_
 23	i	i	ADP	_	_	24	case	_	_
 24	tekstane	tekst	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	20	obl	_	_
-25	hans	hans	DET	_	Number=Plur|Poss=Yes|PronType=Prs	24	nmod	_	SpaceAfter=No
+25	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	24	nmod	_	SpaceAfter=No
 26	.	$.	PUNCT	_	_	15	punct	_	_
 
 # sent_id =  015363
@@ -22658,7 +22658,7 @@
 6	og	og	CCONJ	_	_	7	cc	_	_
 7	rappa	rappe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
 8	om	om	ADP	_	_	10	case	_	_
-9	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	_
+9	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	_
 10	røynd	røynd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 11	,	$,	PUNCT	_	_	3	punct	_	_
 12	så	så	ADV	_	_	13	advmod	_	_
@@ -22848,7 +22848,7 @@
 4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
 5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
 6	NHO	NHO	PROPN	_	_	7	obl	_	_
-7	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
+7	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
 8	syn	syn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	xcomp	_	_
 9	at	at	SCONJ	_	_	13	mark	_	_
 10	6-åringar	6-åring	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nsubj	_	_
@@ -22921,7 +22921,7 @@
 13	representert	representere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	2	advmod	_	_
 14	i	i	ADP	_	_	17	case	_	_
 15	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	16	obl	_	_
-16	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	_
+16	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	_
 17	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	_
 18	i	i	ADP	_	_	19	case	_	_
 19	forkant	forkant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	_
@@ -23198,7 +23198,7 @@
 6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 7	private	privat	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
 8	tenestesektoren	tenestesektor	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	_
-9	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	_
+9	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	_
 10	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_
 11	av	av	ADP	_	_	13	case	_	_
 12	USAs	USA	NOUN	_	Abbr=Yes|Case=Gen	13	nmod	_	_
@@ -23639,7 +23639,7 @@
 7	siviliserande	sivilisere	ADJ	_	VerbForm=Part	5	conj	_	_
 8	drag	drag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 9	ved	ved	ADP	_	_	11	case	_	_
-10	vårt	vår	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
+10	vårt	vår	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
 11	samfunn	samfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	_
 12	at	at	SCONJ	_	_	18	mark	_	_
 13	såpass	såpass	ADV	_	_	14	advmod	_	_
@@ -23880,7 +23880,7 @@
 8	siviliserande	sivilisere	ADJ	_	VerbForm=Part	9	amod	_	_
 9	drag	drag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	conj	_	_
 10	ved	ved	ADP	_	_	12	case	_	_
-11	vår	vår	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	_
+11	vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	_
 12	kapitalisme	kapitalisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	_
 13	dersom	dersom	SCONJ	_	_	19	mark	_	_
 14	760.000	760.000	NUM	_	Number=Plur|NumType=Card	15	nummod	_	_
@@ -24163,7 +24163,7 @@
 8	slik	slik	ADV	_	_	6	advmod	_	_
 9	at	at	SCONJ	_	_	11	mark	_	_
 10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
-11	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	appos	_	_
+11	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl	_	_
 12	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	_
 14	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	_
@@ -24260,7 +24260,7 @@
 6	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	7	nsubj	_	_
 7	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 8	ved	ved	ADP	_	_	10	case	_	_
-9	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	_
+9	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	_
 10	forpliktingar	forplikting	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
 11	.	$.	PUNCT	_	_	3	punct	_	_
 
@@ -24428,7 +24428,7 @@
 # sent_id =  015505
 # text = I vår tid må ein kunna gå inn i internasjonale forpliktingar.
 1	I	i	ADP	_	_	3	case	_	_
-2	vår	vår	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
+2	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
 3	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	_
 4	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
 5	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	7	nsubj	_	_
@@ -24550,10 +24550,10 @@
 5	at	at	SCONJ	_	_	7	mark	_	_
 6	politikarane	politikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	_
 7	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
-8	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
+8	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
 9	beste	god	ADJ	_	Definite=Def|Degree=Sup	7	obj	_	_
 10	for	for	ADP	_	_	12	case	_	_
-11	våre	vår	DET	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	_
+11	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	_
 12	interesser	interesse	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
 13	.	$.	PUNCT	_	_	3	punct	_	_
 
@@ -24793,7 +24793,7 @@
 # sent_id =  015528
 # text = Teknoalderen sin Frankenstein
 1	Teknoalderen	teknoalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	_
-2	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
+2	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
 3	Frankenstein	Frankenstein	PROPN	_	_	0	root	_	_
 
 # sent_id =  015529
@@ -25048,7 +25048,7 @@
 3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 4	komande	kome	ADJ	_	VerbForm=Part	5	amod	_	_
 5	far	far	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-6	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
+6	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
 7	John	John	NOUN	_	Gender=Masc	9	nsubj	_	_
 8	Connor	Connor	PROPN	_	_	7	flat:name	_	_
 9	sender	sende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
@@ -25255,9 +25255,9 @@
 7	at	at	SCONJ	_	_	10	mark	_	_
 8	Ronald	Ronald	NOUN	_	Gender=Masc	10	nsubj	_	_
 9	Reagan	Reagan	PROPN	_	_	8	flat:name	_	_
-10	gjekk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	appos	_	_
+10	gjekk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl	_	_
 11	i	i	ADP	_	_	14	case	_	_
-12	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	_
+12	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	_
 13	andre	andre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
 14	presidentperiode	presidentperiode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	_
 15	i	i	ADP	_	_	16	case	_	_
@@ -25377,7 +25377,7 @@
 5	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	nyleg	nyleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	_
 7	kandidaturet	kandidatur	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obj	_	_
-8	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	_
+8	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	_
 9	til	til	ADP	_	_	10	case	_	_
 10	guvernørstillinga	guvernørstilling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
 11	i	i	ADP	_	_	12	case	_	_
@@ -25751,14 +25751,14 @@
 8	,	$,	PUNCT	_	_	4	punct	_	_
 9	og	og	CCONJ	_	_	29	cc	_	_
 10	med	med	ADP	_	_	12	case	_	_
-11	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	_
+11	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	_
 12	metallskjellett	metallskjellett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	29	advmod	_	_
 13	dekt	dekke	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	12	amod	_	_
 14	av	av	ADP	_	_	16	case	_	_
 15	sjølvlegande	sjølvlegande	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	_
 16	menneskehud	menneskehud	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	_
 17	og	og	CCONJ	_	_	20	cc	_	_
-18	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	_	_
+18	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	_	_
 19	sjølvlærande	sjølvlære	ADJ	_	VerbForm=Part	20	amod	_	_
 20	microchip	microchip	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	_
 21	til	til	ADP	_	_	23	mark	_	_
@@ -25782,7 +25782,7 @@
 4	nøkkelen	nøkkel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 5	til	til	ADP	_	_	8	case	_	_
 6	karakteren	karakter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	_
-7	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
+7	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
 8	fascinasjonskraft	fascinasjonskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 9	.	$.	PUNCT	_	_	4	punct	_	_
 
@@ -25844,7 +25844,7 @@
 9	kjernefysisk	kjernefysisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
 10	ragnarok	ragnarok	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	_
 11	mot	mot	ADP	_	_	13	case	_	_
-12	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	13	nmod	_	_
+12	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	13	nmod	_	_
 13	skaparar	skapar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
 14	.	$.	PUNCT	_	_	5	punct	_	_
 
@@ -25860,7 +25860,7 @@
 8	Reagan	Reagan	PROPN	_	_	7	flat:name	_	_
 9	utvikla	utvikle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
 10	stjernekrigsprogrammet	stjernekrigsprogram	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obj	_	_
-11	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	SpaceAfter=No
+11	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	SpaceAfter=No
 12	.	$.	PUNCT	_	_	4	punct	_	_
 
 # sent_id =  015568
@@ -26002,7 +26002,7 @@
 10	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
 11	primære	primær	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
 12	oppgåva	oppgåve	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	_
-13	deira	deira	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	_
+13	deira	deira	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	_
 14	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
 15	å	å	PART	_	_	16	mark	_	_
 16	driva	drive	VERB	_	VerbForm=Inf	3	conj	_	_
@@ -26097,7 +26097,7 @@
 6	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nsubj:pass	_	_
 7	av	av	ADP	_	_	10	case	_	_
 8	departementet	departement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	_
-9	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	_
+9	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	_
 10	tilsynsoppgåver	tilsynsoppgåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	_
 11	etter	etter	ADP	_	_	12	case	_	_
 12	lov	lov	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	_
@@ -26328,7 +26328,7 @@
 8	fått	få	AUX	_	VerbForm=Part	9	aux	_	_
 9	styrkt	styrkje	VERB	_	VerbForm=Part	0	root	_	_
 10	budsjettet	budsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obj	_	_
-11	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	_
+11	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	_
 12	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	9	obl	_	_
 13	i	i	ADP	_	_	14	case	_	_
 14	samband	samband	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	_
@@ -26993,7 +26993,7 @@
 16	slik	slik	ADV	_	_	15	advmod	_	_
 17	at	at	SCONJ	_	_	19	mark	_	_
 18	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
-19	gjev	gje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	appos	_	_
+19	gjev	gje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl	_	_
 20	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
 21	samla	samle	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	22	amod	_	_
 22	uttrykk	uttrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obj	_	_
@@ -27384,7 +27384,7 @@
 28	minoritetsspråka	minoritetsspråk	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	24	obj	_	_
 29	i	i	ADP	_	_	30	case	_	_
 30	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	28	nmod	_	_
-31	vårt	vår	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	30	nmod	_	SpaceAfter=No
+31	vårt	vår	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	30	nmod	_	SpaceAfter=No
 32	.	$.	PUNCT	_	_	12	punct	_	_
 
 # sent_id =  015622
@@ -28679,7 +28679,7 @@
 # sent_id =  015661
 # text = Språkrådet sitt ansvar for spørsmål som gjeld kvensk, må også avgrensast mot det ansvaret som etter føresetnaden skal liggja til det nye kvenske språkrådet som er under oppbygging.
 1	Språkrådet	Språkrådet	PROPN	_	_	2	obl	_	_
-2	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
+2	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
 3	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	nsubj	_	_
 4	for	for	ADP	_	_	5	case	_	_
 5	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	_
@@ -28904,7 +28904,7 @@
 38	annan	annan	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	39	det	_	_
 39	ekspertise	ekspertise	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	36	conj	_	_
 40	innanfor	innanfor	ADP	_	_	43	case	_	_
-41	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	43	nmod	_	_
+41	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	43	nmod	_	_
 42	eige	eigen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	43	det	_	_
 43	morsmål	morsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	39	nmod	_	SpaceAfter=No
 44	.	$.	PUNCT	_	_	4	punct	_	_
@@ -28995,7 +28995,7 @@
 16	inn	inn	ADP	_	_	20	case	_	_
 17	i	i	ADP	_	_	20	case	_	_
 18	EØS-avtalen	EØS-avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	obl	_	_
-19	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	20	nmod	_	_
+19	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	20	nmod	_	_
 20	verknader	verknad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obl	_	_
 21	for	for	ADP	_	_	23	case	_	_
 22	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	23	amod	_	_
@@ -29090,7 +29090,7 @@
 7	ikkje	ikkje	ADV	_	Polarity=Neg	8	advmod	_	_
 8	støtter	støtte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl	_	_
 9	SV	SV	NOUN	_	Abbr=Yes	10	obl	_	_
-10	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
+10	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
 11	forslag	forslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
 12	?	$?	PUNCT	_	_	3	punct	_	_
 
@@ -29255,7 +29255,7 @@
 21	eigentleg	eigentleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	27	advmod	_	_
 22	frå	frå	ADP	_	_	25	case	_	_
 23	Regjeringa	Regjeringa	PROPN	_	_	24	obl	_	_
-24	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	nmod	_	_
+24	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	nmod	_	_
 25	side	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	27	obl	_	_
 26	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	27	aux	_	_
 27	verna	verne	VERB	_	VerbForm=Inf	18	advcl	_	_
@@ -29269,7 +29269,7 @@
 # sent_id =  015681
 # text = Så mitt spørsmål til representanten Onarheim er:
 1	Så	så	CCONJ	_	_	7	cc	_	_
-2	mitt	min	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
+2	mitt	min	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
 3	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
 4	til	til	ADP	_	_	6	case	_	_
 5	representanten	representant	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -29285,7 +29285,7 @@
 4	tråd	tråd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 5	med	med	ADP	_	_	8	case	_	_
 6	Regjeringa	Regjeringa	PROPN	_	_	7	obl	_	_
-7	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
+7	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
 8	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
 9	og	og	CCONJ	_	_	13	cc	_	_
 10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
@@ -29485,7 +29485,7 @@
 1	Men	men	CCONJ	_	_	23	cc	_	_
 2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nmod	_	_
 3	å	å	PART	_	_	4	mark	_	_
-4	seia	seie	VERB	_	VerbForm=Inf	2	appos	_	_
+4	seia	seie	VERB	_	VerbForm=Inf	2	acl	_	_
 5	at	at	SCONJ	_	_	9	mark	_	_
 6	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	9	nsubj	_	_
 7	eigentleg	eigentleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	_
@@ -29630,7 +29630,7 @@
 # text = Det å prøva å vri seg unna med at det ikkje skjer noko, at det ikkje blir bygd ut noko, og heller ikkje foreslå å byggja ut noko, er feigskap.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 2	å	å	PART	_	_	3	mark	_	_
-3	prøva	prøve	VERB	_	VerbForm=Inf	1	appos	_	_
+3	prøva	prøve	VERB	_	VerbForm=Inf	1	acl	_	_
 4	å	å	PART	_	_	5	mark	_	_
 5	vri	vri	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	5	obj	_	_
@@ -29764,7 +29764,7 @@
 7	på	på	ADP	_	_	6	compound:prt	_	_
 8	frå	frå	ADP	_	_	11	case	_	_
 9	Framstegspartiet	Framstegspartiet	NOUN	_	Gender=Neut	10	obl	_	_
-10	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
+10	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
 11	side	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 12	,	$,	PUNCT	_	_	6	punct	_	_
 13	sånn	sånn	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_
@@ -29848,7 +29848,7 @@
 15	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	_
 16	for	for	ADP	_	_	19	case	_	_
 17	alle	all	DET	_	Number=Plur|PronType=Tot	19	det	_	_
-18	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	19	nmod	_	_
+18	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	19	nmod	_	_
 19	hav-	hav-	NOUN	_	_	15	nmod	_	_
 20	og	og	CCONJ	_	_	21	cc	_	_
 21	kystområde	kystområde	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	conj	_	SpaceAfter=No
@@ -29870,7 +29870,7 @@
 12	følgja	følgje	VERB	_	VerbForm=Inf	7	acl:relcl	_	_
 13	opp	opp	ADP	_	_	12	compound:prt	_	_
 14	FN	FN	NOUN	_	Abbr=Yes	15	obl	_	_
-15	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	_
+15	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	_
 16	konvensjon	konvensjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	_
 17	om	om	ADP	_	_	19	case	_	_
 18	biologisk	biologisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
@@ -29988,7 +29988,7 @@
 4	fleirtal	fleirtal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	_
 5	i	i	ADP	_	_	8	case	_	_
 6	FN	FN	NOUN	_	Abbr=Yes	7	obl	_	_
-7	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
+7	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
 8	klimapanel	klimapanel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
 9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	overtydd	overtyde	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	_
@@ -30271,7 +30271,7 @@
 # text = – Naturen si tolegrense må ikkje overskridast.
 1	–	$–	PUNCT	_	_	7	punct	_	_
 2	Naturen	natur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	_
-3	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	_
+3	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	_
 4	tolegrense	tolegrense	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	_
 5	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
 6	ikkje	ikkje	ADV	_	Polarity=Neg	7	advmod	_	_
@@ -30478,7 +30478,7 @@
 11	,	$,	PUNCT	_	_	5	punct	_	_
 12	og	og	CCONJ	_	_	15	cc	_	_
 13	komiteen	komité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	_
-14	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	_
+14	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	_
 15	behandling	behandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	conj	_	_
 16	som	som	PRON	_	PronType=Rel	18	nsubj	_	_
 17	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
@@ -30678,7 +30678,7 @@
 37	utnyttinga	utnytting	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	27	appos	_	_
 38	av	av	ADP	_	_	39	case	_	_
 39	vassressursane	vassressurs	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	37	nmod	_	_
-40	våre	vår	DET	_	Number=Plur|Poss=Yes|PronType=Prs	39	nmod	_	_
+40	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	39	nmod	_	_
 41	til	til	ADP	_	_	42	case	_	_
 42	energiproduksjon	energiproduksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
 43	.	$.	PUNCT	_	_	5	punct	_	_
@@ -30714,7 +30714,7 @@
 11	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 12	baserer	basere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 13	energiproduksjonen	energiproduksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obj	_	_
-14	vår	vår	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	_
+14	vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	_
 15	i	i	ADP	_	_	16	case	_	_
 16	hovudsak	hovudsak	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	_
 17	på	på	ADP	_	_	18	case	_	_
@@ -30820,7 +30820,7 @@
 16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
 17	gjeld	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 18	elforbruket	elforbruk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	obj	_	_
-19	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	SpaceAfter=No
+19	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	SpaceAfter=No
 20	.	$.	PUNCT	_	_	4	punct	_	_
 
 # sent_id =  015754
@@ -30864,7 +30864,7 @@
 7	Noreg	Noreg	PROPN	_	_	8	nsubj	_	_
 8	bruka	bruke	VERB	_	VerbForm=Inf	0	root	_	_
 9	potensialet	potensiale	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obj	_	_
-10	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
+10	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
 11	til	til	ADP	_	_	13	mark	_	_
 12	å	å	PART	_	_	13	mark	_	_
 13	bli	bli	VERB	_	VerbForm=Inf	8	advcl	_	_
@@ -30905,7 +30905,7 @@
 26	for	for	ADP	_	_	28	mark	_	_
 27	å	å	PART	_	_	28	mark	_	_
 28	realisera	realisere	VERB	_	VerbForm=Inf	25	acl	_	_
-29	vår	vår	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	nmod	_	_
+29	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	nmod	_	_
 30	målmedvitne	målmedviten	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	31	amod	_	_
 31	satsing	satsing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	28	obj	_	_
 32	på	på	ADP	_	_	34	case	_	_
@@ -31000,7 +31000,7 @@
 52	Regjeringa	Regjeringa	PROPN	_	_	55	obl	_	_
 53	og	og	CCONJ	_	_	54	cc	_	_
 54	stortingsfleirtalet	stortingsfleirtal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	52	conj	_	_
-55	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	56	nmod	_	_
+55	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	56	nmod	_	_
 56	side	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	50	obl	_	SpaceAfter=No
 57	,	$,	PUNCT	_	_	40	punct	_	_
 58	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	66	cop	_	_
@@ -31424,7 +31424,7 @@
 4	sak	sak	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	nsubj	_	_
 5	påsketuristar	påsketurist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nsubj	_	_
 6	i	i	ADP	_	_	8	case	_	_
-7	vårt	vår	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
+7	vårt	vår	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
 8	område	område	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	_
 9	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	vita	vite	VERB	_	VerbForm=Inf	4	acl:relcl	_	SpaceAfter=No
@@ -31542,7 +31542,7 @@
 5	for	for	ADP	_	_	9	case	_	_
 6	Raude	Raude	PROPN	_	_	8	obl	_	_
 7	Kross	Kross	PROPN	_	_	6	flat:name	_	_
-8	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
+8	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
 9	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
 10	som	som	ADP	_	_	11	case	_	_
 11	hjelpar	hjelpar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	_
@@ -31698,7 +31698,7 @@
 5	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	i	i	ADP	_	_	7	case	_	_
 7	oppgåva	oppgåve	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	_
-8	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	_
+8	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	_
 9	å	å	PART	_	_	10	mark	_	_
 10	arbeide	arbeide	VERB	_	VerbForm=Inf	5	xcomp	_	_
 11	med	med	ADP	_	_	12	case	_	_
@@ -31900,7 +31900,7 @@
 2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	der	der	ADV	_	_	0	root	_	_
 4	på	på	ADP	_	_	6	case	_	_
-5	deira	deira	DET	_	Number=Plur|Poss=Yes|PronType=Prs	6	nmod	_	_
+5	deira	deira	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	6	nmod	_	_
 6	premissar	premiss	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
 7	,	$,	PUNCT	_	_	3	punct	_	_
 8	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
@@ -33434,7 +33434,7 @@
 6	ta	ta	VERB	_	VerbForm=Inf	4	xcomp	_	_
 7	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
 8	utdanninga	utdanning	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obj	_	_
-9	mi	min	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
+9	mi	min	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
 10	i	i	ADP	_	_	11	case	_	_
 11	England	England	PROPN	_	_	6	obl	_	SpaceAfter=No
 12	,	$,	PUNCT	_	_	4	punct	_	_
@@ -33453,7 +33453,7 @@
 # sent_id =  015889
 # text = Målet mitt er eigentleg å kunne kommunisere endå betre på engelsk enn på norsk, sidan engelsk er verdsspråket, seier Kristian.
 1	Målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	_
-2	mitt	min	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	_
+2	mitt	min	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	_
 3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
 4	eigentleg	eigentleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	_
 5	å	å	PART	_	_	7	mark	_	_
@@ -33553,7 +33553,7 @@
 16	dekker	dekke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
 17	halve	halv	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	_
 18	opphaldet	opphald	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obj	_	_
-19	hans	hans	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	_
+19	hans	hans	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	_
 20	på	på	ADP	_	_	22	case	_	_
 21	to	to	NUM	_	Number=Plur|NumType=Card	22	nummod	_	_
 22	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
@@ -33637,7 +33637,7 @@
 # sent_id =  015897
 # text = Kristian si vidaregåande utdanning tek to år, medan Joakim skal vere i Rouen i Normandie i tre år.
 1	Kristian	Kristian	NOUN	_	Gender=Masc	2	obl	_	_
-2	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	_
+2	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	_
 3	vidaregåande	vidaregåande	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
 4	utdanning	utdanning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	tek	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -33706,7 +33706,7 @@
 4	Fylkesmannen	Fylkesmannen	PROPN	_	_	7	obl	_	_
 5	i	i	ADP	_	_	6	case	_	_
 6	Vest-Agder	Vest-Agder	PROPN	_	_	4	nmod	_	_
-7	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
+7	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	_
 8	internasjonaliseringsprogram	internasjonaliseringsprogram	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	_
 9	(	$(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	FIVAI	FIVAI	PROPN	_	_	2	obl	_	SpaceAfter=No
@@ -33768,7 +33768,7 @@
 10	å	å	PART	_	_	11	mark	_	_
 11	utvikle	utvikle	VERB	_	VerbForm=Inf	7	advcl	_	_
 12	språkkunnskapane	språkkunnskap	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	11	obj	_	_
-13	mine	min	DET	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
+13	mine	min	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
 14	,	$,	PUNCT	_	_	2	punct	_	_
 15	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 16	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
@@ -33923,7 +33923,7 @@
 15	om	om	ADP	_	_	21	mark	_	_
 16	at	at	SCONJ	_	_	21	mark	_	_
 17	dottera	dotter	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	_
-18	hennar	hennar	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	_
+18	hennar	hennar	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	_
 19	ikkje	ikkje	ADV	_	Polarity=Neg	21	advmod	_	_
 20	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	gå	gå	VERB	_	VerbForm=Inf	14	acl	_	_
@@ -35012,7 +35012,7 @@
 7	piperekkjer	piperekkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	obl	_	_
 8	i	i	ADP	_	_	11	mark	_	_
 9	kvar	kvar	DET	_	Gender=Masc|Number=Sing|PronType=Tot	11	det	_	_
-10	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
+10	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	_
 11	klangfarge	klangfarge	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
 12	.	$.	PUNCT	_	_	2	punct	_	_
 
@@ -35800,7 +35800,7 @@
 # sent_id =  016004
 # text = Fjellkyrkja sitt mandat er å vere ei levande kyrkje og ein sosial møteplass.
 1	Fjellkyrkja	Fjellkyrkja	PROPN	_	_	2	obl	_	_
-2	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
+2	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	_
 3	mandat	mandat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	_	_
 4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
 5	å	å	PART	_	_	9	mark	_	_
@@ -36475,7 +36475,7 @@
 # text = I tala si la konsul Carlsten vekt på at dei to eldsjelene i fellesskap har bygd opp ein kulturinstitusjon både Vinje, Noreg og Litauen kan vere stolte av.
 1	I	i	ADP	_	_	2	case	_	_
 2	tala	tale	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	_
-3	si	sin	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	_
+3	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	_
 4	la	leggje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	konsul	konsul	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	_
 6	Carlsten	Carlsten	PROPN	_	_	4	nsubj	_	_
@@ -36532,7 +36532,7 @@
 24	konsulatet	konsulat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	27	obl	_	_
 25	og	og	CCONJ	_	_	26	cc	_	_
 26	ambassaden	ambassade	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	conj	_	_
-27	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	28	nmod	_	_
+27	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	28	nmod	_	_
 28	framlegg	framlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	_
 29	til	til	ADP	_	_	30	case	_	_
 30	prisvinnarar	prisvinnar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
@@ -36548,7 +36548,7 @@
 6	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	_
 7	bak	bak	ADP	_	_	11	case	_	_
 8	Carlsten	Carlsten	PROPN	_	_	9	obl	_	_
-9	sine	sin	DET	_	Number=Plur|Poss=Yes|PronType=Prs	11	nmod	_	_
+9	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	11	nmod	_	_
 10	rosande	rose	ADJ	_	VerbForm=Part	11	amod	_	_
 11	ord	ord	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	_
 12	til	til	ADP	_	_	13	case	_	_
