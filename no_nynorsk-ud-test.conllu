@@ -56,7 +56,7 @@
 9	,	$,	PUNCT	_	_	2	punct	_	_
 10	viss	viss	SCONJ	_	_	13	mark	_	_
 11	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
-12	ikkje	ikkje	ADV	_	Polarity=Neg	13	advmod	_	_
+12	ikkje	ikkje	PART	_	Polarity=Neg	13	advmod	_	_
 13	finn	finne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
@@ -887,7 +887,7 @@
 5	berre	berre	ADV	_	_	3	advmod	_	_
 6	offentleg	offentleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	_
 7	-	$-	PUNCT	_	_	6	punct	_	_
-8	ikkje	ikkje	ADV	_	Polarity=Neg	10	advmod	_	_
+8	ikkje	ikkje	PART	_	Polarity=Neg	10	advmod	_	_
 9	på	på	ADP	_	_	10	case	_	_
 10	styrerommet	styrerom	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
 11	.	$.	PUNCT	_	_	3	punct	_	_
@@ -973,7 +973,7 @@
 # text = Det kjem ikkje som ei overrasking på nokon.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	som	som	ADP	_	_	6	mark	_	_
 5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	overrasking	overrasking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	xcomp	_	_
@@ -985,7 +985,7 @@
 # text = Ein treng ikkje sjå eit program på norsk fjernsyn for å skjøna det.
 1	Ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	2	nsubj	_	_
 2	treng	trenge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	sjå	sjå	VERB	_	VerbForm=Inf	2	xcomp	_	_
 5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	program	program	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	_
@@ -1047,7 +1047,7 @@
 # text = Det er ikkje lenger berre tale om å kjøpa nokre einskilde komponentar til produksjonen i heimlandet.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	lenger	lenge	ADJ	_	Degree=Cmp	2	advmod	_	_
 5	berre	berre	ADV	_	_	2	advmod	_	_
 6	tale	tale	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	_	_
@@ -1213,7 +1213,7 @@
 21	av	av	ADP	_	_	25	mark	_	_
 22	di	di	SCONJ	_	_	25	mark	_	_
 23	selskapet	selskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	25	nsubj	_	_
-24	ikkje	ikkje	ADV	_	Polarity=Neg	25	advmod	_	_
+24	ikkje	ikkje	PART	_	Polarity=Neg	25	advmod	_	_
 25	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
 26	større	stor	ADJ	_	Degree=Cmp	27	amod	_	_
 27	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	obj	_	_
@@ -1380,7 +1380,7 @@
 2	Men	men	CCONJ	_	_	6	cc	_	_
 3	ungane	unge	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	_
 4	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
-5	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+5	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 6	ha	ha	VERB	_	VerbForm=Inf	0	root	_	_
 7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
 8	.	$.	PUNCT	_	_	6	punct	_	_
@@ -1498,7 +1498,7 @@
 # text = Det har ikkje berre vore lett.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 4	berre	berre	ADV	_	_	6	advmod	_	_
 5	vore	vere	AUX	_	VerbForm=Part	6	cop	_	_
 6	lett	lett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
@@ -1652,7 +1652,7 @@
 13	lukkelegvis	lukkelegvis	ADV	_	_	18	advmod	_	_
 14	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	_
 15	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
-16	ikkje	ikkje	ADV	_	Polarity=Neg	18	advmod	_	_
+16	ikkje	ikkje	PART	_	Polarity=Neg	18	advmod	_	_
 17	i	i	ADP	_	_	18	case	_	_
 18	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	conj	_	_
 19	då	då	SCONJ	_	_	21	mark	_	_
@@ -1788,7 +1788,7 @@
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	kanskje	kanskje	ADV	_	_	6	advmod	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 5	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	_
 6	uventa	uventa	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 7	for	for	ADP	_	_	9	case	_	_
@@ -2249,7 +2249,7 @@
 4	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
 5	,	$,	PUNCT	_	_	3	punct	_	_
 6	andre	annan	DET	_	Number=Plur|PronType=Dem	3	conj	_	_
-7	ikkje	ikkje	ADV	_	Polarity=Neg	6	orphan	_	SpaceAfter=No
+7	ikkje	ikkje	PART	_	Polarity=Neg	6	orphan	_	SpaceAfter=No
 8	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id =  016211
@@ -2661,7 +2661,7 @@
 19	at	at	SCONJ	_	_	25	mark	_	_
 20	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
 21	engelskmenn	engelskmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	appos	_	_
-22	ikkje	ikkje	ADV	_	Polarity=Neg	25	advmod	_	_
+22	ikkje	ikkje	PART	_	Polarity=Neg	25	advmod	_	_
 23	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	cop	_	_
 24	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	advmod	_	_
 25	kloke	klok	ADJ	_	Degree=Pos|Number=Plur	18	ccomp	_	_
@@ -2762,7 +2762,7 @@
 16	Ronnie	Ronnie	PROPN	_	_	12	conj	_	_
 17	Lee	Lee	PROPN	_	_	16	flat:name	_	_
 18	-	$-	PUNCT	_	_	11	punct	_	_
-19	ikkje	ikkje	ADV	_	Polarity=Neg	21	advmod	_	_
+19	ikkje	ikkje	PART	_	Polarity=Neg	21	advmod	_	_
 20	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	gå	gå	VERB	_	VerbForm=Inf	2	ccomp	_	_
 22	inn	inn	ADP	_	_	24	case	_	_
@@ -2804,7 +2804,7 @@
 9	gruppene	gruppe	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	_
 10	og	og	CCONJ	_	_	11	cc	_	_
 11	menneska	menneske	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	conj	_	_
-12	ikkje	ikkje	ADV	_	Polarity=Neg	13	advmod	_	_
+12	ikkje	ikkje	PART	_	Polarity=Neg	13	advmod	_	_
 13	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 14	lov	lov	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	_
 15	til	til	ADP	_	_	17	mark	_	_
@@ -3198,7 +3198,7 @@
 10	struktur	struktur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	_
 11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	_
 12	vel	vel	ADV	_	_	14	advmod	_	_
-13	ikkje	ikkje	ADV	_	Polarity=Neg	14	advmod	_	_
+13	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	_
 14	gale	galen	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 15	i	i	ADP	_	_	16	case	_	_
 16	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	14	obl	_	_
@@ -3405,7 +3405,7 @@
 9	,	$,	PUNCT	_	_	6	punct	_	_
 10	universitetet	universitet	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	_
 11	fann	finne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
-12	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
+12	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	_
 13	nye	ny	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	_
 14	entreprenørar	entreprenør	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	_
 15	etter	etter	ADP	_	_	20	mark	_	_
@@ -3491,7 +3491,7 @@
 1	Men	men	CCONJ	_	_	5	cc	_	_
 2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 5	nybygget	nybygg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
 6	i	i	ADP	_	_	7	case	_	_
 7	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	5	nmod	_	_
@@ -3820,7 +3820,7 @@
 # text = Det hjelpte ikkje Kidston så mykje, atten månader seinare døydde han av ein kokainoverdose.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hjelpte	hjelpe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	Kidston	Kidston	PROPN	_	_	2	obj	_	_
 5	så	så	ADV	_	_	6	advmod	_	_
 6	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No
@@ -4188,7 +4188,7 @@
 7	vore	vere	AUX	_	VerbForm=Part	8	cop	_	_
 8	feige	feig	ADJ	_	Degree=Pos|Number=Plur	0	root	_	_
 9	og	og	CCONJ	_	_	11	cc	_	_
-10	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
+10	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	_
 11	våga	våge	VERB	_	VerbForm=Part	8	conj	_	_
 12	å	å	PART	_	_	13	mark	_	_
 13	taka	take	VERB	_	VerbForm=Inf	11	xcomp	_	_
@@ -4405,7 +4405,7 @@
 11	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 12	at	at	SCONJ	_	_	16	mark	_	_
 13	augo	auga	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	16	nsubj	_	_
-14	ikkje	ikkje	ADV	_	Polarity=Neg	16	advmod	_	_
+14	ikkje	ikkje	PART	_	Polarity=Neg	16	advmod	_	_
 15	lenger	lenge	ADJ	_	Degree=Cmp	16	advmod	_	_
 16	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
 17	beint	bein	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	_
@@ -4431,7 +4431,7 @@
 8	som	som	PRON	_	PronType=Rel	20	nsubj	_	_
 9	dersom	dersom	SCONJ	_	_	12	mark	_	_
 10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-11	ikkje	ikkje	ADV	_	Polarity=Neg	12	advmod	_	_
+11	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	_
 12	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 13	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	lapp	lapp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	_
@@ -4449,7 +4449,7 @@
 26	av	av	ADP	_	_	32	mark	_	_
 27	di	di	SCONJ	_	_	32	mark	_	_
 28	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
-29	ikkje	ikkje	ADV	_	Polarity=Neg	32	advmod	_	_
+29	ikkje	ikkje	PART	_	Polarity=Neg	32	advmod	_	_
 30	lenger	lenge	ADJ	_	Degree=Cmp	32	advmod	_	_
 31	«	$"	PUNCT	_	_	32	punct	_	_
 32	treng	trenge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	_
@@ -4560,7 +4560,7 @@
 39	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
 40	at	at	SCONJ	_	_	43	mark	_	_
 41	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	_
-42	ikkje	ikkje	ADV	_	Polarity=Neg	43	advmod	_	_
+42	ikkje	ikkje	PART	_	Polarity=Neg	43	advmod	_	_
 43	oppstår	oppstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	39	ccomp	_	SpaceAfter=No
 44	.	$.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 45	»	$"	PUNCT	_	_	9	punct	_	_
@@ -4803,7 +4803,7 @@
 3	vedgå	vedgå	VERB	_	VerbForm=Inf	0	root	_	_
 4	at	at	SCONJ	_	_	8	mark	_	_
 5	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-6	ikkje	ikkje	ADV	_	Polarity=Neg	8	advmod	_	_
+6	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	_
 7	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	venta	vente	VERB	_	VerbForm=Part	3	ccomp	_	_
 9	å	å	PART	_	_	10	mark	_	_
@@ -5042,7 +5042,7 @@
 2	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	møter	møte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
-5	ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+5	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 6	lenger	lenge	ADJ	_	Degree=Cmp	3	advmod	_	_
 7	til	til	ADP	_	_	9	case	_	_
 8	ope	open	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
@@ -5060,7 +5060,7 @@
 7	,	$,	PUNCT	_	_	4	punct	_	_
 8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
 9	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
-10	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
+10	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	_
 11	fri	fri	VERB	_	VerbForm=Inf	0	root	_	_
 12	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
 13	frå	frå	ADP	_	_	15	mark	_	_
@@ -5168,7 +5168,7 @@
 7	når	når	SCONJ	_	_	11	mark	_	_
 8	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 9	forskarar	forskar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	appos	_	_
-10	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
+10	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	_
 11	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 12	ope	open	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	_
 13	ut	ut	ADP	_	_	11	compound:prt	_	_
@@ -5195,7 +5195,7 @@
 1	Men	men	CCONJ	_	_	6	cc	_	_
 2	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 5	berre	berre	ADV	_	_	6	advmod	_	_
 6	negativt	negativ	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 7	.	$.	PUNCT	_	_	6	punct	_	_
@@ -5398,7 +5398,7 @@
 5	Guardian	Guardian	PROPN	_	_	4	flat:name	_	_
 6	om	om	SCONJ	_	_	9	mark	_	_
 7	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-8	ikkje	ikkje	ADV	_	Polarity=Neg	9	advmod	_	_
+8	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	_
 9	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl	_	_
 10	at	at	SCONJ	_	_	20	mark	_	_
 11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
@@ -5463,7 +5463,7 @@
 18	for	for	ADP	_	_	19	case	_	_
 19	dyreforsking	dyreforsking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	_
 20	og	og	CCONJ	_	_	24	cc	_	_
-21	ikkje	ikkje	ADV	_	Polarity=Neg	24	advmod	_	_
+21	ikkje	ikkje	PART	_	Polarity=Neg	24	advmod	_	_
 22	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	_
 23	ville	vill	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	_
 24	aper	ape	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
@@ -5475,7 +5475,7 @@
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	vel	vel	ADV	_	_	5	advmod	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 5	naudsynt	naudsynt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 6	å	å	PART	_	_	7	mark	_	_
 7	seia	seie	VERB	_	VerbForm=Inf	5	csubj	_	_
@@ -5493,7 +5493,7 @@
 1	-	$-	PUNCT	_	_	5	punct	_	_
 2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 5	seia	seie	VERB	_	VerbForm=Inf	0	root	_	_
 6	anna	annan	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	_
 7	enn	enn	ADP	_	_	12	mark	_	_
@@ -5895,7 +5895,7 @@
 13	middel	middel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No
 14	,	$,	PUNCT	_	_	2	punct	_	_
 15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
-16	ikkje	ikkje	ADV	_	Polarity=Neg	17	advmod	_	_
+16	ikkje	ikkje	PART	_	Polarity=Neg	17	advmod	_	_
 17	spurt	spørje	VERB	_	VerbForm=Part	0	root	_	_
 18	naturlovene	naturlov	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	17	obj	_	_
 19	om	om	ADP	_	_	23	mark	_	_
@@ -5998,7 +5998,7 @@
 # text = Det er ikkje meir enn eit par år sidan IEA avviste alt snakk om nokon topp i oljeutvinninga før bortimot 2030.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	8	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	_
 4	meir	mykje	ADJ	_	Degree=Cmp	7	amod	_	_
 5	enn	enn	ADP	_	_	6	case	_	_
 6	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	4	obl	_	_
@@ -6219,7 +6219,7 @@
 3	optimistiske	optimistisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
 4	Oljedirektoratet	Oljedirektoratet	PROPN	_	_	5	nsubj	_	_
 5	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+6	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 7	anna	annan	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	_
 8	å	å	PART	_	_	9	mark	_	_
 9	by	by	VERB	_	VerbForm=Inf	7	acl	_	_
@@ -6390,7 +6390,7 @@
 # text = Skipet kan ikkje søkke.
 1	Skipet	skip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
 2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	4	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	_
 4	søkke	søkke	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
 5	.	$.	PUNCT	_	_	4	punct	_	_
 
@@ -6779,7 +6779,7 @@
 22	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
 23	i	i	ADP	_	_	24	case	_	_
 24	realiteten	realitet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	obl	_	_
-25	ikkje	ikkje	ADV	_	Polarity=Neg	21	advmod	_	_
+25	ikkje	ikkje	PART	_	Polarity=Neg	21	advmod	_	_
 26	noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	27	det	_	_
 27	alternativ	alternativ	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obj	_	_
 28	til	til	ADP	_	_	29	case	_	_
@@ -6788,7 +6788,7 @@
 
 # sent_id =  016440
 # text = Ikkje i mengder som monar.
-1	Ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+1	Ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 2	i	i	ADP	_	_	3	case	_	_
 3	mengder	mengd	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	_
 4	som	som	PRON	_	PronType=Rel	5	nsubj	_	_
@@ -6915,7 +6915,7 @@
 12	middel	middel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
 13	,	$,	PUNCT	_	_	1	punct	_	_
 14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
-15	ikkje	ikkje	ADV	_	Polarity=Neg	16	advmod	_	_
+15	ikkje	ikkje	PART	_	Polarity=Neg	16	advmod	_	_
 16	spurt	spørje	VERB	_	VerbForm=Part	0	root	_	_
 17	naturlovene	naturlov	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	16	obj	_	_
 18	om	om	ADP	_	_	22	mark	_	_
@@ -7508,7 +7508,7 @@
 # text = Framstegspartiet vart ikkje berre ein ny maktfaktor i norsk politikk.
 1	Framstegspartiet	Framstegspartiet	NOUN	_	Gender=Neut	2	nsubj	_	_
 2	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	berre	berre	ADV	_	_	2	advmod	_	_
 5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
@@ -7532,7 +7532,7 @@
 10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	tillate	tillate	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	5	advmod	_	_
 12	og	og	CCONJ	_	_	14	cc	_	_
-13	ikkje	ikkje	ADV	_	Polarity=Neg	14	advmod	_	_
+13	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	_
 14	tillate	tillate	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	11	conj	_	_
 15	i	i	ADP	_	_	18	case	_	_
 16	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	18	det	_	_
@@ -7889,7 +7889,7 @@
 # text = Dette er ikkje berre Carl I. Hagens verk.
 1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	8	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	_
 4	berre	berre	ADV	_	_	8	advmod	_	_
 5	Carl	Carl	NOUN	_	Gender=Masc	8	nmod	_	_
 6	I.	I.	NOUN	_	Abbr=Yes	5	flat:name	_	_
@@ -7902,7 +7902,7 @@
 1	Men	men	CCONJ	_	_	5	cc	_	_
 2	Sverdrup	Sverdrup	PROPN	_	_	5	nsubj	_	_
 3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 5	åleine	åleine	ADV	_	_	0	root	_	_
 6	om	om	ADP	_	_	8	mark	_	_
 7	å	å	PART	_	_	8	mark	_	_
@@ -7959,7 +7959,7 @@
 2	I.	I.	NOUN	_	Abbr=Yes	1	flat:name	_	_
 3	Hagen	Hagen	PROPN	_	_	1	flat:name	_	_
 4	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
-5	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+5	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 6	forståast	forstå	VERB	_	VerbForm=Inf	0	root	_	_
 7	utan	utan	ADP	_	_	8	case	_	_
 8	fjernsynet	fjernsyn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
@@ -8015,7 +8015,7 @@
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	kjensler	kjensle	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	_
 4	-	$-	PUNCT	_	_	3	punct	_	_
-5	ikkje	ikkje	ADV	_	Polarity=Neg	7	advmod	_	_
+5	ikkje	ikkje	PART	_	Polarity=Neg	7	nmod	_	_
 6	sakleg	sakleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
 7	informasjon	informasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	_
 8	-	$-	PUNCT	_	_	7	punct	_	_
@@ -8033,7 +8033,7 @@
 3	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	arena	arena	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	xcomp	_	_
 5	som	som	PRON	_	PronType=Rel	11	iobj	_	_
-6	ikkje	ikkje	ADV	_	Polarity=Neg	7	advmod	_	_
+6	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	_
 7	nokon	nokon	DET	_	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
 8	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	_
 9	politikar	politikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -8134,7 +8134,7 @@
 # text = Mannen som ikkje har makt, men likevel all makt.
 1	Mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 2	som	som	PRON	_	PronType=Rel	4	nsubj	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	4	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	_
 4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 5	makt	makt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 6	,	$,	PUNCT	_	_	4	punct	_	_
@@ -8275,7 +8275,7 @@
 2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	fyrste	fyrste	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	0	root	_	_
 4	som	som	PRON	_	PronType=Rel	7	nsubj	_	_
-5	ikkje	ikkje	ADV	_	Polarity=Neg	7	advmod	_	_
+5	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	_
 6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	funne	finne	VERB	_	VerbForm=Part	3	acl:relcl	_	_
 8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
@@ -8332,7 +8332,7 @@
 # text = Framstegspartiet er ikkje noko parti for framsteg.
 1	Framstegspartiet	Framstegspartiet	NOUN	_	Gender=Neut	5	nsubj	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 4	noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	5	det	_	_
 5	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 6	for	for	ADP	_	_	7	case	_	_
@@ -8428,7 +8428,7 @@
 9	devaluera	devaluere	VERB	_	VerbForm=Inf	6	advcl	_	_
 10	krona	krone	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	obj	_	_
 11	eller	eller	CCONJ	_	_	12	cc	_	_
-12	ikkje	ikkje	ADV	_	Polarity=Neg	6	conj	_	SpaceAfter=No
+12	ikkje	ikkje	PART	_	Polarity=Neg	6	conj	_	SpaceAfter=No
 13	.	$.	PUNCT	_	_	6	punct	_	_
 
 # newpar
@@ -8468,7 +8468,7 @@
 17	»	$"	PUNCT	_	_	16	punct	_	_
 18	om	om	SCONJ	_	_	21	mark	_	_
 19	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	21	nsubj	_	_
-20	ikkje	ikkje	ADV	_	Polarity=Neg	24	advmod	_	_
+20	ikkje	ikkje	PART	_	Polarity=Neg	24	advmod	_	_
 21	vil	vilje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 22	eller	eller	CCONJ	_	_	24	cc	_	_
 23	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	_
@@ -8511,7 +8511,7 @@
 20	partiprogrammet	partiprogram	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	obl	_	_
 21	og	og	CCONJ	_	_	25	cc	_	_
 22	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	cop	_	_
-23	ikkje	ikkje	ADV	_	Polarity=Neg	25	advmod	_	_
+23	ikkje	ikkje	PART	_	Polarity=Neg	25	advmod	_	_
 24	noka	nokon	DET	_	Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
 25	overrasking	overrasking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
 26	.	$.	PUNCT	_	_	3	punct	_	_
@@ -8728,7 +8728,7 @@
 # text = Media tek ikkje omsyn til at statsrådar lever under eit ekstremt arbeidspress.
 1	Media	medium	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	_
 2	tek	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	omsyn	omsyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	_
 5	til	til	ADP	_	_	8	mark	_	_
 6	at	at	SCONJ	_	_	8	mark	_	_
@@ -8759,7 +8759,7 @@
 1	At	at	SCONJ	_	_	6	mark	_	_
 2	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	6	nsubj	_	_
 3	då	då	ADV	_	_	6	advmod	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 5	alltid	alltid	ADV	_	_	6	advmod	_	_
 6	hugsar	hugse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	csubj	_	_
 7	rekkjefølgja	rekkjefølgje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obj	_	_
@@ -8780,7 +8780,7 @@
 3	rapporterer	rapportere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	og	og	CCONJ	_	_	5	cc	_	_
 5	fokuserer	fokusere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
-6	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+6	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 7	media	medium	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	nsubj	_	_
 8	på	på	ADP	_	_	11	case	_	_
 9	dei	dei	DET	_	Number=Plur|PronType=Dem	11	det	_	_
@@ -8840,7 +8840,7 @@
 3	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	_
 4	namn	namn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
 5	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
-6	ikkje	ikkje	ADV	_	Polarity=Neg	7	advmod	_	_
+6	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	_
 7	med	med	ADP	_	_	0	root	_	_
 8	då	då	SCONJ	_	_	10	mark	_	_
 9	Olympiatoppen	Olympiatoppen	PROPN	_	_	10	nsubj	_	_
@@ -8948,7 +8948,7 @@
 11	/	$/	SYM	_	_	10	compound	_	SpaceAfter=No
 12	Vereide-Hyen	Vereide-Hyen	PROPN	_	_	10	conj	_	SpaceAfter=No
 13	)	$)	PUNCT	_	_	10	punct	_	_
-14	ikkje	ikkje	ADV	_	Polarity=Neg	16	advmod	_	_
+14	ikkje	ikkje	PART	_	Polarity=Neg	16	advmod	_	_
 15	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advmod	_	_
 16	utteken	utteken	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	ccomp	_	_
 17	i	i	ADP	_	_	18	case	_	_
@@ -8977,7 +8977,7 @@
 1	Førebels	førebels	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	altså	altså	ADV	_	_	6	advmod	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	nok	nok	ADV	_	_	0	root	_	SpaceAfter=No
 7	.	$.	PUNCT	_	_	6	punct	_	_
@@ -8985,7 +8985,7 @@
 # sent_id =  016566
 # text = Heller ikkje klubbkameraten Roger Aa Djupvik har fått klarsignal.
 1	Heller	heller	ADV	_	_	2	advmod	_	_
-2	ikkje	ikkje	ADV	_	Polarity=Neg	4	advmod	_	_
+2	ikkje	ikkje	PART	_	Polarity=Neg	4	nmod	_	_
 3	klubbkameraten	klubbkamerat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_
 4	Roger	Roger	NOUN	_	Gender=Masc	8	nsubj	_	_
 5	Aa	Aa	PROPN	_	_	4	flat:name	_	_
@@ -8999,7 +8999,7 @@
 # text = Han har ikkje prestert godt i år, og enda berre som nummer 35 laurdag.
 1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	4	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	_
 4	prestert	prestere	VERB	_	VerbForm=Part	0	root	_	_
 5	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	_
 6	i	i	ADP	_	_	7	case	_	_
@@ -9097,7 +9097,7 @@
 7	Posten	Posten	PROPN	_	_	5	obl	_	SpaceAfter=No
 8	,	$,	PUNCT	_	_	5	punct	_	_
 9	hindra	hindre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-10	ikkje	ikkje	ADV	_	Polarity=Neg	9	advmod	_	_
+10	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	_
 11	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 12	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 13	frå	frå	ADP	_	_	15	mark	_	_
@@ -9216,7 +9216,7 @@
 # newpar
 # sent_id =  016579
 # text = Ikkje heilt einig med sjåføren - og spytta ut
-1	Ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+1	Ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 2	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	_
 3	einig	einig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
 4	med	med	ADP	_	_	5	case	_	_
@@ -9719,7 +9719,7 @@
 11	men	men	CCONJ	_	_	15	cc	_	_
 12	staben	stab	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	_
 13	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
-14	ikkje	ikkje	ADV	_	Polarity=Neg	15	advmod	_	_
+14	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	_
 15	utvidast	utvide	VERB	_	VerbForm=Inf	2	conj	_	_
 16	no	no	ADV	_	_	15	advmod	_	SpaceAfter=No
 17	,	$,	PUNCT	_	_	2	punct	_	_
@@ -10087,7 +10087,7 @@
 1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	miner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 5	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	xcomp	_	_
 6	behov	behov	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	_
 7	for	for	ADP	_	_	10	case	_	_
@@ -10233,7 +10233,7 @@
 # text = Det hadde ikkje vore meg i mot at Jølster kommune eigde den.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 4	vore	vere	AUX	_	VerbForm=Part	5	cop	_	_
 5	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	_
 6	i	i	ADP	_	_	5	case	_	_
@@ -10279,7 +10279,7 @@
 # sent_id =  016637
 # text = Stoppa ikkje i kontroll - fekk 8000 kroner i bot
 1	Stoppa	stoppe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	ikkje	ikkje	ADV	_	Polarity=Neg	1	advmod	_	_
+2	ikkje	ikkje	PART	_	Polarity=Neg	1	advmod	_	_
 3	i	i	ADP	_	_	4	case	_	_
 4	kontroll	kontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	_
 5	-	$-	PUNCT	_	_	1	punct	_	_
@@ -10357,7 +10357,7 @@
 # text = Dette fall ikkje i god jord hos politiet, som gav sjåføren 8000 kroner i bot for å ha latt vere å stoppe i kontrollen.
 1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	fall	falle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	i	i	ADP	_	_	6	case	_	_
 5	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	_
 6	jord	jord	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	_
@@ -10498,7 +10498,7 @@
 13	,	$,	PUNCT	_	_	6	punct	_	_
 14	at	at	SCONJ	_	_	18	mark	_	_
 15	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
-16	ikkje	ikkje	ADV	_	Polarity=Neg	18	advmod	_	_
+16	ikkje	ikkje	PART	_	Polarity=Neg	18	advmod	_	_
 17	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	ta	ta	VERB	_	VerbForm=Inf	6	advcl	_	_
 19	opp	opp	ADP	_	_	18	compound:prt	_	_
@@ -10591,7 +10591,7 @@
 12	prøvane	prøve	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	16	obl	_	_
 13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
 14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	_
-15	ikkje	ikkje	ADV	_	Polarity=Neg	16	advmod	_	_
+15	ikkje	ikkje	PART	_	Polarity=Neg	16	advmod	_	_
 16	påvist	påvise	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	conj	_	_
 17	laksedreparen	laksedrepar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	_
 18	Gyrodactylus	Gyrodactylus	PROPN	_	_	16	obj	_	_
@@ -10604,7 +10604,7 @@
 2	Sælthun	Sælthun	PROPN	_	_	3	nsubj	_	_
 3	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
-5	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+5	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 6	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	xcomp	_	_
 7	nok	nok	ADV	_	_	8	advmod	_	_
 8	fisk	fisk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -10619,7 +10619,7 @@
 1	-	$-	PUNCT	_	_	3	punct	_	_
 2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 5	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	3	nsubj	_	_
 6	å	å	PART	_	_	7	mark	_	_
 7	fiska	fiske	VERB	_	VerbForm=Inf	5	acl	_	_
@@ -10834,7 +10834,7 @@
 # sent_id =  016670
 # text = Veit ikkje når feilen blir utbetra
 1	Veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	ikkje	ikkje	ADV	_	Polarity=Neg	1	advmod	_	_
+2	ikkje	ikkje	PART	_	Polarity=Neg	1	advmod	_	_
 3	når	når	ADV	_	_	6	advmod	_	_
 4	feilen	feil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 5	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
@@ -10877,7 +10877,7 @@
 # text = Vi veit ikkje enno om vi har funne feilen, men håpar sjølvsagt det.
 1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	enno	enno	ADV	_	_	2	advmod	_	_
 5	om	om	SCONJ	_	_	8	mark	_	_
 6	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
@@ -10933,7 +10933,7 @@
 # sent_id =  016675
 # text = Fekk ikkje rigge MGP - fordi dei er jenter
 1	Fekk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
-2	ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+2	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 3	rigge	rigge	VERB	_	VerbForm=Inf	0	root	_	_
 4	MGP	MGP	PROPN	_	_	3	obj	_	_
 5	-	$-	PUNCT	_	_	3	punct	_	_
@@ -11012,7 +11012,7 @@
 6	vore	vere	AUX	_	VerbForm=Part	10	cop	_	_
 7	at	at	SCONJ	_	_	10	mark	_	_
 8	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
-9	ikkje	ikkje	ADV	_	Polarity=Neg	10	advmod	_	_
+9	ikkje	ikkje	PART	_	Polarity=Neg	10	advmod	_	_
 10	trudde	tru	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	jentene	jente	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	_
 12	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	_
@@ -11120,7 +11120,7 @@
 14	klassen	klasse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 15	,	$,	PUNCT	_	_	9	punct	_	_
 16	men	men	CCONJ	_	_	18	cc	_	_
-17	ikkje	ikkje	ADV	_	Polarity=Neg	18	advmod	_	_
+17	ikkje	ikkje	PART	_	Polarity=Neg	18	advmod	_	_
 18	jentene	jente	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
 19	.	$.	PUNCT	_	_	4	punct	_	_
 
@@ -11173,7 +11173,7 @@
 9	men	men	CCONJ	_	_	11	cc	_	_
 10	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 11	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
-12	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
+12	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	_
 13	høve	høve	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	_
 14	til	til	ADP	_	_	16	mark	_	_
 15	å	å	PART	_	_	16	mark	_	_
@@ -11241,7 +11241,7 @@
 # text = At dei ikkje får vere med fordi dei er jenter, og at det vart gjeve beskjed så seint.
 1	At	at	SCONJ	_	_	6	mark	_	_
 2	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 4	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	vere	vere	AUX	_	VerbForm=Inf	6	cop	_	_
 6	med	med	ADP	_	_	0	root	_	_
@@ -11287,7 +11287,7 @@
 5	om	om	ADP	_	_	10	case	_	_
 6	at	at	SCONJ	_	_	10	mark	_	_
 7	jentene	jente	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	_
-8	ikkje	ikkje	ADV	_	Polarity=Neg	10	advmod	_	_
+8	ikkje	ikkje	PART	_	Polarity=Neg	10	advmod	_	_
 9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
 10	gode	god	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	_
 11	nok	nok	ADV	_	_	10	advmod	_	SpaceAfter=No
@@ -11406,7 +11406,7 @@
 1	-	$-	PUNCT	_	_	5	punct	_	_
 2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
 3	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 5	vurdert	vurdere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	_
 6	som	som	ADP	_	_	7	mark	_	_
 7	forsvarleg	forsvarleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	acl	_	SpaceAfter=No
@@ -11436,7 +11436,7 @@
 17	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
 18	vere	vere	AUX	_	VerbForm=Inf	19	cop	_	_
 19	sterke	sterk	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	_
-20	ikkje	ikkje	ADV	_	Polarity=Neg	21	advmod	_	_
+20	ikkje	ikkje	PART	_	Polarity=Neg	21	advmod	_	_
 21	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	csubj	_	_
 22	tydeleg	tydeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	acl	_	_
 23	nok	nok	ADV	_	_	22	advmod	_	_
@@ -11458,7 +11458,7 @@
 1	To	to	NUM	_	Number=Plur|NumType=Card	2	nummod	_	_
 2	ungdommar	ungdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 5	køyrt	køyre	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	_
 6	til	til	ADP	_	_	7	case	_	_
 7	døra	dør	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	_
@@ -11499,7 +11499,7 @@
 10	Sunnarvik	Sunnarvik	PROPN	_	_	8	flat:name	_	_
 11	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	11	obj	_	_
-13	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
+13	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	_
 14	lenger	lang	ADJ	_	Degree=Cmp	11	advmod	_	_
 15	enn	enn	ADP	_	_	17	case	_	_
 16	til	til	ADP	_	_	17	case	_	_
@@ -11720,7 +11720,7 @@
 # sent_id =  016721
 # text = Betaler ikkje taxi når eg kan gå.
 1	Betaler	betale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	ikkje	ikkje	ADV	_	Polarity=Neg	1	advmod	_	_
+2	ikkje	ikkje	PART	_	Polarity=Neg	1	advmod	_	_
 3	taxi	taxi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	_
 4	når	når	SCONJ	_	_	7	mark	_	_
 5	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
@@ -11828,7 +11828,7 @@
 3	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	at	at	SCONJ	_	_	9	mark	_	_
 5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
-6	ikkje	ikkje	ADV	_	Polarity=Neg	9	advmod	_	_
+6	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	_
 7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	menneskerett	menneskerett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	_
@@ -11846,7 +11846,7 @@
 1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	likevel	likevel	ADV	_	_	2	advmod	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 5	full	full	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	_
 6	støte	støtte	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	_
 7	for	for	ADP	_	_	8	case	_	_
@@ -11866,7 +11866,7 @@
 9	men	men	CCONJ	_	_	13	cc	_	_
 10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
-12	ikkje	ikkje	ADV	_	Polarity=Neg	13	advmod	_	_
+12	ikkje	ikkje	PART	_	Polarity=Neg	13	advmod	_	_
 13	greit	grei	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	conj	_	_
 14	no	no	ADV	_	_	13	advmod	_	_
 15	for	for	ADP	_	_	16	case	_	SpaceAfter=No
@@ -12455,7 +12455,7 @@
 7	avisa	avis	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	_
 8	at	at	SCONJ	_	_	12	mark	_	_
 9	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-10	ikkje	ikkje	ADV	_	Polarity=Neg	12	advmod	_	_
+10	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	_
 11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
 12	uroa	uroe	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	5	ccomp	_	_
 13	for	for	ADP	_	_	17	mark	_	_
@@ -12707,7 +12707,7 @@
 1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	framleis	framleis	ADV	_	_	2	advmod	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 5	korleis	korleis	ADV	_	_	8	advmod	_	_
 6	meldaren	meldar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	_
 7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -12761,7 +12761,7 @@
 
 # sent_id =  016787
 # text = Ikkje berre likar han musikken vår, men han likar den veldig, veldig godt, sprudlar Skram overfor VG.
-1	Ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+1	Ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 2	berre	berre	ADV	_	_	3	advmod	_	_
 3	likar	like	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -13458,7 +13458,7 @@
 19	til	til	ADP	_	_	20	case	_	_
 20	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	18	obl	_	_
 21	om	om	ADP	_	_	23	case	_	_
-22	ikkje	ikkje	ADV	_	Polarity=Neg	23	advmod	_	_
+22	ikkje	ikkje	PART	_	Polarity=Neg	23	advmod	_	_
 23	lenge	lenge	ADJ	_	Degree=Pos	18	advmod	_	SpaceAfter=No
 24	.	$.	PUNCT	_	_	18	punct	_	_
 
@@ -13738,7 +13738,7 @@
 3	stadfesta	stadfeste	VERB	_	VerbForm=Part	0	root	_	_
 4	at	at	SCONJ	_	_	7	mark	_	_
 5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
-6	ikkje	ikkje	ADV	_	Polarity=Neg	7	advmod	_	_
+6	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	_
 7	finast	finnast	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	xcomp	_	_
 8	skilnad	skilnad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	_
 9	i	i	ADP	_	_	10	case	_	_
@@ -13776,7 +13776,7 @@
 11	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
 12	piggar	pigg	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nsubj	_	_
 13	eller	eller	CCONJ	_	_	14	cc	_	_
-14	ikkje	ikkje	ADV	_	Polarity=Neg	11	conj	_	_
+14	ikkje	ikkje	PART	_	Polarity=Neg	11	conj	_	_
 15	i	i	ADP	_	_	16	case	_	_
 16	dekka	dekk	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	orphan	_	SpaceAfter=No
 17	.	$.	PUNCT	_	_	6	punct	_	_
@@ -13876,7 +13876,7 @@
 4	is	is	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	_
 5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
 6	altså	altså	ADV	_	_	9	advmod	_	_
-7	ikkje	ikkje	ADV	_	Polarity=Neg	9	advmod	_	_
+7	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	_
 8	så	så	ADV	_	_	9	advmod	_	_
 9	farleg	farleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 10	som	som	ADP	_	_	11	case	_	_
@@ -13933,7 +13933,7 @@
 29	,	$,	PUNCT	_	_	3	punct	_	_
 30	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 31	heller	heller	ADV	_	_	30	advmod	_	_
-32	ikkje	ikkje	ADV	_	Polarity=Neg	30	advmod	_	_
+32	ikkje	ikkje	PART	_	Polarity=Neg	30	advmod	_	_
 33	med	med	ADP	_	_	35	mark	_	_
 34	å	å	PART	_	_	35	mark	_	_
 35	gjere	gjere	VERB	_	VerbForm=Inf	30	advcl	_	_
@@ -13992,7 +13992,7 @@
 10	bilvindauga	bilvindauge	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
 11	,	$,	PUNCT	_	_	6	punct	_	_
 12	og	og	CCONJ	_	_	17	cc	_	_
-13	ikkje	ikkje	ADV	_	Polarity=Neg	14	advmod	_	_
+13	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	_
 14	sjeldan	sjeldan	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	_
 15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
 16	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	17	nsubj	_	_
@@ -14570,7 +14570,7 @@
 9	Connor	Connor	PROPN	_	_	8	flat:name	_	SpaceAfter=No
 10	,	$,	PUNCT	_	_	5	punct	_	_
 11	sender	sende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
+12	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	_
 13	motstandsrørsla	motstandsrørsle	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	_
 14	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	soldat	soldat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	_
@@ -14590,7 +14590,7 @@
 1	Denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	kyborgen	kyborg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 5	uovervinneleg	uovervinneleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
 6	,	$,	PUNCT	_	_	5	punct	_	_
 7	men	men	CCONJ	_	_	10	cc	_	_
@@ -14867,7 +14867,7 @@
 2	regelen	regel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	likevel	likevel	ADV	_	_	3	advmod	_	_
-5	ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+5	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 6	til	til	ADP	_	_	8	mark	_	_
 7	å	å	PART	_	_	8	mark	_	_
 8	gjelda	gjelde	VERB	_	VerbForm=Inf	3	advcl	_	_
@@ -14950,14 +14950,14 @@
 1	-	$-	PUNCT	_	_	3	punct	_	_
 2	Ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	3	nsubj	_	_
 3	forstår	forstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
 6	tredje	tredje	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
 7	riket	rike	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
 8	,	$,	PUNCT	_	_	3	punct	_	_
 9	om	om	SCONJ	_	_	12	mark	_	_
 10	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	12	nsubj	_	_
-11	ikkje	ikkje	ADV	_	Polarity=Neg	12	advmod	_	_
+11	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	_
 12	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
 14	som	som	ADP	_	_	17	mark	_	_
@@ -14980,7 +14980,7 @@
 # text = Den som ikkje vil snakka om dei mange fordelane for den vanlege tyskar burde tia om nasjonalsosialisme og om holocaust, meiner Götz Aly, ein av Tysklands fremste holocaustforskarar.
 1	Den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 2	som	som	PRON	_	PronType=Rel	5	nsubj	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 4	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	snakka	snakke	VERB	_	VerbForm=Inf	1	acl:relcl	_	_
 6	om	om	ADP	_	_	9	case	_	_
@@ -15061,7 +15061,7 @@
 11	at	at	SCONJ	_	_	20	mark	_	_
 12	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 13	som	som	PRON	_	PronType=Rel	16	nsubj	_	_
-14	ikkje	ikkje	ADV	_	Polarity=Neg	16	advmod	_	_
+14	ikkje	ikkje	PART	_	Polarity=Neg	16	advmod	_	_
 15	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	snakka	snakke	VERB	_	VerbForm=Inf	12	acl:relcl	_	_
 17	om	om	ADP	_	_	18	case	_	_
@@ -15104,7 +15104,7 @@
 # text = Aly fann ikkje forklåringa på dette i nazistisk ideologi og fanatisk førarkult, men i økonomien.
 1	Aly	Aly	PROPN	_	_	2	nsubj	_	_
 2	fann	finne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	forklåringa	forklåring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obj	_	_
 5	på	på	ADP	_	_	6	case	_	_
 6	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
@@ -15217,7 +15217,7 @@
 12	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	nsubj	_	_
 13	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
 14	likevel	likevel	ADV	_	_	15	advmod	_	_
-15	ikkje	ikkje	ADV	_	Polarity=Neg	16	advmod	_	_
+15	ikkje	ikkje	PART	_	Polarity=Neg	16	advmod	_	_
 16	betala	betale	VERB	_	VerbForm=Inf	2	conj	_	_
 17	meir	mykje	ADJ	_	Degree=Cmp	18	amod	_	_
 18	skatt	skatt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
@@ -15607,7 +15607,7 @@
 11	som	som	PRON	_	PronType=Rel	12	nsubj	_	_
 12	omhandlar	omhandle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	økonomi	økonomi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	_
-14	ikkje	ikkje	ADV	_	Polarity=Neg	15	advmod	_	_
+14	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	_
 15	katalogiserte	katalogisere	ADJ	_	Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No
 16	.	$.	PUNCT	_	_	15	punct	_	_
 
@@ -15792,7 +15792,7 @@
 6	Noreg	Noreg	PROPN	_	_	7	obl	_	_
 7	fanst	finnast	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
-9	ikkje	ikkje	ADV	_	Polarity=Neg	7	advmod	_	_
+9	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	_
 10	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	nsubj	_	_
 11	å	å	PART	_	_	12	mark	_	_
 12	bruka	bruke	VERB	_	VerbForm=Inf	10	acl	_	_
@@ -16416,10 +16416,10 @@
 1	-	$-	PUNCT	_	_	3	punct	_	_
 2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	hevdar	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 5	at	at	SCONJ	_	_	8	mark	_	_
 6	næringslivet	næringsliv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	_
-7	ikkje	ikkje	ADV	_	Polarity=Neg	8	advmod	_	_
+7	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	_
 8	profitterte	profittere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
 9	på	på	ADP	_	_	10	case	_	_
 10	krigen	krig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
@@ -16494,7 +16494,7 @@
 1	-	$-	PUNCT	_	_	5	punct	_	_
 2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 5	ute	ute	ADP	_	_	0	root	_	_
 6	etter	etter	ADP	_	_	8	mark	_	_
 7	å	å	PART	_	_	8	mark	_	_
@@ -17030,7 +17030,7 @@
 7	,	$,	PUNCT	_	_	3	punct	_	_
 8	finn	finne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	8	nsubj	_	_
-10	ikkje	ikkje	ADV	_	Polarity=Neg	8	advmod	_	_
+10	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	_
 11	noko	noko	DET	_	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
 12	eintydig	eintydig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	_
 13	marknadsliberalistisk	marknadsliberalistisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	_
@@ -17155,7 +17155,7 @@
 13	av	av	ADP	_	_	14	case	_	_
 14	administratorar	administrator	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	_
 15	som	som	PRON	_	PronType=Rel	17	nsubj	_	_
-16	ikkje	ikkje	ADV	_	Polarity=Neg	17	advmod	_	_
+16	ikkje	ikkje	PART	_	Polarity=Neg	17	advmod	_	_
 17	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 18	å	å	PART	_	_	19	mark	_	_
 19	regulere	regulere	VERB	_	VerbForm=Inf	17	xcomp	_	_
@@ -17163,7 +17163,7 @@
 21	,	$,	PUNCT	_	_	17	punct	_	_
 22	fordi	fordi	SCONJ	_	_	26	mark	_	_
 23	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
-24	ikkje	ikkje	ADV	_	Polarity=Neg	25	advmod	_	_
+24	ikkje	ikkje	PART	_	Polarity=Neg	25	advmod	_	_
 25	lenger	lenge	ADJ	_	Degree=Cmp	26	advmod	_	_
 26	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 27	kva	kva	PRON	_	PronType=Int	29	obj	_	_
@@ -17211,7 +17211,7 @@
 7	økonomisk	økonomisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
 8	teori	teori	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_
 9	innover	innover	ADP	_	_	12	case	_	_
-10	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
+10	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	_
 11	berre	berre	ADV	_	_	12	advmod	_	_
 12	Noreg	Noreg	PROPN	_	_	5	obl	_	SpaceAfter=No
 13	,	$,	PUNCT	_	_	12	punct	_	_
@@ -17466,7 +17466,7 @@
 # text = Problemet ligg ikkje i studien, men i mange av arbeida standardtolkinga er basert på.
 1	Problemet	problem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
 2	ligg	liggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	i	i	ADP	_	_	5	case	_	_
 5	studien	studie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 6	,	$,	PUNCT	_	_	5	punct	_	_
@@ -17493,7 +17493,7 @@
 8	dei	dei	DET	_	Number=Plur|PronType=Dem	10	det	_	_
 9	andre	annan	DET	_	Number=Plur|PronType=Dem	10	det	_	_
 10	forskingsarbeida	forskingsarbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nmod	_	_
-11	ikkje	ikkje	ADV	_	Polarity=Neg	13	advmod	_	_
+11	ikkje	ikkje	PART	_	Polarity=Neg	13	advmod	_	_
 12	vorte	verte	VERB	_	VerbForm=Part	13	aux:pass	_	_
 13	grave	grave	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	_
 14	djupt	djup	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	_
@@ -17556,7 +17556,7 @@
 # text = Skulepolitikken kan ikkje berre brukast til å analysere ein sosioøkonomisk rettferdsdimensjon (venstre - høgre-aksen), men også den kulturelle rettferdsdimensjonen som handlar om moral, religion og om identitetspolitikk.
 1	Skulepolitikken	skulepolitikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	4	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	_
 4	berre	berre	ADV	_	_	5	advmod	_	_
 5	brukast	bruke	VERB	_	VerbForm=Inf	0	root	_	_
 6	til	til	ADP	_	_	8	mark	_	_
@@ -17737,14 +17737,14 @@
 # text = Eittpartistaten var ikkje av det kommunistiske slaget der det ikkje gjekk føre seg val:
 1	Eittpartistaten	eittpartistat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	7	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	_
 4	av	av	ADP	_	_	7	case	_	_
 5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
 6	kommunistiske	kommunistisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
 7	slaget	slag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
 8	der	der	SCONJ	_	_	11	mark	_	_
 9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
-10	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
+10	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	_
 11	gjekk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl	_	_
 12	føre	føre	ADP	_	_	13	case	_	_
 13	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	11	obl	_	_
@@ -17955,7 +17955,7 @@
 11	dagsordenen	dagsorden	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 12	,	$,	PUNCT	_	_	1	punct	_	_
 13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
-14	ikkje	ikkje	ADV	_	Polarity=Neg	15	advmod	_	_
+14	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	_
 15	maktbruken	maktbruk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 16	til	til	ADP	_	_	17	case	_	_
 17	sosialdemokratiet	sosialdemokrati	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
@@ -18023,7 +18023,7 @@
 39	færre	få	ADJ	_	Degree=Cmp	40	amod	_	_
 40	salmar	salme	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	37	conj	_	SpaceAfter=No
 41	,	$,	PUNCT	_	_	37	punct	_	_
-42	ikkje	ikkje	ADV	_	Polarity=Neg	43	advmod	_	_
+42	ikkje	ikkje	PART	_	Polarity=Neg	43	advmod	_	_
 43	lenger	lenge	ADJ	_	Degree=Cmp	44	advmod	_	_
 44	obligatoriske	obligatorisk	ADJ	_	Degree=Pos|Number=Plur	45	amod	_	_
 45	andaktar	andakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	37	conj	_	_
@@ -18060,7 +18060,7 @@
 2	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-5	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+5	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 6	nødvendigvis	nødvendigvis	ADV	_	_	8	advmod	_	_
 7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	ccomp	_	SpaceAfter=No
@@ -18130,7 +18130,7 @@
 # sent_id =  017050
 # text = Er ikkje ei nemning som liberal modernisering meir treffande enn teknokratiomgrepet når det gjeld den politikken som vart ført?
 1	Er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
-2	ikkje	ikkje	ADV	_	Polarity=Neg	9	advmod	_	_
+2	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	_
 3	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	nemning	nemning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	_
 5	som	som	ADP	_	_	7	case	_	_
@@ -18293,7 +18293,7 @@
 8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	spørjast	spørjast	VERB	_	VerbForm=Inf	6	advcl	_	_
 10	om	om	SCONJ	_	_	14	mark	_	_
-11	ikkje	ikkje	ADV	_	Polarity=Neg	14	advmod	_	_
+11	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	_
 12	historikarmiljøet	historikarmiljø	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	_
 13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	gjort	gjere	VERB	_	VerbForm=Part	9	ccomp	_	_
@@ -18602,7 +18602,7 @@
 2	studien	studie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	_
 3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-5	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+5	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 6	funne	finne	VERB	_	VerbForm=Part	0	root	_	_
 7	noko	noko	DET	_	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
 8	høgrevending	høgrevending	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	_
@@ -18690,7 +18690,7 @@
 1	Vurderingane	vurdering	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	2	nsubj	_	_
 2	oppsummerar	oppsummere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	altså	altså	ADV	_	_	2	advmod	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 6	sjølvstendig	sjølvstendig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
 7	empirisk	empirisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
@@ -18895,7 +18895,7 @@
 12	)	$)	PUNCT	_	_	11	punct	_	_
 13	samstundes	samstundes	ADV	_	_	1	advmod	_	_
 14	eksisterer	eksistere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	ikkje	ikkje	ADV	_	Polarity=Neg	14	advmod	_	_
+15	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	_
 16	lenger	lenge	ADJ	_	Degree=Cmp	14	advmod	_	_
 17	som	som	ADP	_	_	20	mark	_	_
 18	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
@@ -19070,7 +19070,7 @@
 10	fordelingsrettferda	fordelingsrettferd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	_
 11	lét	la	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
 12	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	11	iobj	_	_
-13	ikkje	ikkje	ADV	_	Polarity=Neg	14	advmod	_	_
+13	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	_
 14	gjennomføre	gjennomføre	VERB	_	VerbForm=Inf	11	xcomp	_	_
 15	like	like	ADV	_	_	16	advmod	_	_
 16	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	_
@@ -19284,7 +19284,7 @@
 1	Folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nsubj	_	_
 2	som	som	PRON	_	PronType=Rel	6	nsubj	_	_
 3	ennå	ennå	ADV	_	_	6	advmod	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	funne	finne	VERB	_	VerbForm=Part	1	acl:relcl	_	_
 7	fram	fram	ADP	_	_	6	compound:prt	_	_
@@ -19489,7 +19489,7 @@
 # sent_id =  017114
 # text = Fryktar ikkje
 1	Fryktar	frykte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	ikkje	ikkje	ADV	_	Polarity=Neg	1	advmod	_	_
+2	ikkje	ikkje	PART	_	Polarity=Neg	1	advmod	_	_
 
 # sent_id =  017115
 # text = - Det er ei menneskeleg plikt, ei æressak.
@@ -19533,7 +19533,7 @@
 1	Her	her	ADV	_	_	2	advmod	_	_
 2	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 5	rom	rom	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	_
 6	for	for	ADP	_	_	7	case	_	_
 7	tvisyn	tvisyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
@@ -19574,13 +19574,13 @@
 1	Men	men	CCONJ	_	_	3	cc	_	_
 2	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 5	frykt	frykt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
 6	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id =  017122
 # text = Ikkje fordi me er så tapre, men fordi ein rett og slett ikkje kan stå opp kvar morgon og tenkje, herre min gud, er dette min siste dag?
-1	Ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+1	Ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 2	fordi	fordi	SCONJ	_	_	6	mark	_	_
 3	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -19593,7 +19593,7 @@
 11	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	_
 12	og	og	CCONJ	_	_	13	cc	_	_
 13	slett	slett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	_
-14	ikkje	ikkje	ADV	_	Polarity=Neg	16	advmod	_	_
+14	ikkje	ikkje	PART	_	Polarity=Neg	16	advmod	_	_
 15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	stå	stå	VERB	_	VerbForm=Inf	6	conj	_	_
 17	opp	opp	ADP	_	_	16	compound:prt	_	_
@@ -19639,7 +19639,7 @@
 1	Men	men	CCONJ	_	_	3	cc	_	_
 2	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	levde	leve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 5	i	i	ADP	_	_	6	case	_	_
 6	frykt	frykt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 7	,	$,	PUNCT	_	_	3	punct	_	_
@@ -19647,7 +19647,7 @@
 9	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
 10	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 11	jo	jo	ADV	_	_	14	advmod	_	_
-12	ikkje	ikkje	ADV	_	Polarity=Neg	14	advmod	_	_
+12	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	_
 13	kunna	kunne	AUX	_	VerbForm=Part	14	aux	_	_
 14	arbeida	arbeide	VERB	_	VerbForm=Inf	3	conj	_	SpaceAfter=No
 15	.	$.	PUNCT	_	_	3	punct	_	_
@@ -19683,7 +19683,7 @@
 # sent_id =  017126
 # text = Spekulerer ikkje
 1	Spekulerer	spekulere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	ikkje	ikkje	ADV	_	Polarity=Neg	1	advmod	_	_
+2	ikkje	ikkje	PART	_	Polarity=Neg	1	advmod	_	_
 
 # sent_id =  017127
 # text = Fleire journalistar jobbar med drapet på full tid, men Jarosjevskij vil ikkje seia noko om metodane dei nyttar eller kva teoriar dei jobbar etter.
@@ -19699,7 +19699,7 @@
 10	men	men	CCONJ	_	_	14	cc	_	_
 11	Jarosjevskij	Jarosjevskij	PROPN	_	_	14	nsubj	_	_
 12	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
-13	ikkje	ikkje	ADV	_	Polarity=Neg	14	advmod	_	_
+13	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	_
 14	seia	seie	VERB	_	VerbForm=Inf	3	conj	_	_
 15	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	14	obj	_	_
 16	om	om	ADP	_	_	17	case	_	_
@@ -19716,7 +19716,7 @@
 
 # sent_id =  017128
 # text = Ikkje før alt er klart.
-1	Ikkje	ikkje	ADV	_	Polarity=Neg	0	root	_	_
+1	Ikkje	ikkje	PART	_	Polarity=Neg	0	root	_	_
 2	før	før	SCONJ	_	_	5	mark	_	_
 3	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -19798,7 +19798,7 @@
 8	,	$,	PUNCT	_	_	3	punct	_	_
 9	men	men	CCONJ	_	_	13	cc	_	_
 10	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
-11	ikkje	ikkje	ADV	_	Polarity=Neg	13	advmod	_	_
+11	ikkje	ikkje	PART	_	Polarity=Neg	13	advmod	_	_
 12	sjølve	sjølve	DET	_	Definite=Def|PronType=Prs	13	obl	_	_
 13	spekulera	spekulere	VERB	_	VerbForm=Inf	3	conj	_	SpaceAfter=No
 14	.	$.	PUNCT	_	_	3	punct	_	_
@@ -19854,7 +19854,7 @@
 8	som	som	PRON	_	PronType=Rel	12	nsubj	_	_
 9	mildt	mild	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	_
 10	sagt	seie	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	12	advmod	_	_
-11	ikkje	ikkje	ADV	_	Polarity=Neg	12	advmod	_	_
+11	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	_
 12	likte	like	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
 13	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obj	_	_
 14	hennar	hennar	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	SpaceAfter=No
@@ -20310,7 +20310,7 @@
 # text = Redaktøren er ikkje i tvil om kven som står bak denne utviklinga og samanliknar tilhøvet for mediene under dei to siste presidentane.
 1	Redaktøren	redaktør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 4	i	i	ADP	_	_	5	case	_	_
 5	tvil	tvil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 6	om	om	ADP	_	_	9	case	_	_
@@ -20341,7 +20341,7 @@
 5	stønad	stønad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	advcl	_	SpaceAfter=No
 6	,	$,	PUNCT	_	_	5	punct	_	_
 7	og	og	CCONJ	_	_	9	cc	_	_
-8	ikkje	ikkje	ADV	_	Polarity=Neg	9	advmod	_	_
+8	ikkje	ikkje	PART	_	Polarity=Neg	9	nmod	_	_
 9	tv-dekninga	tv-dekning	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
 10	,	$,	PUNCT	_	_	9	punct	_	_
 11	som	som	PRON	_	PronType=Rel	12	nsubj	_	_
@@ -20424,7 +20424,7 @@
 # text = Fjernsynet er ikkje eit middel for massemedia, men for massepropaganda, konstaterer Jarosjevksij oppgitt.
 1	Fjernsynet	fjernsyn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 4	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	middel	middel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 6	for	for	ADP	_	_	7	case	_	_
@@ -20488,7 +20488,7 @@
 1	Jarosjevskij	Jarosjevskij	PROPN	_	_	2	nsubj	_	_
 2	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	styresmaktene	styresmakt	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	nsubj	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	6	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	_
 5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	vigd	vie	VERB	_	VerbForm=Part	2	ccomp	_	_
 7	avisene	avis	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	iobj	_	_
@@ -20523,7 +20523,7 @@
 5	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	_
 6	eigar	eigar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 7	,	$,	PUNCT	_	_	6	punct	_	_
-8	ikkje	ikkje	ADV	_	Polarity=Neg	9	advmod	_	_
+8	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	_
 9	berre	berre	ADV	_	_	11	advmod	_	_
 10	av	av	ADP	_	_	11	case	_	_
 11	avisa	avis	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
@@ -20962,7 +20962,7 @@
 1	Slik	slik	ADV	_	_	0	root	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	1	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	1	advmod	_	_
 5	i	i	ADP	_	_	6	case	_	_
 6	Russland	Russland	PROPN	_	_	1	obl	_	SpaceAfter=No
 7	.	$.	PUNCT	_	_	1	punct	_	_
@@ -21019,7 +21019,7 @@
 # text = Ein har ikkje lov å kritisera presidenten, han er nummer to etter gud.
 1	Ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	2	nsubj	_	_
 2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	lov	lov	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	_
 5	å	å	PART	_	_	6	mark	_	_
 6	kritisera	kritisere	VERB	_	VerbForm=Inf	4	acl	_	_
@@ -21122,7 +21122,7 @@
 8	Politkovskaja	Politkovskaja	PROPN	_	_	7	flat:name	_	_
 9	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	_
 10	død	død	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	_
-11	ikkje	ikkje	ADV	_	Polarity=Neg	12	advmod	_	_
+11	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	_
 12	rokka	rokke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
 13	ved	ved	ADP	_	_	15	case	_	_
 14	nokon	nokon	DET	_	Number=Plur|PronType=Ind	15	det	_	_
@@ -21254,7 +21254,7 @@
 14	,	$,	PUNCT	_	_	13	punct	_	_
 15	at	at	SCONJ	_	_	19	mark	_	_
 16	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
-17	ikkje	ikkje	ADV	_	Polarity=Neg	19	advmod	_	_
+17	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	_
 18	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
 19	leva	leve	VERB	_	VerbForm=Inf	13	acl	_	_
 20	med	med	ADP	_	_	24	mark	_	_
@@ -21319,7 +21319,7 @@
 3	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 4	i	i	ADP	_	_	5	case	_	_
 5	framtida	framtid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	_
-6	ikkje	ikkje	ADV	_	Polarity=Neg	7	advmod	_	_
+6	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	_
 7	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 8	slike	slik	DET	_	Number=Plur|PronType=Dem	9	det	_	_
 9	følgjer	følgje	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	_
@@ -21372,7 +21372,7 @@
 1	-	$-	PUNCT	_	_	3	punct	_	_
 2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	trur	tru	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 5	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	kome	kome	VERB	_	VerbForm=Part	3	ccomp	_	_
@@ -21386,7 +21386,7 @@
 15	og	og	CCONJ	_	_	19	cc	_	_
 16	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 17	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	_
-18	ikkje	ikkje	ADV	_	Polarity=Neg	19	advmod	_	_
+18	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	_
 19	optimist	optimist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
 20	,	$,	PUNCT	_	_	3	punct	_	_
 21	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
@@ -21488,7 +21488,7 @@
 14	borgarleg	borgarleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	_
 15	side	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 16	,	$,	PUNCT	_	_	15	punct	_	_
-17	ikkje	ikkje	ADV	_	Polarity=Neg	18	advmod	_	_
+17	ikkje	ikkje	PART	_	Polarity=Neg	18	advmod	_	_
 18	berre	berre	ADV	_	_	20	advmod	_	_
 19	i	i	ADP	_	_	20	case	_	_
 20	Oslo	Oslo	PROPN	_	_	15	nmod	_	SpaceAfter=No
@@ -21691,7 +21691,7 @@
 40	og	og	CCONJ	_	_	41	cc	_	_
 41	Frp-politikarar	Frp-politikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	39	conj	_	_
 42	som	som	PRON	_	PronType=Rel	45	nsubj	_	_
-43	ikkje	ikkje	ADV	_	Polarity=Neg	45	advmod	_	_
+43	ikkje	ikkje	PART	_	Polarity=Neg	45	advmod	_	_
 44	nett	nett	ADV	_	_	45	advmod	_	_
 45	la	leggje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	41	acl:relcl	_	_
 46	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	45	obj	_	_
@@ -21766,7 +21766,7 @@
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	2	nsubj	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 5	unna	unna	ADP	_	_	2	compound:prt	_	_
 6	ved	ved	ADP	_	_	9	mark	_	_
 7	berre	berre	ADV	_	_	9	advmod	_	_
@@ -21818,7 +21818,7 @@
 5	No	no	ADV	_	_	11	advmod	_	_
 6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
 7	jo	jo	ADV	_	_	11	advmod	_	_
-8	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
+8	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	_
 9	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	sjukeheim	sjukeheim	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	ccomp	_	_
@@ -21999,7 +21999,7 @@
 
 # sent_id =  017241
 # text = Ikkje minst må ein her avgrensa det spesifikt språkpolitiske ansvaret mot det ansvaret og dei verkemiddel ulike andre departementet har når det gjeld opplæringsspørsmål og minoritetsspørsmål.
-1	Ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+1	Ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 2	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	6	advmod	_	_
 3	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	6	nsubj	_	_
@@ -22081,7 +22081,7 @@
 26	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	expl	_	_
 27	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
 28	difor	difor	ADV	_	_	30	advmod	_	_
-29	ikkje	ikkje	ADV	_	Polarity=Neg	30	advmod	_	_
+29	ikkje	ikkje	PART	_	Polarity=Neg	30	advmod	_	_
 30	teke	ta	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	5	conj	_	_
 31	stilling	stilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	30	obj	_	_
 32	til	til	ADP	_	_	33	case	_	_
@@ -22309,7 +22309,7 @@
 10	under	under	ADP	_	_	15	mark	_	_
 11	at	at	SCONJ	_	_	15	mark	_	_
 12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	_
-13	ikkje	ikkje	ADV	_	Polarity=Neg	15	advmod	_	_
+13	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	_
 14	burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
 15	gå	gå	VERB	_	VerbForm=Inf	9	advcl	_	_
 16	lang	lang	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	_
@@ -22594,7 +22594,7 @@
 17	,	$,	PUNCT	_	_	11	punct	_	_
 18	slik	slik	ADV	_	_	19	advmod	_	_
 19	at	at	SCONJ	_	_	26	mark	_	_
-20	ikkje	ikkje	ADV	_	Polarity=Neg	26	advmod	_	_
+20	ikkje	ikkje	PART	_	Polarity=Neg	26	advmod	_	_
 21	latente	latent	ADJ	_	Degree=Pos|Number=Plur	22	amod	_	_
 22	konfliktar	konflikt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	26	nsubj	_	_
 23	og	og	CCONJ	_	_	25	cc	_	_
@@ -22945,7 +22945,7 @@
 13	med	med	ADP	_	_	19	mark	_	_
 14	at	at	SCONJ	_	_	19	mark	_	_
 15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
-16	ikkje	ikkje	ADV	_	Polarity=Neg	19	advmod	_	_
+16	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	_
 17	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
 18	vera	vere	AUX	_	VerbForm=Inf	19	cop	_	_
 19	vanskeleg	vanskeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advcl	_	_
@@ -23302,7 +23302,7 @@
 14	rådsforsamlinga	rådsforsamling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	obl	_	_
 15	at	at	SCONJ	_	_	18	mark	_	_
 16	fagråda	fagråd	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	18	nsubj	_	_
-17	ikkje	ikkje	ADV	_	Polarity=Neg	18	advmod	_	_
+17	ikkje	ikkje	PART	_	Polarity=Neg	18	advmod	_	_
 18	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	csubj	_	_
 19	formell	formell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	_
 20	avgjerdsrett	avgjerdsrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
@@ -23569,7 +23569,7 @@
 1	I	i	ADP	_	_	2	case	_	_
 2	utgangspunktet	utgangspunkt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	_
 3	legg	leggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 5	departementet	departement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
 6	opp	opp	ADP	_	_	3	compound:prt	_	_
 7	til	til	ADP	_	_	9	case	_	_
@@ -24346,7 +24346,7 @@
 # text = Vi må ikkje bli så opptekne av den vanskelege straumsituasjonen som er no, med aukande straumprisar og ganske nedtappa magasin, at vi gløymer å fokusera på miljøriktig energi, der vassboren varme, varmepumper m.v. går inn som ein viktig del.
 1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	4	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	_
 4	bli	bli	VERB	_	VerbForm=Inf	0	root	_	_
 5	så	så	ADV	_	_	6	advmod	_	_
 6	opptekne	oppteken	ADJ	_	Degree=Pos|Number=Plur	4	xcomp	_	_
@@ -24402,7 +24402,7 @@
 # text = Eg skal ikkje gi nokon karakteristikk av representanten Malvik som hadde ordet, men eg skal gi ein liten karakteristikk av innlegget, nemleg at det å peika på alt det som måtte vera vrangt og uheldig i budsjettet, vinn alltid gjenklang hjå mange.
 1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	4	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	_
 4	gi	gi	VERB	_	VerbForm=Inf	0	root	_	_
 5	nokon	nokon	DET	_	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
 6	karakteristikk	karakteristikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	_
@@ -25276,7 +25276,7 @@
 6	på	på	ADP	_	_	11	mark	_	_
 7	at	at	SCONJ	_	_	11	mark	_	_
 8	Vrådal	Vrådal	PROPN	_	_	11	nsubj	_	_
-9	ikkje	ikkje	ADV	_	Polarity=Neg	11	advmod	_	_
+9	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	_
 10	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	ta	ta	VERB	_	VerbForm=Inf	5	acl	_	_
 12	alle	all	DET	_	Number=Plur|PronType=Tot	13	det	_	_
@@ -25457,7 +25457,7 @@
 12	ungane	unge	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	17	nsubj	_	_
 13	på	på	ADP	_	_	14	case	_	_
 14	SFO	SFO	PROPN	_	_	12	nmod	_	_
-15	ikkje	ikkje	ADV	_	Polarity=Neg	17	advmod	_	_
+15	ikkje	ikkje	PART	_	Polarity=Neg	17	advmod	_	_
 16	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	sitje	sitje	VERB	_	VerbForm=Inf	31	advcl	_	_
 18	inne	inne	ADP	_	_	17	compound:prt	_	_
@@ -25545,7 +25545,7 @@
 27	men	men	CCONJ	_	_	34	cc	_	_
 28	då	då	SCONJ	_	_	31	mark	_	_
 29	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
-30	ikkje	ikkje	ADV	_	Polarity=Neg	31	advmod	_	_
+30	ikkje	ikkje	PART	_	Polarity=Neg	31	advmod	_	_
 31	let	la	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	34	advcl	_	_
 32	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	31	iobj	_	_
 33	gjera	gjere	VERB	_	VerbForm=Inf	31	xcomp	_	_
@@ -25674,7 +25674,7 @@
 # text = Det er ikkje berre at dei melder seg tilgjengeleg, men fleire har veldig lyst til å gjera spesifikke oppgåver, seier Nordbø.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	4	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	_
 4	berre	berre	ADV	_	_	0	root	_	_
 5	at	at	SCONJ	_	_	7	mark	_	_
 6	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
@@ -26173,7 +26173,7 @@
 11	om	om	SCONJ	_	_	15	mark	_	_
 12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	_
 13	kanskje	kanskje	ADV	_	_	15	advmod	_	_
-14	ikkje	ikkje	ADV	_	Polarity=Neg	15	advmod	_	_
+14	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	_
 15	virkar	virke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
 16	slik	slik	ADV	_	_	15	advmod	_	SpaceAfter=No
 17	,	$,	PUNCT	_	_	6	punct	_	_
@@ -26303,7 +26303,7 @@
 8	av	av	ADP	_	_	13	mark	_	_
 9	at	at	SCONJ	_	_	13	mark	_	_
 10	SLT	SLT	PROPN	_	_	13	nsubj	_	_
-11	ikkje	ikkje	ADV	_	Polarity=Neg	13	advmod	_	_
+11	ikkje	ikkje	PART	_	Polarity=Neg	13	advmod	_	_
 12	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	frita	frita	VERB	_	VerbForm=Inf	7	advcl	_	_
 14	foreldra	forelder	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	obj	_	_
@@ -26318,7 +26318,7 @@
 # text = Det hjelper ikkje med tiltak og fritidsaktivitetar åleine, det må ligge noko i botnen, og det må koma heimafrå, understrekar dei.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	hjelper	hjelpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	med	med	ADP	_	_	5	case	_	_
 5	tiltak	tiltak	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	nsubj	_	_
 6	og	og	CCONJ	_	_	7	cc	_	_
@@ -26398,7 +26398,7 @@
 5	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 6	driv	drive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 7	med	med	ADP	_	_	6	compound:prt	_	_
-8	ikkje	ikkje	ADV	_	Polarity=Neg	9	advmod	_	_
+8	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	_
 9	alltid	alltid	ADV	_	_	10	advmod	_	_
 10	gjeng	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 11	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	_
@@ -26587,7 +26587,7 @@
 1	Likevel	likevel	ADV	_	_	5	advmod	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 5	mogleg	mogleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 6	å	å	PART	_	_	7	mark	_	_
 7	førebyggje	førebyggje	VERB	_	VerbForm=Inf	5	csubj	_	_
@@ -26601,7 +26601,7 @@
 1	-	$-	PUNCT	_	_	5	punct	_	_
 2	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
-4	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 5	funne	finne	VERB	_	VerbForm=Part	0	root	_	_
 6	nokon	nokon	DET	_	Number=Plur|PronType=Ind	7	det	_	_
 7	fasitar	fasit	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obj	_	_
@@ -26749,7 +26749,7 @@
 # text = Levekår er ikkje avgjerande
 1	Levekår	levekår	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	4	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	_
 4	avgjerande	avgjere	ADJ	_	VerbForm=Part	0	root	_	_
 
 # newpar
@@ -26990,7 +26990,7 @@
 # text = Me blir ikkje så sårbare og no er det alltid opne dører her, seier leiar av Barnevernsamarbeidet, Synnøve Bratland.
 1	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 4	så	så	ADV	_	_	5	advmod	_	_
 5	sårbare	sårbar	ADJ	_	Degree=Pos|Number=Plur	2	xcomp	_	_
 6	og	og	CCONJ	_	_	8	cc	_	_
@@ -27474,7 +27474,7 @@
 14	som	som	PRON	_	PronType=Rel	19	nmod	_	_
 15	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
 16	før	før	ADP	_	_	19	obl	_	_
-17	ikkje	ikkje	ADV	_	Polarity=Neg	19	advmod	_	_
+17	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	_
 18	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	_
 19	trygge	trygg	ADJ	_	Degree=Pos|Number=Plur	13	acl:relcl	_	_
 20	på	på	ADP	_	_	24	mark	_	_
@@ -27706,7 +27706,7 @@
 4	i	i	ADP	_	_	5	case	_	_
 5	barnevernssamarbeidet	barnevernssamarbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	_
 6	at	at	SCONJ	_	_	8	mark	_	_
-7	ikkje	ikkje	ADV	_	Polarity=Neg	8	advmod	_	_
+7	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	_
 8	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 9	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	8	obj	_	_
 10	med	med	ADP	_	_	13	case	_	_
@@ -27810,7 +27810,7 @@
 12	til	til	ADP	_	_	13	case	_	_
 13	barnevernet	barnevern	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	_
 14	treng	trenge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
-15	ikkje	ikkje	ADV	_	Polarity=Neg	19	advmod	_	_
+15	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	_
 16	vera	vere	AUX	_	VerbForm=Inf	19	cop	_	_
 17	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
 18	negativt	negativ	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
@@ -27844,7 +27844,7 @@
 18	frå	frå	ADP	_	_	19	case	_	_
 19	ungar	unge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obl	_	_
 20	som	som	PRON	_	PronType=Rel	22	nsubj	_	_
-21	ikkje	ikkje	ADV	_	Polarity=Neg	22	advmod	_	_
+21	ikkje	ikkje	PART	_	Polarity=Neg	22	advmod	_	_
 22	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
 23	hjelp	hjelp	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	obj	_	_
 24	frå	frå	ADP	_	_	25	case	_	_
@@ -27971,7 +27971,7 @@
 
 # sent_id =  017501
 # text = Ikkje alle deltakarane går alle etappane, og fleire kjem på undervegs.
-1	Ikkje	ikkje	ADV	_	Polarity=Neg	2	advmod	_	_
+1	Ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 2	alle	all	DET	_	Number=Plur|PronType=Tot	3	det	_	_
 3	deltakarane	deltakar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -28449,7 +28449,7 @@
 # sent_id =  017526
 # text = For ikkje mange år sidan var reinstamma i Setesdal Austhei nesten utskoten.
 1	For	for	ADP	_	_	4	case	_	_
-2	ikkje	ikkje	ADV	_	Polarity=Neg	3	advmod	_	_
+2	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	_
 3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	_
 4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obl	_	_
 5	sidan	sidan	ADV	_	_	4	advmod	_	_
@@ -28684,7 +28684,7 @@
 11	rein	rein	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	_
 12	på	på	ADP	_	_	18	case	_	_
 13	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
-14	ikkje	ikkje	ADV	_	Polarity=Neg	15	advmod	_	_
+14	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	_
 15	alt	alt	ADV	_	_	16	advmod	_	_
 16	for	for	ADV	_	_	17	advmod	_	_
 17	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
@@ -28864,7 +28864,7 @@
 # text = Resultatet er ikkje ferdig analysert.
 1	Resultatet	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_
 2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
-3	ikkje	ikkje	ADV	_	Polarity=Neg	5	advmod	_	_
+3	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	_
 4	ferdig	ferdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	_
 5	analysert	analysere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
 6	.	$.	PUNCT	_	_	5	punct	_	_
@@ -28877,7 +28877,7 @@
 3	til	til	ADP	_	_	2	compound:prt	_	_
 4	at	at	SCONJ	_	_	7	mark	_	_
 5	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	7	nsubj	_	_
-6	ikkje	ikkje	ADV	_	Polarity=Neg	7	advmod	_	_
+6	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	_
 7	såg	sjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
 8	alle	all	DET	_	Number=Plur|PronType=Tot	9	det	_	_
 9	reinsdyra	reinsdyr	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	obj	_	_
@@ -29438,7 +29438,7 @@
 15	,	$,	PUNCT	_	_	8	punct	_	_
 16	men	men	CCONJ	_	_	19	cc	_	_
 17	førebels	førebels	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	advmod	_	_
-18	ikkje	ikkje	ADV	_	Polarity=Neg	19	advmod	_	_
+18	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	_
 19	snitting	snitting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	_
 20	av	av	ADP	_	_	21	case	_	_
 21	tenner	tann	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	orphan	_	_
