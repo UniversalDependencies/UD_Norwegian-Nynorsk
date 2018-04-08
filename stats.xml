@@ -13,19 +13,19 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">29101</tag><!-- mykje, mange, stor, god, ny, heil, norsk, liten, viktig, lang -->
-    <tag name="ADP">42340</tag><!-- i, til, på, for, av, med, om, frå, som, etter -->
-    <tag name="ADV">11624</tag><!-- ikkje, så, også, no, her, berre, slik, då, nok, òg -->
+    <tag name="ADP">37808</tag><!-- i, på, til, av, med, for, om, frå, ut, etter -->
+    <tag name="ADV">9085</tag><!-- så, også, no, her, berre, slik, då, nok, òg, korleis -->
     <tag name="AUX">16066</tag><!-- vere, ha, kunne, skulle, vilje, måtte, bli, få, burde, tore -->
     <tag name="CCONJ">11088</tag><!-- og, men, eller, både, så, for, anten, korkje, verken, & -->
-    <tag name="DET">16556</tag><!-- ein, den, dei, det, sin, annan, all, denne, nokon, eigen -->
+    <tag name="DET">15006</tag><!-- ein, den, dei, det, annan, all, denne, nokon, eigen, slik -->
     <tag name="INTJ">234</tag><!-- ja, nei, hm, jau, jo, ha, hei, he, tja, jaja -->
     <tag name="NOUN">60030</tag><!-- år, dag, land, tid, folk, språk, del, kommune, gong, sak -->
     <tag name="NUM">4032</tag><!-- to, tre, fire, ti, fem, 20, 1, seks, 2005, 2006 -->
-    <tag name="PART">4169</tag><!-- å -->
-    <tag name="PRON">21241</tag><!-- det, som, dei, han, eg, vi, seg, ein, dette, ho -->
+    <tag name="PART">6708</tag><!-- å, ikkje, eingong, ei, einast -->
+    <tag name="PRON">22791</tag><!-- det, som, dei, han, eg, vi, seg, sin, ein, dette -->
     <tag name="PROPN">14303</tag><!-- Noreg, Førde, Språkrådet, Sogn, Høgre, Fjordane, Oslo, Kviteseid, Tyskland, Helse -->
     <tag name="PUNCT">33455</tag><!-- $., $,, $-, $", $:, $?, $(, $), $!, $; -->
-    <tag name="SCONJ">6412</tag><!-- at, om, når, der, då, før, medan, dersom, fordi, sidan -->
+    <tag name="SCONJ">10944</tag><!-- at, til, om, for, som, når, på, der, då, med -->
     <tag name="SYM">88</tag><!-- $/, ©, ½ -->
     <tag name="VERB">29429</tag><!-- ha, seie, få, verte, vere, kome, gå, gjere, ta, sjå -->
     <tag name="X">1185</tag><!-- of, og, det, en, i, the, for, som, til, den -->
@@ -56,8 +56,8 @@
     <feat name="Person" value="1" upos="PRON">3748</feat><!-- eg, vi, me, oss, meg, kån -->
     <feat name="Person" value="2" upos="PRON">429</feat><!-- du, de, deg, dykk -->
     <feat name="Person" value="3" upos="PRON">11204</feat><!-- det, dei, han, dette, ho, noko, alt, den, alle, nokon -->
-    <feat name="Polarity" value="Neg" upos="ADV,DET,PRON">2755</feat><!-- ikkje, ingen, ingenting, inga -->
-    <feat name="Poss" value="Yes" upos="DET">1550</feat><!-- sin, sine, sitt, si, hans, vår, våre, hennar, vårt, deira -->
+    <feat name="Polarity" value="Neg" upos="DET,PART,PRON">2755</feat><!-- ikkje, ingen, ingenting, inga -->
+    <feat name="Poss" value="Yes" upos="PRON">1550</feat><!-- sin, sine, sitt, si, hans, vår, våre, hennar, vårt, deira -->
     <feat name="PronType" value="Art" upos="DET">5926</feat><!-- ein, eit, ei, eitt, en, eir -->
     <feat name="PronType" value="Art,Prs" upos="PRON">824</feat><!-- ein, ei -->
     <feat name="PronType" value="Dem" upos="DET,NUM">7037</feat><!-- den, dei, det, andre, denne, anna, same, dette, desse, slike -->
@@ -79,34 +79,34 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="37">
-    <dep name="acl">1720</dep>
-    <dep name="acl:relcl">3782</dep>
+    <dep name="acl">1910</dep>
+    <dep name="acl:cleft">286</dep>
+    <dep name="acl:relcl">3474</dep>
     <dep name="advcl">4840</dep>
-    <dep name="advmod">17228</dep>
+    <dep name="advmod">17191</dep>
     <dep name="amod">15166</dep>
-    <dep name="appos">1178</dep>
+    <dep name="appos">1010</dep>
     <dep name="aux">8486</dep>
     <dep name="aux:pass">1203</dep>
-    <dep name="case">33699</dep>
+    <dep name="case">33696</dep>
     <dep name="cc">10858</dep>
     <dep name="ccomp">1950</dep>
     <dep name="compound">238</dep>
     <dep name="compound:prt">2833</dep>
-    <dep name="conj">11607</dep>
+    <dep name="conj">11605</dep>
     <dep name="cop">7019</dep>
     <dep name="csubj">1003</dep>
     <dep name="csubj:pass">3</dep>
     <dep name="det">14145</dep>
     <dep name="discourse">167</dep>
-    <dep name="dislocated">84</dep>
     <dep name="expl">3467</dep>
     <dep name="flat:foreign">793</dep>
     <dep name="flat:name">5948</dep>
     <dep name="goeswith">35</dep>
     <dep name="iobj">669</dep>
-    <dep name="mark">15070</dep>
-    <dep name="nmod">18969</dep>
-    <dep name="nsubj">27233</dep>
+    <dep name="mark">15073</dep>
+    <dep name="nmod">19008</dep>
+    <dep name="nsubj">27317</dep>
     <dep name="nsubj:pass">952</dep>
     <dep name="nummod">2330</dep>
     <dep name="obj">13218</dep>
