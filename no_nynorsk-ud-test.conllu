@@ -75,7 +75,7 @@
 28	nokre	nokon	DET	_	Number=Plur|PronType=Ind	29	det	_	_
 29	timar	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
 30	,	$,	PUNCT	_	_	29	punct	_	_
-31	slik	slik	ADV	_	_	32	fixed	_	_
+31	slik	slik	ADV	_	_	32	advmod	_	_
 32	at	at	SCONJ	_	_	36	mark	_	_
 33	mesteparten	mestepart	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	36	nsubj	_	_
 34	av	av	ADP	_	_	35	case	_	_
@@ -2297,7 +2297,7 @@
 19	,	$,	PUNCT	_	_	15	punct	_	_
 20	og	og	CCONJ	_	_	21	cc	_	_
 21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	conj	_	_
-22	jamvel	jamvel	ADV	_	_	23	fixed	_	_
+22	jamvel	jamvel	ADV	_	_	23	advmod	_	_
 23	om	om	SCONJ	_	_	25	mark	_	_
 24	FBI	FBI	PROPN	_	_	25	nsubj	_	_
 25	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	orphan	_	_
@@ -3620,7 +3620,7 @@
 12	,	$,	PUNCT	_	_	9	punct	_	_
 13	i	i	ADP	_	_	15	case	_	_
 14	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	_
-15	minste	liten	ADJ	_	Definite=Def|Degree=Sup	16	fixed	_	_
+15	minste	liten	ADJ	_	Definite=Def|Degree=Sup	16	advmod	_	_
 16	om	om	SCONJ	_	_	18	mark	_	_
 17	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	18	nsubj	_	_
 18	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
@@ -4030,7 +4030,7 @@
 
 # sent_id =  016297
 # text = Jamvel om Parkinsons-pasientar kan verta hjelpte ved bruk av Levo-dopa, syner det seg at det medikamentet sluttar å ha ein effekt hjå eit fleirtal av pasientane etter nokre år.
-1	Jamvel	jamvel	ADV	_	_	2	fixed	_	_
+1	Jamvel	jamvel	ADV	_	_	2	advmod	_	_
 2	om	om	SCONJ	_	_	6	mark	_	_
 3	Parkinsons-pasientar	Parkinsons-pasient	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 4	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -5729,7 +5729,7 @@
 5	,	$,	PUNCT	_	_	3	punct	_	_
 6	og	og	CCONJ	_	_	7	cc	_	_
 7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	conj	_	_
-8	endå	endå	ADV	_	_	9	fixed	_	_
+8	endå	endå	ADV	_	_	9	advmod	_	_
 9	om	om	SCONJ	_	_	14	mark	_	_
 10	ti	ti	NUM	_	Number=Plur|NumType=Card	11	nummod	_	_
 11	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	_
@@ -7747,7 +7747,7 @@
 18	i	i	ADP	_	_	19	case	_	_
 19	Stortinget	Stortinget	NOUN	_	Gender=Neut	17	obl	_	SpaceAfter=No
 20	,	$,	PUNCT	_	_	17	punct	_	_
-21	såleis	såleis	ADV	_	_	22	fixed	_	_
+21	såleis	såleis	ADV	_	_	22	advmod	_	_
 22	at	at	SCONJ	_	_	24	mark	_	_
 23	makta	makt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	24	nsubj	_	_
 24	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	_
@@ -9088,7 +9088,7 @@
 
 # sent_id =  016573
 # text = Sjølv om mannen hadde slutta i Posten, hindra ikkje dette han frå å fylle bensin til privat bruk for nær 35 000 kroner frå august 2007 og eitt år fram i tid.
-1	Sjølv	sjølv	ADV	_	_	2	fixed	_	_
+1	Sjølv	sjølv	ADV	_	_	2	advmod	_	_
 2	om	om	SCONJ	_	_	5	mark	_	_
 3	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
@@ -10753,7 +10753,7 @@
 6	på	på	ADP	_	_	7	case	_	_
 7	mobil	mobil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	$,	PUNCT	_	_	2	punct	_	_
-9	slik	slik	ADV	_	_	10	fixed	_	_
+9	slik	slik	ADV	_	_	10	advmod	_	_
 10	at	at	SCONJ	_	_	14	mark	_	_
 11	nokre	nokon	DET	_	Number=Plur|PronType=Ind	12	det	_	_
 12	kundar	kunde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	_
@@ -12482,7 +12482,7 @@
 10	utan	utan	ADP	_	_	11	case	_	_
 11	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 12	,	$,	PUNCT	_	_	8	punct	_	_
-13	slik	slik	ADV	_	_	14	fixed	_	_
+13	slik	slik	ADV	_	_	14	advmod	_	_
 14	at	at	SCONJ	_	_	18	mark	_	_
 15	røyk	røyk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nsubj	_	_
 16	og	og	CCONJ	_	_	17	cc	_	_
@@ -13437,7 +13437,7 @@
 
 # sent_id =  016828
 # text = Sjølv om det er lyst og bert i dag, vil frost og den første nysnøen utvilsamt kome til oss om ikkje lenge.
-1	Sjølv	sjølv	ADV	_	_	2	fixed	_	_
+1	Sjølv	sjølv	ADV	_	_	2	advmod	_	_
 2	om	om	SCONJ	_	_	5	mark	_	_
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -13770,7 +13770,7 @@
 5	òg	òg	ADV	_	_	6	advmod	_	_
 6	farleg	farleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 7	,	$,	PUNCT	_	_	6	punct	_	_
-8	uansett	uansett	ADV	_	_	9	fixed	_	_
+8	uansett	uansett	ADV	_	_	9	advmod	_	_
 9	om	om	SCONJ	_	_	11	mark	_	_
 10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
 11	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
@@ -14025,7 +14025,7 @@
 6	vente	vente	VERB	_	VerbForm=Inf	4	csubj	_	_
 7	nokre	nokon	DET	_	Number=Plur|PronType=Ind	8	det	_	_
 8	minutt	minutt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	_
-9	slik	slik	ADV	_	_	10	fixed	_	_
+9	slik	slik	ADV	_	_	10	advmod	_	_
 10	at	at	SCONJ	_	_	15	mark	_	_
 11	dogg	dogg	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	nsubj	_	_
 12	og	og	CCONJ	_	_	13	cc	_	_
@@ -14284,7 +14284,7 @@
 8	av	av	ADP	_	_	9	case	_	_
 9	budsjettet	budsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
 10	,	$,	PUNCT	_	_	4	punct	_	_
-11	også	også	ADV	_	_	12	fixed	_	_
+11	også	også	ADV	_	_	12	advmod	_	_
 12	når	når	SCONJ	_	_	14	mark	_	_
 13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
 14	gjeld	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
@@ -14430,7 +14430,7 @@
 
 # sent_id =  016873
 # text = Jamvel om det er fleire mord i filmen, skjer dei ofte utanfor biletet og er relativt ublodige.
-1	Jamvel	jamvel	ADV	_	_	2	fixed	_	_
+1	Jamvel	jamvel	ADV	_	_	2	advmod	_	_
 2	om	om	SCONJ	_	_	4	mark	_	_
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
 4	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
@@ -14899,7 +14899,7 @@
 
 # sent_id =  016893
 # text = Jamvel om det er Frankenstein ein fortel må ein då balansera valden, som publikum forventar og ynsker, opp i mot provokasjonar mot konservative verdiar, som eksisterer i eit samfunnsmessig og kunstnarisk vakum.
-1	Jamvel	jamvel	ADV	_	_	2	fixed	_	_
+1	Jamvel	jamvel	ADV	_	_	2	advmod	_	_
 2	om	om	SCONJ	_	_	5	mark	_	_
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -18952,7 +18952,7 @@
 2	økonomiens	økonomi	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	_
 3	ekspansjon	ekspansjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	stoggast	stogge	VERB	_	VerbForm=Inf	0	root	_	_
-5	slik	slik	ADV	_	_	6	fixed	_	_
+5	slik	slik	ADV	_	_	6	advmod	_	_
 6	at	at	SCONJ	_	_	12	mark	_	_
 7	dei	dei	DET	_	Number=Plur|PronType=Dem	9	det	_	_
 8	tradisjonelle	tradisjonell	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	_
@@ -19580,7 +19580,7 @@
 
 # sent_id =  017122
 # text = Ikkje fordi me er så tapre, men fordi ein rett og slett ikkje kan stå opp kvar morgon og tenkje, herre min gud, er dette min siste dag?
-1	Ikkje	ikkje	PART	_	Polarity=Neg	2	fixed	_	_
+1	Ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	_
 2	fordi	fordi	SCONJ	_	_	6	mark	_	_
 3	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -22430,7 +22430,7 @@
 13	vedtektene	vedtekt	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	12	obj	_	_
 14	for	for	ADP	_	_	15	case	_	_
 15	Språkrådet	Språkrådet	PROPN	_	_	13	nmod	_	_
-16	slik	slik	ADV	_	_	17	fixed	_	_
+16	slik	slik	ADV	_	_	17	advmod	_	_
 17	at	at	SCONJ	_	_	20	mark	_	_
 18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	_	_
 19	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
@@ -22592,7 +22592,7 @@
 15	nye	ny	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	_
 16	minoritetsspråka	minoritetsspråk	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	conj	_	SpaceAfter=No
 17	,	$,	PUNCT	_	_	11	punct	_	_
-18	slik	slik	ADV	_	_	19	fixed	_	_
+18	slik	slik	ADV	_	_	19	advmod	_	_
 19	at	at	SCONJ	_	_	26	mark	_	_
 20	ikkje	ikkje	PART	_	Polarity=Neg	26	advmod	_	_
 21	latente	latent	ADJ	_	Degree=Pos|Number=Plur	22	amod	_	_
@@ -22605,7 +22605,7 @@
 28	å	å	PART	_	_	29	mark	_	_
 29	utvikla	utvikle	VERB	_	VerbForm=Inf	27	acl	_	_
 30	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	29	obj	_	_
-31	slik	slik	ADV	_	_	32	fixed	_	_
+31	slik	slik	ADV	_	_	32	advmod	_	_
 32	at	at	SCONJ	_	_	34	mark	_	_
 33	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 34	verkar	verke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	advcl	_	_
@@ -23866,7 +23866,7 @@
 7	kunnskapsgrunnlaget	kunnskapsgrunnlag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obj	_	_
 8	i	i	ADP	_	_	9	case	_	_
 9	Språkrådet	Språkrådet	PROPN	_	_	7	nmod	_	_
-10	slik	slik	ADV	_	_	11	fixed	_	_
+10	slik	slik	ADV	_	_	11	advmod	_	_
 11	at	at	SCONJ	_	_	16	mark	_	_
 12	språkpolitiske	språkpolitisk	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	_
 13	tiltak	tiltak	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	nsubj:pass	_	_
@@ -24423,7 +24423,7 @@
 21	av	av	ADP	_	_	22	case	_	_
 22	innlegget	innlegg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
 23	,	$,	PUNCT	_	_	20	punct	_	_
-24	nemleg	nemleg	ADV	_	_	25	fixed	_	_
+24	nemleg	nemleg	ADV	_	_	25	advmod	_	_
 25	at	at	SCONJ	_	_	41	mark	_	_
 26	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
 27	å	å	PART	_	_	28	mark	_	_
@@ -25027,7 +25027,7 @@
 9	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	rustast	ruste	VERB	_	VerbForm=Inf	4	ccomp	_	_
 11	opp	opp	ADP	_	_	10	compound:prt	_	_
-12	slik	slik	ADV	_	_	13	fixed	_	_
+12	slik	slik	ADV	_	_	13	advmod	_	_
 13	at	at	SCONJ	_	_	15	mark	_	_
 14	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 15	blei	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
@@ -25802,7 +25802,7 @@
 11	i	i	ADP	_	_	12	case	_	_
 12	handa	hand	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 13	,	$,	PUNCT	_	_	8	punct	_	_
-14	slik	slik	ADV	_	_	15	fixed	_	_
+14	slik	slik	ADV	_	_	15	advmod	_	_
 15	at	at	SCONJ	_	_	18	mark	_	_
 16	kaffikoppen	kaffikopp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nsubj:pass	_	_
 17	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
@@ -26114,7 +26114,7 @@
 18	opp	opp	ADP	_	_	17	compound:prt	_	_
 19	med	med	ADP	_	_	20	case	_	_
 20	informasjonsmøte	informasjonsmøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	obl	_	_
-21	alt	alt	ADV	_	_	22	fixed	_	_
+21	alt	alt	ADV	_	_	22	advmod	_	_
 22	når	når	SCONJ	_	_	25	mark	_	_
 23	borna	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	25	nsubj	_	_
 24	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	cop	_	_
@@ -26145,7 +26145,7 @@
 6	bevisst	bevisst	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	csubj	_	_
 7	på	på	ADP	_	_	8	case	_	_
 8	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
-9	sjølv	sjølv	ADV	_	_	10	fixed	_	_
+9	sjølv	sjølv	ADV	_	_	10	advmod	_	_
 10	når	når	SCONJ	_	_	12	mark	_	_
 11	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
 12	smeller	smelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
@@ -26169,7 +26169,7 @@
 7	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 8	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
 9	,	$,	PUNCT	_	_	6	punct	_	_
-10	sjølv	sjølv	ADV	_	_	11	fixed	_	_
+10	sjølv	sjølv	ADV	_	_	11	advmod	_	_
 11	om	om	SCONJ	_	_	15	mark	_	_
 12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	_
 13	kanskje	kanskje	ADV	_	_	15	advmod	_	_
@@ -26233,7 +26233,7 @@
 4	bevisstgjere	bevisstgjere	VERB	_	VerbForm=Inf	0	root	_	_
 5	foreldra	forelder	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
 6	,	$,	PUNCT	_	_	4	punct	_	_
-7	slik	slik	ADV	_	_	8	fixed	_	_
+7	slik	slik	ADV	_	_	8	advmod	_	_
 8	at	at	SCONJ	_	_	11	mark	_	_
 9	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
@@ -26392,7 +26392,7 @@
 # sent_id =  017419
 # text = - Sjølv om det me driv med ikkje alltid gjeng rett heim hjå alle, ser me at haldningar blir skapt, seier Sandvik.
 1	-	$-	PUNCT	_	_	16	punct	_	_
-2	Sjølv	sjølv	ADV	_	_	3	fixed	_	_
+2	Sjølv	sjølv	ADV	_	_	3	advmod	_	_
 3	om	om	SCONJ	_	_	10	mark	_	_
 4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 5	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
@@ -27835,7 +27835,7 @@
 9	hjelp	hjelp	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	_
 10	frå	frå	ADP	_	_	11	case	_	_
 11	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obl	_	_
-12	slik	slik	ADV	_	_	13	fixed	_	_
+12	slik	slik	ADV	_	_	13	advmod	_	_
 13	at	at	SCONJ	_	_	15	mark	_	_
 14	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 15	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
