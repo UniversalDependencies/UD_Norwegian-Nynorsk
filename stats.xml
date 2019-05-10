@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>17575</sentences><tokens>301353</tokens><words>301353</words><fused>0</fused></total>
+    <train><sentences>14174</sentences><tokens>245330</tokens><words>245330</words><fused>0</fused></train>
+    <dev><sentences>1890</sentences><tokens>31250</tokens><words>31250</words><fused>0</fused></dev>
+    <test><sentences>1511</sentences><tokens>24773</tokens><words>24773</words><fused>0</fused></test>
   </size>
   <lemmas unique="22797" /><!-- $., $,, i, vere, og, det, ein, som, til, ha, på, å, for, at, av -->
   <forms unique="31058" /><!-- ., ,, i, og, det, er, som, til, på, å, for, at, av, ein, har -->
@@ -14,20 +17,20 @@
   <tags unique="17">
     <tag name="ADJ">29101</tag><!-- mykje, mange, stor, god, ny, heil, norsk, liten, viktig, lang -->
     <tag name="ADP">37808</tag><!-- i, på, til, av, med, for, om, frå, ut, etter -->
-    <tag name="ADV">9085</tag><!-- så, også, no, her, berre, slik, då, nok, òg, korleis -->
-    <tag name="AUX">16066</tag><!-- vere, ha, kunne, skulle, vilje, måtte, bli, få, burde, tore -->
+    <tag name="ADV">9077</tag><!-- så, også, no, her, berre, slik, då, nok, òg, korleis -->
+    <tag name="AUX">16715</tag><!-- vere, ha, kunne, skulle, vilje, måtte, verte, bli, få, burde -->
     <tag name="CCONJ">11088</tag><!-- og, men, eller, både, så, for, anten, korkje, verken, & -->
     <tag name="DET">15006</tag><!-- ein, den, dei, det, annan, all, denne, nokon, eigen, slik -->
     <tag name="INTJ">234</tag><!-- ja, nei, hm, jau, jo, ha, hei, he, tja, jaja -->
     <tag name="NOUN">60030</tag><!-- år, dag, land, tid, folk, språk, del, kommune, gong, sak -->
     <tag name="NUM">4032</tag><!-- to, tre, fire, ti, fem, 20, 1, seks, 2005, 2006 -->
     <tag name="PART">6708</tag><!-- å, ikkje, eingong, ei, einast -->
-    <tag name="PRON">22791</tag><!-- det, som, dei, han, eg, vi, seg, sin, ein, dette -->
+    <tag name="PRON">22799</tag><!-- det, som, dei, han, eg, vi, seg, sin, ein, dette -->
     <tag name="PROPN">14303</tag><!-- Noreg, Førde, Språkrådet, Sogn, Høgre, Fjordane, Oslo, Kviteseid, Tyskland, Helse -->
     <tag name="PUNCT">33455</tag><!-- $., $,, $-, $", $:, $?, $(, $), $!, $; -->
     <tag name="SCONJ">10944</tag><!-- at, til, om, for, som, når, på, der, då, med -->
     <tag name="SYM">88</tag><!-- $/, ©, ½ -->
-    <tag name="VERB">29429</tag><!-- ha, seie, få, verte, vere, kome, gå, gjere, ta, sjå -->
+    <tag name="VERB">28780</tag><!-- ha, seie, få, vere, kome, gå, gjere, ta, sjå, bli -->
     <tag name="X">1185</tag><!-- of, og, det, en, i, the, for, som, til, den -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -66,7 +69,7 @@
     <feat name="PronType" value="Int" upos="DET,PRON">462</feat><!-- kva, kven -->
     <feat name="PronType" value="Neg" upos="DET,PRON">166</feat><!-- ingen, ingenting, inga -->
     <feat name="PronType" value="Neg,Prs" upos="PRON">62</feat><!-- ingen -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">18055</feat><!-- det, dei, han, eg, vi, seg, dette, ho, me, du -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">18063</feat><!-- det, dei, han, eg, vi, seg, dette, ho, me, du -->
     <feat name="PronType" value="Prs,Tot" upos="PRON">145</feat><!-- alle, begge -->
     <feat name="PronType" value="Rcp" upos="PRON">46</feat><!-- kvarandre -->
     <feat name="PronType" value="Rel" upos="PRON">3434</feat><!-- som -->
@@ -82,15 +85,15 @@
     <dep name="acl">1910</dep>
     <dep name="acl:cleft">286</dep>
     <dep name="acl:relcl">3474</dep>
-    <dep name="advcl">4840</dep>
+    <dep name="advcl">4841</dep>
     <dep name="advmod">17191</dep>
     <dep name="amod">15166</dep>
     <dep name="appos">1010</dep>
-    <dep name="aux">8486</dep>
+    <dep name="aux">8500</dep>
     <dep name="aux:pass">1203</dep>
     <dep name="case">33696</dep>
     <dep name="cc">10858</dep>
-    <dep name="ccomp">1950</dep>
+    <dep name="ccomp">1938</dep>
     <dep name="compound">238</dep>
     <dep name="compound:prt">2833</dep>
     <dep name="conj">11605</dep>
@@ -102,10 +105,9 @@
     <dep name="expl">3467</dep>
     <dep name="flat:foreign">793</dep>
     <dep name="flat:name">5948</dep>
-    <dep name="goeswith">35</dep>
     <dep name="iobj">669</dep>
     <dep name="mark">15073</dep>
-    <dep name="nmod">19008</dep>
+    <dep name="nmod">19007</dep>
     <dep name="nsubj">27317</dep>
     <dep name="nsubj:pass">952</dep>
     <dep name="nummod">2330</dep>
@@ -114,7 +116,8 @@
     <dep name="orphan">222</dep>
     <dep name="parataxis">1729</dep>
     <dep name="punct">33455</dep>
+    <dep name="reparandum">35</dep>
     <dep name="root">17575</dep>
-    <dep name="xcomp">3684</dep>
+    <dep name="xcomp">3682</dep>
   </deps>
 </treebank>
