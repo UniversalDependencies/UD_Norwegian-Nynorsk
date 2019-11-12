@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Norwegian-Nynorsk:
-commit 02c33229ce6e864a8a25c9b9839edcce4c7e6203
-Merge: f29a67c 2fc1624
+commit 399c462595e568d163e71e0b887e3243697c3481
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:32:24 2019 +0200
 Size: counted 301353 of 301353 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4165646701622.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,12 +23,45 @@ Udapi: found 311 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 301353 words.
 Genres: found 3 out of 17 known.
 validate.py --lang no --max-err=10 UD_Norwegian-Nynorsk/no_nynorsk-ud-dev.conllu
-*** PASSED ***
+[Line 2189 Sent 014305 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13]
+[Line 2189 Sent 014305 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13, 14]
+[Line 4449 Sent 014423 Node 11]: [L3 Syntax leaf-cc] 'cc' not expected to have children (11:og:cc --> 12:ja:discourse)
+[Line 4879 Sent 014451 Node 5]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
+[Line 22689 Sent 015393 Node 18]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADJ'
+[Line 27565 Sent 015627 Node 19]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [18]
+[Line 33613 Sent 015896 Node 1]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NUM'
+Syntax errors: 7
+*** FAILED *** with 7 errors
+Exit code: 1
 validate.py --lang no --max-err=10 UD_Norwegian-Nynorsk/no_nynorsk-ud-test.conllu
-*** PASSED ***
+[Line 4598 Sent 016324 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADJ'
+[Line 16747 Sent 016981 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADJ'
+[Line 19673 Sent 017125 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 20125 Sent 017145 Node 38]: [L3 Syntax rel-upos-cc] 'cc' should not be 'ADJ'
+[Line 20119 Sent 017145 Node 38]: [L3 Syntax leaf-cc] 'cc' not expected to have children (38:oppfatta:cc --> 32:at:mark)
+[Line 20120 Sent 017145 Node 38]: [L3 Syntax leaf-cc] 'cc' not expected to have children (38:oppfatta:cc --> 33:kritikk:nsubj)
+[Line 20123 Sent 017145 Node 38]: [L3 Syntax leaf-cc] 'cc' not expected to have children (38:oppfatta:cc --> 36:ofte:advmod)
+[Line 20124 Sent 017145 Node 38]: [L3 Syntax leaf-cc] 'cc' not expected to have children (38:oppfatta:cc --> 37:vert:aux)
+[Line 20127 Sent 017145 Node 38]: [L3 Syntax leaf-cc] 'cc' not expected to have children (38:oppfatta:cc --> 40:regimeundergraving:xcomp)
+...suppressing further errors regarding Syntax
+Syntax errors: 12
+*** FAILED *** with 12 errors
+Exit code: 1
 validate.py --lang no --max-err=10 UD_Norwegian-Nynorsk/no_nynorsk-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 1351 Sent 000069 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [19]
+[Line 3954 Sent 000180 Node 4]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [6]
+[Line 3954 Sent 000180 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5]
+[Line 4085 Sent 000186 Node 22]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [27]
+[Line 7664 Sent 000358 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
+[Line 7664 Sent 000358 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8, 9, 10, 11]
+[Line 7998 Sent 000373 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [18]
+[Line 7998 Sent 000373 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+[Line 12862 Sent 000639 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [12]
+...suppressing further errors regarding Syntax
+Syntax errors: 53
+*** FAILED *** with 53 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -37,6 +70,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.989679877087668) = 0.304516885257744
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.815771828203648) * (availability=1) * (validity=1) = 0.815771828203648
-STARS = 4
-UD_Norwegian-Nynorsk	0.815771828203648	4
+(TOTAL score=0.815771828203648) * (availability=1) * (validity=0.01) = 0.00815771828203648
+STARS = 0
+UD_Norwegian-Nynorsk	0.00815771828203648	0
