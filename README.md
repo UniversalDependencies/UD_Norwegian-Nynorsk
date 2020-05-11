@@ -114,7 +114,7 @@ We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn an
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.0
-License: CC BY-SA
+License: CC BY-SA 4.0
 Includes text: yes
 Genre: news blog nonfiction
 Lemmas: converted from manual
