@@ -21563,7 +21563,7 @@
 16	politimelding	politimelding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	conj	_	_
 17	av	av	ADP	_	_	18	case	_	_
 18	sjukheimen	sjukheim	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
-19	,	$,	PUNCT	_	_	29	punct	_	_
+19	,	$,	PUNCT	_	_	20	punct	_	_
 20	og	og	CCONJ	_	_	29	cc	_	_
 21	at	at	SCONJ	_	_	29	mark	_	_
 22	eldrebyråd	eldrebyråd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	_
@@ -23490,7 +23490,7 @@
 7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	lagd	leggje	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	3	advmod	_	_
 9	fram	fram	ADP	_	_	8	obl	_	SpaceAfter=No
-10	,	$,	PUNCT	_	_	3	punct	_	_
+10	,	$,	PUNCT	_	_	4	punct	_	_
 11	drøfta	drøfte	VERB	_	VerbForm=Inf	0	root	_	_
 12	med	med	ADP	_	_	13	case	_	_
 13	styret	styre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	_
