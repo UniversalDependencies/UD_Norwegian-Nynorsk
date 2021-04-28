@@ -7249,7 +7249,7 @@
 6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	gjennom	gjennom	ADP	_	_	8	case	_	_
 8	dialog	dialog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-9	.	$.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+9	.	$.	PUNCT	_	_	8	punct	_	_
 
 # newpar
 # sent_id = 014560
@@ -13336,7 +13336,7 @@
 11	salen	sal	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	xcomp	_	_
 12	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	_
 13	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-14	.	$.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+14	.	$.	PUNCT	_	_	3	punct	_	_
 
 # newpar
 # sent_id = 014870
@@ -20504,7 +20504,7 @@
 9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 10	mjuke	mjuk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
 11	postmodernismen	postmodernisme	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
-12	.	$.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+12	.	$.	PUNCT	_	_	7	punct	_	_
 
 # newpar
 # sent_id = 015270
@@ -32985,7 +32985,7 @@
 14	,	$,	PUNCT	_	_	10	punct	_	_
 15	avsluttar	avslutte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 16	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
-17	.	$.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+17	.	$.	PUNCT	_	_	3	punct	_	_
 
 # newpar
 # sent_id = 015865

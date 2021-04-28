@@ -1243,7 +1243,7 @@
 15	til	til	ADP	_	_	17	case	_	_
 16	Telenors	Telenor	PROPN	_	Case=Gen	17	nmod	_	_
 17	praksis	praksis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
-18	.	$.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+18	.	$.	PUNCT	_	_	6	punct	_	_
 
 # newpar
 # sent_id = 016153
@@ -8830,7 +8830,7 @@
 4	ta	ta	VERB	_	VerbForm=Inf	0	root	_	_
 5	høgd	høgd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	_
 6	for	for	ADP	_	_	1	case	_	SpaceAfter=No
-7	.	$.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+7	.	$.	PUNCT	_	_	4	punct	_	_
 
 # newpar
 # sent_id = 016555
