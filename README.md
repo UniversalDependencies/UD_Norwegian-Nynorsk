@@ -79,8 +79,8 @@ morphological features were converted automatically to the UD scheme.
 
 ### SYNTAX
 The syntactic annotation in the Norwegian UD treebank conforms to the
-UD guidelines, adding language-specific relations for relative clauses (`acl:relcl`)
-and verb particles (`compound:prt`). The annotation has been automatically converted to
+UD guidelines, adding a language-specific relation for relative clauses (`acl:relcl`).
+The annotation has been automatically converted to
 UD from the original dependency scheme described in Solberg
 et. al. (2014) and further described in the NDT guidelines (Kinn
 et. al.).
@@ -112,6 +112,14 @@ We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn an
 
 ### CHANGELOG
 
+--> UD 2.12
+
+* The conversion is completely rewritten using [Grew](https://grew.fr/) by the Norwegian Language Bank at the National Library of Norway. The conversion is to a large
+extent based on the guidelines of the previous version.
+* *som* in relative clauses is not longer treated as pronouns, but complementizers with the postag SCONJ and the label mark.
+* There is no longer an explicit analysis of verbal particles. The postag has changed from ADP to ADV and the label is advmod.
+* [The changes in 2.10 and 2.12](https://universaldependencies.org/changes.html) are implemented.
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.0
 License: CC BY-SA 4.0
@@ -122,7 +130,7 @@ UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
 Relations: converted from manual
-Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter
+Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter; Dale, Ingerid Løyning; Solberg, Per Erik; Kåsen, Andre
 Contributing: elsewhere
-Contact: liljao@ifi.uio.no
+Contact: per.solberg@nb.no
 ===============================================================================
