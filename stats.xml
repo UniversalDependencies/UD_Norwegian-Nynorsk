@@ -17,14 +17,14 @@
   <tags unique="17">
     <tag name="ADJ">29101</tag><!-- mykje, mange, stor, god, ny, heil, norsk, liten, viktig, lang -->
     <tag name="ADP">39039</tag><!-- i, til, på, for, av, med, om, frå, som, etter -->
-    <tag name="ADV">14915</tag><!-- ikkje, så, også, no, opp, ut, her, berre, slik, fram -->
+    <tag name="ADV">12388</tag><!-- så, også, no, opp, ut, her, berre, slik, fram, då -->
     <tag name="AUX">16719</tag><!-- vere, ha, kunne, skulle, vilje, måtte, verte, bli, få, burde -->
     <tag name="CCONJ">11088</tag><!-- og, men, eller, både, så, for, anten, korkje, verken, & -->
     <tag name="DET">14988</tag><!-- ein, den, dei, det, annan, all, denne, nokon, eigen, slik -->
     <tag name="INTJ">232</tag><!-- ja, nei, hm, jau, jo, ha, hei, he, tja, jaja -->
     <tag name="NOUN">56531</tag><!-- år, dag, land, tid, folk, språk, del, kommune, gong, sak -->
     <tag name="NUM">4050</tag><!-- to, tre, fire, ti, fem, 20, 1, seks, 2005, 2006 -->
-    <tag name="PART">4172</tag><!-- å, ei, ikke -->
+    <tag name="PART">6699</tag><!-- å, ikkje, ei, ikke -->
     <tag name="PRON">19366</tag><!-- det, dei, han, eg, vi, seg, sin, ein, dette, ho -->
     <tag name="PROPN">17802</tag><!-- Noreg, Førde, Språkrådet, USA, Sogn, SV, Høgre, Fjordane, Oslo, Stortinget -->
     <tag name="PUNCT">33455</tag><!-- $., $,, $-, $", $:, $?, $(, $), $!, $; -->
@@ -56,7 +56,7 @@
     <feat name="Person" value="1" upos="PRON">3748</feat><!-- eg, vi, me, oss, meg, kån -->
     <feat name="Person" value="2" upos="PRON">429</feat><!-- du, de, deg, dykk -->
     <feat name="Person" value="3" upos="PRON">11205</feat><!-- det, dei, han, dette, ho, noko, alt, den, alle, nokon -->
-    <feat name="Polarity" value="Neg" upos="DET,PART,PRON">122</feat><!-- ingen, inga, ikke -->
+    <feat name="Polarity" value="Neg" upos="DET,PART,PRON">2649</feat><!-- ikkje, ingen, inga, ikke -->
     <feat name="Poss" value="Yes" upos="PRON">1550</feat><!-- sin, sine, sitt, si, hans, vår, våre, hennar, vårt, deira -->
     <feat name="PronType" value="Art" upos="DET">5931</feat><!-- ein, eit, ei, eitt, en, eir -->
     <feat name="PronType" value="Art,Prs" upos="PRON">824</feat><!-- ein, ei -->
@@ -80,7 +80,7 @@
     <dep name="acl">1357</dep>
     <dep name="acl:relcl">4174</dep>
     <dep name="advcl">4965</dep>
-    <dep name="advmod">20305</dep>
+    <dep name="advmod">20268</dep>
     <dep name="amod">14706</dep>
     <dep name="appos">1665</dep>
     <dep name="aux">7756</dep>
@@ -103,7 +103,7 @@
     <dep name="flat:name">6334</dep>
     <dep name="iobj">529</dep>
     <dep name="mark">13993</dep>
-    <dep name="nmod">16029</dep>
+    <dep name="nmod">16066</dep>
     <dep name="nmod:poss">1597</dep>
     <dep name="nsubj">24502</dep>
     <dep name="nsubj:outer">214</dep>
