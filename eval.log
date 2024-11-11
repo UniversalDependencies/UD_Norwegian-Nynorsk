@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Norwegian-Nynorsk:
-commit 265caef58a02c7b26c268d219bf224b550e6da46
+commit 22c02622958f137314c2335b2a5f088d2b12dba0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:43:40 2023 +0100
+Date:   Sun May 5 13:07:42 2024 +0200
 Size: counted 301353 of 301353 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4165646701622.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,6 +25,7 @@ Udapi: found 280 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 301353 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Nynorsk/no_nynorsk-ud-dev.conllu
+[Line 2742 Sent 014336 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Same:det --> 5:gav:advcl)
 [Line 8219 Sent 014606 Node 3]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 8218 Sent 014606 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 8220 Sent 014606 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
@@ -34,9 +35,8 @@ Genres: found 3 out of 17 known.
 [Line 8223 Sent 014606 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 8218 Sent 014606 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 8224 Sent 014606 Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 8218 Sent 014606 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 204
+Warnings: 206
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Nynorsk/no_nynorsk-ud-test.conllu
 [Line 1810 Sent 016189 Node 23]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
@@ -50,7 +50,7 @@ Warnings: 204
 [Line 2148 Sent 016204 Node 10]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 2141 Sent 016204 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 176
+Warnings: 178
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Nynorsk/no_nynorsk-ud-train.conllu
 [Line 1355 Sent 000069 Node 20]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
@@ -64,7 +64,7 @@ Warnings: 176
 [Line 9133 Sent 000444 Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 9130 Sent 000444 Node 10]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 1368
+Warnings: 1385
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
