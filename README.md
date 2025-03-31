@@ -1,11 +1,11 @@
 # Summary
 
 The Norwegian UD treebank is based on the Nynorsk section of the Norwegian
-Dependency Treebank (NDT), which is a syntactic treebank of Norwegian. 
+Dependency Treebank (NDT), which is a syntactic treebank of Norwegian.
 NDT has been automatically converted to the UD
 scheme by Lilja Øvrelid at the University of Oslo.
 
-# Introduction
+## Introduction
 
 NDT was developed 2011-2014 at the National Library of Norway in collaboration
 with the Text Laboratory and the Department of Informatics at the
@@ -61,23 +61,25 @@ vtb-nn007_0002 -- vtb-nn007_0004
 
 ### BASIC STATISTICS
 
-
 ### TOKENIZATION
+
 White space always indicates a token boundary and punctuation constitute separate tokens, except:
 
 * numbers with periods, commas or colons, e.g. *1.3*, *0,6*, *10:13*
 * abbreviations, e.g. *f.eks.*, *Carl J. Hambro*
-* URLs, e.g. *http://www.ifi.uio.no*
+* URLs, e.g. <http://www.ifi.uio.no>
 
 The treebank does not contain multiword tokens.
 
 ### MORPHOLOGY
+
 The PoS-tags follow the universal tag set and does not add any
 language-specific PoS-tags. The morphological features follow the
 Oslo-Bergen Tagger scheme (Hagen et. al., 2000). PoS-tags and
 morphological features were converted automatically to the UD scheme.
 
 ### SYNTAX
+
 The syntactic annotation in the Norwegian UD treebank conforms to the
 UD guidelines, adding a language-specific relation for relative clauses (`acl:relcl`).
 The annotation has been automatically converted to
@@ -87,7 +89,6 @@ et. al.).
 The conversion has not been manually checked. There are a few known discrepancies from UD:
 
 * no mwe analysis in the treebank. This is also information that is not present in the original data.
-
 
 ### REFERENCES
 
@@ -102,13 +103,12 @@ Per Erik Solberg, Arne Skjærholt, Lilja Øvrelid, Kristin Hagen and
 Janne Bondi Johannessen. 2014."The Norwegian Dependency Treebank",
 Proceedings of LREC 2014, Reykjavik
 
-Velldal, Erik; Øvrelid, Lilja & Hohle, Petter (2017). Joint UD Parsing of Norwegian Bokmål and Nynorsk , In Jörg Tiedemann (ed.),  Proceedings of the 21st Nordic Conference on Computational Linguistics (NoDaLiDa).  Linköping University Electronic Press.  ISBN 978-91-7685-601-7.  Article no. 001.  s 1 - 10 
+Velldal, Erik; Øvrelid, Lilja & Hohle, Petter (2017). Joint UD Parsing of Norwegian Bokmål and Nynorsk , In Jörg Tiedemann (ed.),  Proceedings of the 21st Nordic Conference on Computational Linguistics (NoDaLiDa).  Linköping University Electronic Press.  ISBN 978-91-7685-601-7.  Article no. 001.  s 1 - 10
 
-# Acknowledgements
+## Acknowledgements
 
 NDT has been automatically converted to the UD scheme by Lilja Øvrelid at the University of Oslo. Petter Hohle created the data splits and Fredrik Jørgensen aligned the treebank to the original texts.
 We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn and Per Erik Solberg.
-
 
 ### CHANGELOG
 
@@ -132,5 +132,5 @@ Features: converted from manual
 Relations: converted from manual
 Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter; Tollersrud, Thea; Dale, Ingerid Løyning; Solberg, Per Erik; Kåsen, Andre
 Contributing: elsewhere
-Contact: sprakbanken@nb.no
+Contact: <sprakbanken@nb.no>
 ===============================================================================
