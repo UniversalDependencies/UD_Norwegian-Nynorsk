@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Norwegian-Nynorsk:
-commit 943323a3f6fdcf4c7802ec3c2ab51c6d576f0e0e
-Merge: fca3f5d 33f4297
+commit 553b71af51c34c3e73ec95c68a7ea506e1267e59
+Merge: 9ef88bb 2bbe9c6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'no_nynorsk'
+Language code (from CoNLL-U file name) = 'no'
+Found the following data files: no_nynorsk-ud-dev.conllu, no_nynorsk-ud-test.conllu, no_nynorsk-ud-train.conllu
 Size: counted 301353 of 301353 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4165646701622.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,26 +23,57 @@ Features: 176238 out of 301353 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL        179
-Udapi: found 179 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 301353 words.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Nynorsk/no_nynorsk-ud-dev.conllu
+[Line 633 Sent 014214]: [L3 Warning obl-should-be-nmod] The parent (node [27] 'klesvask') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2594 Sent 014329]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'levestandarden') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2778 Sent 014337]: [L3 Warning obl-should-be-nmod] The parent (node [20] 'faktum') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4378 Sent 014419]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4513 Sent 014426]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'vi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4596 Sent 014433]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4791 Sent 014445]: [L3 Warning pron-det-without-prontype] The word 'inga' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4893 Sent 014451]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 5458 Sent 014489]: [L3 Warning obl-should-be-nmod] The parent (node [20] 'krigen') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6161 Sent 014514]: [L3 Warning obl-should-be-nmod] The parent (node [22] 'kilometer') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further errors regarding Warning
+Warnings: 96
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Nynorsk/no_nynorsk-ud-test.conllu
+[Line 1599 Sent 016179]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'Oxford') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1765 Sent 016188]: [L3 Warning obl-should-be-nmod] The parent (node [34] 'rettsvernet') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2288 Sent 016212]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2702 Sent 016235]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4240 Sent 016307]: [L3 Warning pron-det-without-prontype] The word 'Ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8002 Sent 016504]: [L3 Warning obl-should-be-nmod] The parent (node [13] 'gjennomslaget') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 8346 Sent 016526]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8466 Sent 016535]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8838 Sent 016555]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'sitt') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 9039 Sent 016569]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'si') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further errors regarding Warning
+Warnings: 53
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Nynorsk/no_nynorsk-ud-train.conllu
+[Line 464 Sent 000022]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3797 Sent 000170]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'kristendomsforståinga') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4363 Sent 000201]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'si') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4977 Sent 000230]: [L3 Warning obl-should-be-nmod] The parent (node [32] 'situasjon') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6956 Sent 000327]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'sitt') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 7429 Sent 000347]: [L3 Warning pron-det-without-prontype] The word 'inga' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 7572 Sent 000354]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'dalen') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 8841 Sent 000431]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'januar') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10821 Sent 000544]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'sin') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 12102 Sent 000603]: [L3 Warning obl-should-be-nmod] The parent (node [20] 'vona') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further errors regarding Warning
+Warnings: 597
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.826358506423843) = 0.211886796518934
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.994060122182291) = 0.305864652979167
-(weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.818028649775301) * (availability=1) * (validity=1) = 0.818028649775301
-STARS = 4
-UD_Norwegian-Nynorsk	0.818028649775301	4
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.826358506423843) = 0.306058706082905
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{udeprels}=0.67027027027027) = 0.0744744744744745
+(TOTAL score=0.739792439816638) * (availability=1) * (validity=1) = 0.739792439816638
+STARS = 3.5
+UD_Norwegian-Nynorsk	0.739792439816638	3.5
